@@ -1,0 +1,87 @@
+<div [ngClass]="{'col-md-11': GlobalServ.OccuredArea===true, 'col-md-12': GlobalServ.OccuredArea=== false}" >
+  <h1 class="HeadTitle w3-animate-top">בקשה לתחום <a (click)="goToBasicSearch()" (mouseover)="underline($event)" (mouseout)="ununderline($event)" style="cursor: pointer;">{{AreaServ.FullArea.Name}}</a></h1>
+  <h3 class="HeadTitle2 w3-animate-zoom">!מלא כמה שיותר פרטים לצורך התאמה מלאה</h3>
+</div>
+<br><br><br><br><br><br>
+<p-steps class="ui" [model]="items" [(activeIndex)]="activeIndex" [readonly]="true"></p-steps>
+<br><br>
+  <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+              <mat-icon class="prev-next-icons" title="הקודם" *ngIf="activeIndex!=0" style="float: left" (click)="Previos($event)">keyboard_arrow_left</mat-icon>
+          </div>
+          <div class="col-md-10">
+              <div class="panel">
+                  <div class="panel-heading">
+                      <h3 class="text-center">{{Title.Name}}</h3>
+                  </div><br>
+                  <form #CriterionsForm="ngForm">
+                      <mat-accordion class="example-headers-align">
+                        <app-criterions-accordion [list]="CriterionsofAreaListSmall" [ShowLevel]="true" (invalid)="InValid($event)" (valid)="Valid($event)"></app-criterions-accordion>
+                        </mat-accordion>
+                <br><br>
+                    <button *ngIf="TitlesList!=null&&activeIndex==TitlesList[this.TitlesList.length-1].Code-1" class="panel-footer" (click)="showConfirm($event)"> 
+                        <a style="color: white;" >סיום</a>         
+                    </button>
+                </form>
+              </div>
+          </div>
+          <div class="col-md-1">
+              <mat-icon class="prev-next-icons" title="הבא" *ngIf="TitlesList!=null&&activeIndex!=TitlesList[this.TitlesList.length-1].Code-1" (click)="Next($event)">keyboard_arrow_right</mat-icon>            
+          </div>
+      </div>
+  </div>
+<br><br>
+<p-toast  position="bottom-center" key="a"></p-toast>
+<p-toast position="center" key="c" (onClose)="onReject()" [modal]="true" [baseZIndex]="5000">
+  <ng-template let-message pTemplate="message">
+      <div class="divstyle">
+          <!-- <i class="fas fa-hand-paper w3-animate-bottom" style="font-size: 3em"></i> -->
+          <h2 class="w3-animate-bottom">,רגע, רגע</h2>
+          <p class="pstyle">האם אתה בטוח שסיימת למלא את כל הפרטים המתאימים לך בכדי לקבל את ההצעות הכי מתאימות</p>
+      </div><br>
+      <div class="ui-g ui-fluid">
+          <div class="ui-g-6">
+              <button type="button" pButton (click)="onReject()" label="לא, רוצה להמשיך למלאות" class="ui-button-secondary"></button>
+          </div>
+          <div class="ui-g-6">
+            <button type="button" pButton (click)="model()" label="כן סיימתי, ממשיך להצעות" class="ui-button-success"></button>
+        </div>
+      </div>
+  </ng-template>
+</p-toast>
+
+
+ <p-dialog [(visible)]="SendingJobOffers" [modal]="true" 
+ [style]="{width: '590px'}" [responsive] ="false"
+ [maximizable]="false" [baseZIndex]="10350">
+ <p-header class="headerRadio">?מה אתה מעדיף </p-header><br>
+<div class="radio-group">
+  <div><p-radioButton class="prl" dir="rtl" name="group2" value="1" inputId="p1" [(ngModel)]="rightChoice" label="צפיה בהצעות באתר בלבד"></p-radioButton></div><br>
+  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" name="group2" value="2" inputId="p2" [(ngModel)]="rightChoice" label="קבלת הצעות למייל פעם ביום"></p-radioButton></div><br>
+  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" name="group2" value="3" inputId="p3" [(ngModel)]="rightChoice" label="קבלת הצעות למייל ברגע שנמצאה הצעה מתאימה"></p-radioButton></div>
+</div><br>
+<label *ngIf="error">רגע, שכחת לבחור את האופציה המתאימה עבורך</label>
+ <p-footer>
+      <app-display-button  [changeCssEnter]="true" (click)="OkFunc()"></app-display-button>
+ </p-footer>
+</p-dialog>
+
+<!-- אישור קבלת הבקשה -->
+<p-dialog [(visible)]="modelV" [modal]="true"  (onHide)="cancel()"
+[style]="{width:'420px'}" [responsive] ="false"
+[maximizable]="false" [baseZIndex]="10350">
+<p-header class="col-md-11" style="font-size:25px;color:#34495e"> 
+ בקשתך התקבלה בהצלחה <i class="fas fa-check-circle"></i>
+</p-header>
+ <div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: flex;">
+  <div class="swal2-success-circular-line-left" style="background-color: rgb(255, 255, 255);"></div>
+    <span class="swal2-success-line-tip"></span>
+    <span class="swal2-success-line-long"></span>
+    <div class="swal2-success-ring"></div> 
+    <div class="swal2-success-fix" style="background-color: rgb(255, 255, 255);"></div>
+    <div class="swal2-success-circular-line-right" style="background-color: rgb(255, 255, 255);"></div>
+   </div>  
+   <p class="ptitle">{{modelVText}}</p>
+</p-dialog>
+<app-enter *ngIf="PeopleServ.backtoemloyee" (LoginSuccess)="OkFunc()"></app-enter>

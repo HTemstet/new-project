@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="JOBBAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Areas">
+          <Key>
+            <PropertyRef Name="AreaCode" />
+          </Key>
+          <Property Name="AreaCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AreaName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="AreasTitles">
+          <Key>
+            <PropertyRef Name="AreaTitleCode" />
+          </Key>
+          <Property Name="AreaTitleCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AreaCode" Type="smallint" />
+          <Property Name="AreasTitlesName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Criterions">
+          <Key>
+            <PropertyRef Name="CriterionCode" />
+          </Key>
+          <Property Name="CriterionCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CriterionsTitleCode" Type="smallint" />
+          <Property Name="CriterionsName" Type="varchar" MaxLength="50" />
+          <Property Name="CriterionsType" Type="smallint" />
+          <Property Name="ComparisonOperator" Type="smallint" />
+        </EntityType>
+        <EntityType Name="CriterionsDependency">
+          <Key>
+            <PropertyRef Name="CriterionsDependencyCode" />
+          </Key>
+          <Property Name="CriterionsDependencyCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CriterionofAreaCode1" Type="smallint" />
+          <Property Name="CriterionofAreaCode2" Type="smallint" />
+        </EntityType>
+        <EntityType Name="CriterionsofAreas">
+          <Key>
+            <PropertyRef Name="CriterionofAreaCode" />
+          </Key>
+          <Property Name="CriterionofAreaCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CriterionCode" Type="smallint" />
+          <Property Name="AreaCode" Type="smallint" />
+          <Property Name="FeildValidation" Type="varchar" MaxLength="200" />
+          <Property Name="PatternErrorMessage" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="CriterionsofRequests">
+          <Key>
+            <PropertyRef Name="CriterionsofRequestsCode" />
+          </Key>
+          <Property Name="CriterionsofRequestsCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RequestCode" Type="smallint" />
+          <Property Name="CriterionofAreaCode" Type="smallint" />
+          <Property Name="ValueofCriterion" Type="varchar" MaxLength="100" />
+          <Property Name="LevelofImportance" Type="smallint" />
+        </EntityType>
+        <EntityType Name="CriterionsTitles">
+          <Key>
+            <PropertyRef Name="CriterionsTitleCode" />
+          </Key>
+          <Property Name="CriterionsTitleCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="JobsAppliedFor">
+          <Key>
+            <PropertyRef Name="JobsAppliedForCode" />
+          </Key>
+          <Property Name="JobsAppliedForCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PeopleCode" Type="smallint" />
+          <Property Name="RequestCode" Type="smallint" />
+          <Property Name="SendingDate" Type="date" />
+        </EntityType>
+        <EntityType Name="OfferDetails">
+          <Key>
+            <PropertyRef Name="OfferDetailsCode" />
+          </Key>
+          <Property Name="OfferDetailsCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RequestCode" Type="smallint" />
+          <Property Name="AreaCode" Type="smallint" />
+          <Property Name="OfferName" Type="varchar" MaxLength="50" />
+          <Property Name="OfferDescription" Type="varchar" MaxLength="500" />
+          <Property Name="MoreDetails" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="PeopleCode" />
+          </Key>
+          <Property Name="PeopleCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PeoplePassword" Type="varchar" MaxLength="8" />
+          <Property Name="TempPassword" Type="varchar" MaxLength="8" />
+          <Property Name="FirstName" Type="varchar" MaxLength="20" />
+          <Property Name="LastNameorBisnessname" Type="varchar" MaxLength="20" />
+          <Property Name="Phone" Type="varchar" MaxLength="10" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Administrator" Type="bit" />
+          <Property Name="Logo" Type="varchar" MaxLength="50" />
+          <Property Name="SiteLink" Type="varchar" MaxLength="100" />
+          <Property Name="About" Type="varchar" MaxLength="500" />
+          <Property Name="CV" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="PeopleValidation">
+          <Key>
+            <PropertyRef Name="PeopleValidationCode" />
+          </Key>
+          <Property Name="PeopleValidationCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PeopleCode" Type="smallint" />
+          <Property Name="ValidationCode" Type="smallint" />
+          <Property Name="PeopleValidationValue" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Requests">
+          <Key>
+            <PropertyRef Name="RequestCode" />
+          </Key>
+          <Property Name="RequestCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PeopleCode" Type="smallint" />
+          <Property Name="AreaCode" Type="smallint" />
+          <Property Name="AreaTitles" Type="varchar" MaxLength="100" />
+          <Property Name="Place" Type="varchar" MaxLength="50" />
+          <Property Name="EmployTravelTime" Type="float" />
+          <Property Name="Employee" Type="bit" />
+          <Property Name="SendingJobOffersOnceaDay" Type="bit" />
+          <Property Name="SendingJobOffersWheneverThereIsaSuitableOffer" Type="bit" />
+        </EntityType>
+        <EntityType Name="Validations">
+          <Key>
+            <PropertyRef Name="ValidationCode" />
+          </Key>
+          <Property Name="ValidationCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ValidationName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK__AreasTitl__AreaC__412EB0B6">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="AreasTitles" Type="Self.AreasTitles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="AreasTitles">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__AreaC__5535A963">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsofAreas">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5165187F">
+          <End Role="CriterionsTitles" Type="Self.CriterionsTitles" Multiplicity="0..1" />
+          <End Role="Criterions" Type="Self.Criterions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsTitles">
+              <PropertyRef Name="CriterionsTitleCode" />
+            </Principal>
+            <Dependent Role="Criterions">
+              <PropertyRef Name="CriterionsTitleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5441852A">
+          <End Role="Criterions" Type="Self.Criterions" Multiplicity="0..1" />
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Criterions">
+              <PropertyRef Name="CriterionCode" />
+            </Principal>
+            <Dependent Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5812160E">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsDependency">
+              <PropertyRef Name="CriterionofAreaCode1" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__59063A47">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsDependency">
+              <PropertyRef Name="CriterionofAreaCode2" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5CD6CB2B">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsofRequests" Type="Self.CriterionsofRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsofRequests">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Reque__5BE2A6F2">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="CriterionsofRequests" Type="Self.CriterionsofRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="CriterionsofRequests">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JobsAppli__Peopl__4BAC3F29">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JobsAppliedFor" Type="Self.JobsAppliedFor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="JobsAppliedFor">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JobsAppli__Reque__4CA06362">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1" />
+          <End Role="JobsAppliedFor" Type="Self.JobsAppliedFor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="JobsAppliedFor">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OfferDeta__AreaC__48CFD27E">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="OfferDetails" Type="Self.OfferDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="OfferDetails">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OfferDeta__Reque__47DBAE45">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="OfferDetails" Type="Self.OfferDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="OfferDetails">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PeopleVal__Peopl__3B75D760">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="PeopleValidation" Type="Self.PeopleValidation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="PeopleValidation">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PeopleVal__Valid__3C69FB99">
+          <End Role="Validations" Type="Self.Validations" Multiplicity="0..1" />
+          <End Role="PeopleValidation" Type="Self.PeopleValidation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Validations">
+              <PropertyRef Name="ValidationCode" />
+            </Principal>
+            <Dependent Role="PeopleValidation">
+              <PropertyRef Name="ValidationCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Requests__AreaCo__44FF419A">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="Requests">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Requests__People__440B1D61">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="Requests">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="JOBBAModelStoreContainer">
+          <EntitySet Name="Areas" EntityType="Self.Areas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AreasTitles" EntityType="Self.AreasTitles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Criterions" EntityType="Self.Criterions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CriterionsDependency" EntityType="Self.CriterionsDependency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CriterionsofAreas" EntityType="Self.CriterionsofAreas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CriterionsofRequests" EntityType="Self.CriterionsofRequests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CriterionsTitles" EntityType="Self.CriterionsTitles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JobsAppliedFor" EntityType="Self.JobsAppliedFor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OfferDetails" EntityType="Self.OfferDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PeopleValidation" EntityType="Self.PeopleValidation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Requests" EntityType="Self.Requests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Validations" EntityType="Self.Validations" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__AreasTitl__AreaC__412EB0B6" Association="Self.FK__AreasTitl__AreaC__412EB0B6">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="AreasTitles" EntitySet="AreasTitles" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__AreaC__5535A963" Association="Self.FK__Criterion__AreaC__5535A963">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5165187F" Association="Self.FK__Criterion__Crite__5165187F">
+            <End Role="CriterionsTitles" EntitySet="CriterionsTitles" />
+            <End Role="Criterions" EntitySet="Criterions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5441852A" Association="Self.FK__Criterion__Crite__5441852A">
+            <End Role="Criterions" EntitySet="Criterions" />
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5812160E" Association="Self.FK__Criterion__Crite__5812160E">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__59063A47" Association="Self.FK__Criterion__Crite__59063A47">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5CD6CB2B" Association="Self.FK__Criterion__Crite__5CD6CB2B">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Reque__5BE2A6F2" Association="Self.FK__Criterion__Reque__5BE2A6F2">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JobsAppli__Peopl__4BAC3F29" Association="Self.FK__JobsAppli__Peopl__4BAC3F29">
+            <End Role="People" EntitySet="People" />
+            <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JobsAppli__Reque__4CA06362" Association="Self.FK__JobsAppli__Reque__4CA06362">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OfferDeta__AreaC__48CFD27E" Association="Self.FK__OfferDeta__AreaC__48CFD27E">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="OfferDetails" EntitySet="OfferDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OfferDeta__Reque__47DBAE45" Association="Self.FK__OfferDeta__Reque__47DBAE45">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="OfferDetails" EntitySet="OfferDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PeopleVal__Peopl__3B75D760" Association="Self.FK__PeopleVal__Peopl__3B75D760">
+            <End Role="People" EntitySet="People" />
+            <End Role="PeopleValidation" EntitySet="PeopleValidation" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PeopleVal__Valid__3C69FB99" Association="Self.FK__PeopleVal__Valid__3C69FB99">
+            <End Role="Validations" EntitySet="Validations" />
+            <End Role="PeopleValidation" EntitySet="PeopleValidation" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Requests__AreaCo__44FF419A" Association="Self.FK__Requests__AreaCo__44FF419A">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="Requests" EntitySet="Requests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Requests__People__440B1D61" Association="Self.FK__Requests__People__440B1D61">
+            <End Role="People" EntitySet="People" />
+            <End Role="Requests" EntitySet="Requests" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="JOBBAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Areas">
+          <Key>
+            <PropertyRef Name="AreaCode" />
+          </Key>
+          <Property Name="AreaCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AreaName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="AreasTitles" Relationship="Self.FK__AreasTitl__AreaC__412EB0B6" FromRole="Areas" ToRole="AreasTitles" />
+          <NavigationProperty Name="CriterionsofAreas" Relationship="Self.FK__Criterion__AreaC__5535A963" FromRole="Areas" ToRole="CriterionsofAreas" />
+          <NavigationProperty Name="OfferDetails" Relationship="Self.FK__OfferDeta__AreaC__48CFD27E" FromRole="Areas" ToRole="OfferDetails" />
+          <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__AreaCo__44FF419A" FromRole="Areas" ToRole="Requests" />
+        </EntityType>
+        <EntityType Name="AreasTitles">
+          <Key>
+            <PropertyRef Name="AreaTitleCode" />
+          </Key>
+          <Property Name="AreaTitleCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AreaCode" Type="Int16" />
+          <Property Name="AreasTitlesName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Areas" Relationship="Self.FK__AreasTitl__AreaC__412EB0B6" FromRole="AreasTitles" ToRole="Areas" />
+        </EntityType>
+        <EntityType Name="Criterions">
+          <Key>
+            <PropertyRef Name="CriterionCode" />
+          </Key>
+          <Property Name="CriterionCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CriterionsTitleCode" Type="Int16" />
+          <Property Name="CriterionsName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CriterionsType" Type="Int16" />
+          <Property Name="ComparisonOperator" Type="Int16" />
+          <NavigationProperty Name="CriterionsTitles" Relationship="Self.FK__Criterion__Crite__5165187F" FromRole="Criterions" ToRole="CriterionsTitles" />
+          <NavigationProperty Name="CriterionsofAreas" Relationship="Self.FK__Criterion__Crite__5441852A" FromRole="Criterions" ToRole="CriterionsofAreas" />
+        </EntityType>
+        <EntityType Name="CriterionsDependency">
+          <Key>
+            <PropertyRef Name="CriterionsDependencyCode" />
+          </Key>
+          <Property Name="CriterionsDependencyCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CriterionofAreaCode1" Type="Int16" />
+          <Property Name="CriterionofAreaCode2" Type="Int16" />
+          <NavigationProperty Name="CriterionsofAreas" Relationship="Self.FK__Criterion__Crite__5812160E" FromRole="CriterionsDependency" ToRole="CriterionsofAreas" />
+          <NavigationProperty Name="CriterionsofAreas1" Relationship="Self.FK__Criterion__Crite__59063A47" FromRole="CriterionsDependency" ToRole="CriterionsofAreas" />
+        </EntityType>
+        <EntityType Name="CriterionsofAreas">
+          <Key>
+            <PropertyRef Name="CriterionofAreaCode" />
+          </Key>
+          <Property Name="CriterionofAreaCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CriterionCode" Type="Int16" />
+          <Property Name="AreaCode" Type="Int16" />
+          <Property Name="FeildValidation" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="PatternErrorMessage" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Areas" Relationship="Self.FK__Criterion__AreaC__5535A963" FromRole="CriterionsofAreas" ToRole="Areas" />
+          <NavigationProperty Name="Criterions" Relationship="Self.FK__Criterion__Crite__5441852A" FromRole="CriterionsofAreas" ToRole="Criterions" />
+          <NavigationProperty Name="CriterionsDependency" Relationship="Self.FK__Criterion__Crite__5812160E" FromRole="CriterionsofAreas" ToRole="CriterionsDependency" />
+          <NavigationProperty Name="CriterionsDependency1" Relationship="Self.FK__Criterion__Crite__59063A47" FromRole="CriterionsofAreas" ToRole="CriterionsDependency" />
+          <NavigationProperty Name="CriterionsofRequests" Relationship="Self.FK__Criterion__Crite__5CD6CB2B" FromRole="CriterionsofAreas" ToRole="CriterionsofRequests" />
+        </EntityType>
+        <EntityType Name="CriterionsofRequests">
+          <Key>
+            <PropertyRef Name="CriterionsofRequestsCode" />
+          </Key>
+          <Property Name="CriterionsofRequestsCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RequestCode" Type="Int16" />
+          <Property Name="CriterionofAreaCode" Type="Int16" />
+          <Property Name="ValueofCriterion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LevelofImportance" Type="Int16" />
+          <NavigationProperty Name="CriterionsofAreas" Relationship="Self.FK__Criterion__Crite__5CD6CB2B" FromRole="CriterionsofRequests" ToRole="CriterionsofAreas" />
+          <NavigationProperty Name="Requests" Relationship="Self.FK__Criterion__Reque__5BE2A6F2" FromRole="CriterionsofRequests" ToRole="Requests" />
+        </EntityType>
+        <EntityType Name="CriterionsTitles">
+          <Key>
+            <PropertyRef Name="CriterionsTitleCode" />
+          </Key>
+          <Property Name="CriterionsTitleCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Criterions" Relationship="Self.FK__Criterion__Crite__5165187F" FromRole="CriterionsTitles" ToRole="Criterions" />
+        </EntityType>
+        <EntityType Name="JobsAppliedFor">
+          <Key>
+            <PropertyRef Name="JobsAppliedForCode" />
+          </Key>
+          <Property Name="JobsAppliedForCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PeopleCode" Type="Int16" />
+          <Property Name="RequestCode" Type="Int16" />
+          <Property Name="SendingDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="People" Relationship="Self.FK__JobsAppli__Peopl__4BAC3F29" FromRole="JobsAppliedFor" ToRole="People" />
+          <NavigationProperty Name="Requests" Relationship="Self.FK__JobsAppli__Reque__4CA06362" FromRole="JobsAppliedFor" ToRole="Requests" />
+        </EntityType>
+        <EntityType Name="OfferDetails">
+          <Key>
+            <PropertyRef Name="OfferDetailsCode" />
+          </Key>
+          <Property Name="OfferDetailsCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RequestCode" Type="Int16" />
+          <Property Name="AreaCode" Type="Int16" />
+          <Property Name="OfferName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OfferDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="MoreDetails" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Areas" Relationship="Self.FK__OfferDeta__AreaC__48CFD27E" FromRole="OfferDetails" ToRole="Areas" />
+          <NavigationProperty Name="Requests" Relationship="Self.FK__OfferDeta__Reque__47DBAE45" FromRole="OfferDetails" ToRole="Requests" />
+        </EntityType>
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="PeopleCode" />
+          </Key>
+          <Property Name="PeopleCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PeoplePassword" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="TempPassword" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="LastNameorBisnessname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Administrator" Type="Boolean" />
+          <Property Name="Logo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SiteLink" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="About" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="CV" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="JobsAppliedFor" Relationship="Self.FK__JobsAppli__Peopl__4BAC3F29" FromRole="People" ToRole="JobsAppliedFor" />
+          <NavigationProperty Name="PeopleValidation" Relationship="Self.FK__PeopleVal__Peopl__3B75D760" FromRole="People" ToRole="PeopleValidation" />
+          <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__People__440B1D61" FromRole="People" ToRole="Requests" />
+        </EntityType>
+        <EntityType Name="PeopleValidation">
+          <Key>
+            <PropertyRef Name="PeopleValidationCode" />
+          </Key>
+          <Property Name="PeopleValidationCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PeopleCode" Type="Int16" />
+          <Property Name="ValidationCode" Type="Int16" />
+          <Property Name="PeopleValidationValue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="People" Relationship="Self.FK__PeopleVal__Peopl__3B75D760" FromRole="PeopleValidation" ToRole="People" />
+          <NavigationProperty Name="Validations" Relationship="Self.FK__PeopleVal__Valid__3C69FB99" FromRole="PeopleValidation" ToRole="Validations" />
+        </EntityType>
+        <EntityType Name="Requests">
+          <Key>
+            <PropertyRef Name="RequestCode" />
+          </Key>
+          <Property Name="RequestCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PeopleCode" Type="Int16" />
+          <Property Name="AreaCode" Type="Int16" />
+          <Property Name="AreaTitles" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Place" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EmployTravelTime" Type="Double" />
+          <Property Name="Employee" Type="Boolean" />
+          <Property Name="SendingJobOffersOnceaDay" Type="Boolean" />
+          <Property Name="SendingJobOffersWheneverThereIsaSuitableOffer" Type="Boolean" />
+          <NavigationProperty Name="Areas" Relationship="Self.FK__Requests__AreaCo__44FF419A" FromRole="Requests" ToRole="Areas" />
+          <NavigationProperty Name="CriterionsofRequests" Relationship="Self.FK__Criterion__Reque__5BE2A6F2" FromRole="Requests" ToRole="CriterionsofRequests" />
+          <NavigationProperty Name="JobsAppliedFor" Relationship="Self.FK__JobsAppli__Reque__4CA06362" FromRole="Requests" ToRole="JobsAppliedFor" />
+          <NavigationProperty Name="OfferDetails" Relationship="Self.FK__OfferDeta__Reque__47DBAE45" FromRole="Requests" ToRole="OfferDetails" />
+          <NavigationProperty Name="People" Relationship="Self.FK__Requests__People__440B1D61" FromRole="Requests" ToRole="People" />
+        </EntityType>
+        <EntityType Name="Validations">
+          <Key>
+            <PropertyRef Name="ValidationCode" />
+          </Key>
+          <Property Name="ValidationCode" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ValidationName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PeopleValidation" Relationship="Self.FK__PeopleVal__Valid__3C69FB99" FromRole="Validations" ToRole="PeopleValidation" />
+        </EntityType>
+        <Association Name="FK__AreasTitl__AreaC__412EB0B6">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="AreasTitles" Type="Self.AreasTitles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="AreasTitles">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__AreaC__5535A963">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsofAreas">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OfferDeta__AreaC__48CFD27E">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
+          <End Role="OfferDetails" Type="Self.OfferDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="OfferDetails">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Requests__AreaCo__44FF419A">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="AreaCode" />
+            </Principal>
+            <Dependent Role="Requests">
+              <PropertyRef Name="AreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5165187F">
+          <End Role="CriterionsTitles" Type="Self.CriterionsTitles" Multiplicity="0..1" />
+          <End Role="Criterions" Type="Self.Criterions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsTitles">
+              <PropertyRef Name="CriterionsTitleCode" />
+            </Principal>
+            <Dependent Role="Criterions">
+              <PropertyRef Name="CriterionsTitleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5441852A">
+          <End Role="Criterions" Type="Self.Criterions" Multiplicity="0..1" />
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Criterions">
+              <PropertyRef Name="CriterionCode" />
+            </Principal>
+            <Dependent Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5812160E">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsDependency">
+              <PropertyRef Name="CriterionofAreaCode1" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__59063A47">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsDependency">
+              <PropertyRef Name="CriterionofAreaCode2" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Crite__5CD6CB2B">
+          <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
+          <End Role="CriterionsofRequests" Type="Self.CriterionsofRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CriterionsofAreas">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Principal>
+            <Dependent Role="CriterionsofRequests">
+              <PropertyRef Name="CriterionofAreaCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Criterion__Reque__5BE2A6F2">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="CriterionsofRequests" Type="Self.CriterionsofRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="CriterionsofRequests">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JobsAppli__Peopl__4BAC3F29">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JobsAppliedFor" Type="Self.JobsAppliedFor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="JobsAppliedFor">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JobsAppli__Reque__4CA06362">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1" />
+          <End Role="JobsAppliedFor" Type="Self.JobsAppliedFor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="JobsAppliedFor">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OfferDeta__Reque__47DBAE45">
+          <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="OfferDetails" Type="Self.OfferDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Requests">
+              <PropertyRef Name="RequestCode" />
+            </Principal>
+            <Dependent Role="OfferDetails">
+              <PropertyRef Name="RequestCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PeopleVal__Peopl__3B75D760">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="PeopleValidation" Type="Self.PeopleValidation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="PeopleValidation">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Requests__People__440B1D61">
+          <End Role="People" Type="Self.People" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="PeopleCode" />
+            </Principal>
+            <Dependent Role="Requests">
+              <PropertyRef Name="PeopleCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PeopleVal__Valid__3C69FB99">
+          <End Role="Validations" Type="Self.Validations" Multiplicity="0..1" />
+          <End Role="PeopleValidation" Type="Self.PeopleValidation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Validations">
+              <PropertyRef Name="ValidationCode" />
+            </Principal>
+            <Dependent Role="PeopleValidation">
+              <PropertyRef Name="ValidationCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="JOBBAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Areas" EntityType="Self.Areas" />
+          <EntitySet Name="AreasTitles" EntityType="Self.AreasTitles" />
+          <EntitySet Name="Criterions" EntityType="Self.Criterions" />
+          <EntitySet Name="CriterionsDependency" EntityType="Self.CriterionsDependency" />
+          <EntitySet Name="CriterionsofAreas" EntityType="Self.CriterionsofAreas" />
+          <EntitySet Name="CriterionsofRequests" EntityType="Self.CriterionsofRequests" />
+          <EntitySet Name="CriterionsTitles" EntityType="Self.CriterionsTitles" />
+          <EntitySet Name="JobsAppliedFor" EntityType="Self.JobsAppliedFor" />
+          <EntitySet Name="OfferDetails" EntityType="Self.OfferDetails" />
+          <EntitySet Name="People" EntityType="Self.People" />
+          <EntitySet Name="PeopleValidation" EntityType="Self.PeopleValidation" />
+          <EntitySet Name="Requests" EntityType="Self.Requests" />
+          <EntitySet Name="Validations" EntityType="Self.Validations" />
+          <AssociationSet Name="FK__AreasTitl__AreaC__412EB0B6" Association="Self.FK__AreasTitl__AreaC__412EB0B6">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="AreasTitles" EntitySet="AreasTitles" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__AreaC__5535A963" Association="Self.FK__Criterion__AreaC__5535A963">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OfferDeta__AreaC__48CFD27E" Association="Self.FK__OfferDeta__AreaC__48CFD27E">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="OfferDetails" EntitySet="OfferDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Requests__AreaCo__44FF419A" Association="Self.FK__Requests__AreaCo__44FF419A">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="Requests" EntitySet="Requests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5165187F" Association="Self.FK__Criterion__Crite__5165187F">
+            <End Role="CriterionsTitles" EntitySet="CriterionsTitles" />
+            <End Role="Criterions" EntitySet="Criterions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5441852A" Association="Self.FK__Criterion__Crite__5441852A">
+            <End Role="Criterions" EntitySet="Criterions" />
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5812160E" Association="Self.FK__Criterion__Crite__5812160E">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__59063A47" Association="Self.FK__Criterion__Crite__59063A47">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Crite__5CD6CB2B" Association="Self.FK__Criterion__Crite__5CD6CB2B">
+            <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
+            <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Criterion__Reque__5BE2A6F2" Association="Self.FK__Criterion__Reque__5BE2A6F2">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JobsAppli__Peopl__4BAC3F29" Association="Self.FK__JobsAppli__Peopl__4BAC3F29">
+            <End Role="People" EntitySet="People" />
+            <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JobsAppli__Reque__4CA06362" Association="Self.FK__JobsAppli__Reque__4CA06362">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OfferDeta__Reque__47DBAE45" Association="Self.FK__OfferDeta__Reque__47DBAE45">
+            <End Role="Requests" EntitySet="Requests" />
+            <End Role="OfferDetails" EntitySet="OfferDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PeopleVal__Peopl__3B75D760" Association="Self.FK__PeopleVal__Peopl__3B75D760">
+            <End Role="People" EntitySet="People" />
+            <End Role="PeopleValidation" EntitySet="PeopleValidation" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Requests__People__440B1D61" Association="Self.FK__Requests__People__440B1D61">
+            <End Role="People" EntitySet="People" />
+            <End Role="Requests" EntitySet="Requests" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PeopleVal__Valid__3C69FB99" Association="Self.FK__PeopleVal__Valid__3C69FB99">
+            <End Role="Validations" EntitySet="Validations" />
+            <End Role="PeopleValidation" EntitySet="PeopleValidation" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="JOBBAModelStoreContainer" CdmEntityContainer="JOBBAEntities">
+          <EntitySetMapping Name="Areas">
+            <EntityTypeMapping TypeName="JOBBAModel.Areas">
+              <MappingFragment StoreEntitySet="Areas">
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AreasTitles">
+            <EntityTypeMapping TypeName="JOBBAModel.AreasTitles">
+              <MappingFragment StoreEntitySet="AreasTitles">
+                <ScalarProperty Name="AreaTitleCode" ColumnName="AreaTitleCode" />
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="AreasTitlesName" ColumnName="AreasTitlesName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Criterions">
+            <EntityTypeMapping TypeName="JOBBAModel.Criterions">
+              <MappingFragment StoreEntitySet="Criterions">
+                <ScalarProperty Name="CriterionCode" ColumnName="CriterionCode" />
+                <ScalarProperty Name="CriterionsTitleCode" ColumnName="CriterionsTitleCode" />
+                <ScalarProperty Name="CriterionsName" ColumnName="CriterionsName" />
+                <ScalarProperty Name="CriterionsType" ColumnName="CriterionsType" />
+                <ScalarProperty Name="ComparisonOperator" ColumnName="ComparisonOperator" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CriterionsDependency">
+            <EntityTypeMapping TypeName="JOBBAModel.CriterionsDependency">
+              <MappingFragment StoreEntitySet="CriterionsDependency">
+                <ScalarProperty Name="CriterionsDependencyCode" ColumnName="CriterionsDependencyCode" />
+                <ScalarProperty Name="CriterionofAreaCode1" ColumnName="CriterionofAreaCode1" />
+                <ScalarProperty Name="CriterionofAreaCode2" ColumnName="CriterionofAreaCode2" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CriterionsofAreas">
+            <EntityTypeMapping TypeName="JOBBAModel.CriterionsofAreas">
+              <MappingFragment StoreEntitySet="CriterionsofAreas">
+                <ScalarProperty Name="CriterionofAreaCode" ColumnName="CriterionofAreaCode" />
+                <ScalarProperty Name="CriterionCode" ColumnName="CriterionCode" />
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="FeildValidation" ColumnName="FeildValidation" />
+                <ScalarProperty Name="PatternErrorMessage" ColumnName="PatternErrorMessage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CriterionsofRequests">
+            <EntityTypeMapping TypeName="JOBBAModel.CriterionsofRequests">
+              <MappingFragment StoreEntitySet="CriterionsofRequests">
+                <ScalarProperty Name="CriterionsofRequestsCode" ColumnName="CriterionsofRequestsCode" />
+                <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+                <ScalarProperty Name="CriterionofAreaCode" ColumnName="CriterionofAreaCode" />
+                <ScalarProperty Name="ValueofCriterion" ColumnName="ValueofCriterion" />
+                <ScalarProperty Name="LevelofImportance" ColumnName="LevelofImportance" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CriterionsTitles">
+            <EntityTypeMapping TypeName="JOBBAModel.CriterionsTitles">
+              <MappingFragment StoreEntitySet="CriterionsTitles">
+                <ScalarProperty Name="CriterionsTitleCode" ColumnName="CriterionsTitleCode" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobsAppliedFor">
+            <EntityTypeMapping TypeName="JOBBAModel.JobsAppliedFor">
+              <MappingFragment StoreEntitySet="JobsAppliedFor">
+                <ScalarProperty Name="JobsAppliedForCode" ColumnName="JobsAppliedForCode" />
+                <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+                <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+                <ScalarProperty Name="SendingDate" ColumnName="SendingDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OfferDetails">
+            <EntityTypeMapping TypeName="JOBBAModel.OfferDetails">
+              <MappingFragment StoreEntitySet="OfferDetails">
+                <ScalarProperty Name="OfferDetailsCode" ColumnName="OfferDetailsCode" />
+                <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="OfferName" ColumnName="OfferName" />
+                <ScalarProperty Name="OfferDescription" ColumnName="OfferDescription" />
+                <ScalarProperty Name="MoreDetails" ColumnName="MoreDetails" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="People">
+            <EntityTypeMapping TypeName="JOBBAModel.People">
+              <MappingFragment StoreEntitySet="People">
+                <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+                <ScalarProperty Name="PeoplePassword" ColumnName="PeoplePassword" />
+                <ScalarProperty Name="TempPassword" ColumnName="TempPassword" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastNameorBisnessname" ColumnName="LastNameorBisnessname" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Administrator" ColumnName="Administrator" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="SiteLink" ColumnName="SiteLink" />
+                <ScalarProperty Name="About" ColumnName="About" />
+                <ScalarProperty Name="CV" ColumnName="CV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PeopleValidation">
+            <EntityTypeMapping TypeName="JOBBAModel.PeopleValidation">
+              <MappingFragment StoreEntitySet="PeopleValidation">
+                <ScalarProperty Name="PeopleValidationCode" ColumnName="PeopleValidationCode" />
+                <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+                <ScalarProperty Name="ValidationCode" ColumnName="ValidationCode" />
+                <ScalarProperty Name="PeopleValidationValue" ColumnName="PeopleValidationValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Requests">
+            <EntityTypeMapping TypeName="JOBBAModel.Requests">
+              <MappingFragment StoreEntitySet="Requests">
+                <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+                <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+                <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+                <ScalarProperty Name="AreaTitles" ColumnName="AreaTitles" />
+                <ScalarProperty Name="Place" ColumnName="Place" />
+                <ScalarProperty Name="EmployTravelTime" ColumnName="EmployTravelTime" />
+                <ScalarProperty Name="Employee" ColumnName="Employee" />
+                <ScalarProperty Name="SendingJobOffersOnceaDay" ColumnName="SendingJobOffersOnceaDay" />
+                <ScalarProperty Name="SendingJobOffersWheneverThereIsaSuitableOffer" ColumnName="SendingJobOffersWheneverThereIsaSuitableOffer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Validations">
+            <EntityTypeMapping TypeName="JOBBAModel.Validations">
+              <MappingFragment StoreEntitySet="Validations">
+                <ScalarProperty Name="ValidationCode" ColumnName="ValidationCode" />
+                <ScalarProperty Name="ValidationName" ColumnName="ValidationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4914fe90f80b4507aa65123c8aad277d" Name="Diagram1">
+        <EntityTypeShape EntityType="JOBBAModel.Areas" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.AreasTitles" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.Criterions" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.CriterionsDependency" Width="1.5" PointX="8.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.CriterionsofAreas" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.CriterionsofRequests" Width="1.5" PointX="8.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.CriterionsTitles" Width="1.5" PointX="1.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.JobsAppliedFor" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.OfferDetails" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.People" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.PeopleValidation" Width="1.5" PointX="6" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.Requests" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JOBBAModel.Validations" Width="1.5" PointX="3.75" PointY="16.5" IsExpanded="true" />
+        <AssociationConnector Association="JOBBAModel.FK__AreasTitl__AreaC__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__AreaC__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__AreaC__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Requests__AreaCo__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Reque__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Peopl__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Reque__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__Reque__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Peopl__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Requests__People__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Valid__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

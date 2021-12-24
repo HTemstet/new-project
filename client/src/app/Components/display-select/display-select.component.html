@@ -1,0 +1,11 @@
+<!--הם DTOש שמות השדות קוד וערך לתצוגה בכל הטבלאות המתאימות Code ו Name -->
+<div *ngIf="list!=null&&list.length>0">
+<h2 *ngIf="GlobalServ.showTitle">{{Title}}</h2>
+<div class="container">
+    <div *ngFor="let i of list" class="link" 
+         (mouseover)="SendMouseOver(i)" (click)="sendmotofather(i)">
+      <div class="text">{{i.Name}}</div>
+    </div>
+  </div>
+  <h3>{{Object.Name}}</h3>
+  </div>

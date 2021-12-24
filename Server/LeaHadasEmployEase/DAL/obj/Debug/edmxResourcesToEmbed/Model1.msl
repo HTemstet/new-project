@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JOBBAModelStoreContainer" CdmEntityContainer="JOBBAEntities">
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="JOBBAModel.Areas">
+        <MappingFragment StoreEntitySet="Areas">
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AreasTitles">
+      <EntityTypeMapping TypeName="JOBBAModel.AreasTitles">
+        <MappingFragment StoreEntitySet="AreasTitles">
+          <ScalarProperty Name="AreaTitleCode" ColumnName="AreaTitleCode" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="AreasTitlesName" ColumnName="AreasTitlesName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Criterions">
+      <EntityTypeMapping TypeName="JOBBAModel.Criterions">
+        <MappingFragment StoreEntitySet="Criterions">
+          <ScalarProperty Name="CriterionCode" ColumnName="CriterionCode" />
+          <ScalarProperty Name="CriterionsTitleCode" ColumnName="CriterionsTitleCode" />
+          <ScalarProperty Name="CriterionsName" ColumnName="CriterionsName" />
+          <ScalarProperty Name="CriterionsType" ColumnName="CriterionsType" />
+          <ScalarProperty Name="ComparisonOperator" ColumnName="ComparisonOperator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CriterionsDependency">
+      <EntityTypeMapping TypeName="JOBBAModel.CriterionsDependency">
+        <MappingFragment StoreEntitySet="CriterionsDependency">
+          <ScalarProperty Name="CriterionsDependencyCode" ColumnName="CriterionsDependencyCode" />
+          <ScalarProperty Name="CriterionofAreaCode1" ColumnName="CriterionofAreaCode1" />
+          <ScalarProperty Name="CriterionofAreaCode2" ColumnName="CriterionofAreaCode2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CriterionsofAreas">
+      <EntityTypeMapping TypeName="JOBBAModel.CriterionsofAreas">
+        <MappingFragment StoreEntitySet="CriterionsofAreas">
+          <ScalarProperty Name="CriterionofAreaCode" ColumnName="CriterionofAreaCode" />
+          <ScalarProperty Name="CriterionCode" ColumnName="CriterionCode" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="FeildValidation" ColumnName="FeildValidation" />
+          <ScalarProperty Name="PatternErrorMessage" ColumnName="PatternErrorMessage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CriterionsofRequests">
+      <EntityTypeMapping TypeName="JOBBAModel.CriterionsofRequests">
+        <MappingFragment StoreEntitySet="CriterionsofRequests">
+          <ScalarProperty Name="CriterionsofRequestsCode" ColumnName="CriterionsofRequestsCode" />
+          <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+          <ScalarProperty Name="CriterionofAreaCode" ColumnName="CriterionofAreaCode" />
+          <ScalarProperty Name="ValueofCriterion" ColumnName="ValueofCriterion" />
+          <ScalarProperty Name="LevelofImportance" ColumnName="LevelofImportance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CriterionsTitles">
+      <EntityTypeMapping TypeName="JOBBAModel.CriterionsTitles">
+        <MappingFragment StoreEntitySet="CriterionsTitles">
+          <ScalarProperty Name="CriterionsTitleCode" ColumnName="CriterionsTitleCode" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobsAppliedFor">
+      <EntityTypeMapping TypeName="JOBBAModel.JobsAppliedFor">
+        <MappingFragment StoreEntitySet="JobsAppliedFor">
+          <ScalarProperty Name="JobsAppliedForCode" ColumnName="JobsAppliedForCode" />
+          <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+          <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+          <ScalarProperty Name="SendingDate" ColumnName="SendingDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OfferDetails">
+      <EntityTypeMapping TypeName="JOBBAModel.OfferDetails">
+        <MappingFragment StoreEntitySet="OfferDetails">
+          <ScalarProperty Name="OfferDetailsCode" ColumnName="OfferDetailsCode" />
+          <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="OfferName" ColumnName="OfferName" />
+          <ScalarProperty Name="OfferDescription" ColumnName="OfferDescription" />
+          <ScalarProperty Name="MoreDetails" ColumnName="MoreDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="JOBBAModel.People">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+          <ScalarProperty Name="PeoplePassword" ColumnName="PeoplePassword" />
+          <ScalarProperty Name="TempPassword" ColumnName="TempPassword" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastNameorBisnessname" ColumnName="LastNameorBisnessname" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Administrator" ColumnName="Administrator" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="SiteLink" ColumnName="SiteLink" />
+          <ScalarProperty Name="About" ColumnName="About" />
+          <ScalarProperty Name="CV" ColumnName="CV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PeopleValidation">
+      <EntityTypeMapping TypeName="JOBBAModel.PeopleValidation">
+        <MappingFragment StoreEntitySet="PeopleValidation">
+          <ScalarProperty Name="PeopleValidationCode" ColumnName="PeopleValidationCode" />
+          <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+          <ScalarProperty Name="ValidationCode" ColumnName="ValidationCode" />
+          <ScalarProperty Name="PeopleValidationValue" ColumnName="PeopleValidationValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Requests">
+      <EntityTypeMapping TypeName="JOBBAModel.Requests">
+        <MappingFragment StoreEntitySet="Requests">
+          <ScalarProperty Name="RequestCode" ColumnName="RequestCode" />
+          <ScalarProperty Name="PeopleCode" ColumnName="PeopleCode" />
+          <ScalarProperty Name="AreaCode" ColumnName="AreaCode" />
+          <ScalarProperty Name="AreaTitles" ColumnName="AreaTitles" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="EmployTravelTime" ColumnName="EmployTravelTime" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="SendingJobOffersOnceaDay" ColumnName="SendingJobOffersOnceaDay" />
+          <ScalarProperty Name="SendingJobOffersWheneverThereIsaSuitableOffer" ColumnName="SendingJobOffersWheneverThereIsaSuitableOffer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Validations">
+      <EntityTypeMapping TypeName="JOBBAModel.Validations">
+        <MappingFragment StoreEntitySet="Validations">
+          <ScalarProperty Name="ValidationCode" ColumnName="ValidationCode" />
+          <ScalarProperty Name="ValidationName" ColumnName="ValidationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,434 @@
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אב בין הזמנים\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml

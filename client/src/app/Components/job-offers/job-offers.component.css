@@ -1,0 +1,20 @@
+.link{
+  text-decoration: underline;
+  cursor: pointer;
+  color: #005b9f;
+}
+.link:hover{
+  text-decoration: none;
+}
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+.mat-expansion-panel-header .mat-panel-title{
+  text-align: right;
+}

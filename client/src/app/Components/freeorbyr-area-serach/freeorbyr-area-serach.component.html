@@ -1,0 +1,39 @@
+<div class="w3-animate-right">
+<h2 class="knockout">,לא משנה מה זה להתקדם בשבילכם</h2>
+</div>
+<div class="w3-animate-left">
+<h2 class="knockout"> !!אנחנו נעזור לכם להשיג את זה</h2>
+</div>
+<br><br>
+  <div>
+      <div class="col-md-offset-3 col-md-2">
+          <button [ngClass]="{'selectedB': SearchByCompany,'buttons':!SearchByCompany}"
+          (click)="SearchType(null)">חיפוש משרות בחברה</button>
+      <div *ngIf="SearchByCompany" 
+          class="careticon"><i class="fas fa-caret-down"></i>
+      </div>
+        </div>
+    <div class="col-md-2">
+      <button [ngClass]="{'selectedB': AreaServ.showAreas&&AreaServ.AreaSearch,'buttons':!AreaServ.showAreas&&!AreaServ.AreaSearch}"
+          (click)="SearchType(true)">חיפוש מקצועי</button>
+      <div *ngIf="AreaServ.showAreas&&AreaServ.AreaSearch" 
+          class="careticon"><i class="fas fa-caret-down"></i>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <button  [ngClass]="{'selectedB': !AreaServ.showAreas&&!AreaServ.AreaSearch&&!SearchByCompany,'buttons':(AreaServ.showAreas&&AreaServ.AreaSearch)||SearchByCompany}"
+          (click)="SearchType(false)">חיפוש מהיר</button>
+      <div *ngIf="!AreaServ.showAreas&&!AreaServ.AreaSearch&&!SearchByCompany" 
+         class="careticon"><i class="fas fa-caret-down"></i>
+      </div>
+    </div>
+</div>
+<app-basic-search [Quick]="AreaServ.showAreas&&AreaServ.AreaSearch?false:true"
+(continue_event)="basicSearchClick($event)"
+ *ngIf="!SearchByCompany"></app-basic-search>
+ <app-basic-search [Company]="true"
+(CompToFather)="SearchWithCompany($event)"
+ *ngIf="SearchByCompany"></app-basic-search>
+<p-toast position="bottom-center"></p-toast>
+
+  

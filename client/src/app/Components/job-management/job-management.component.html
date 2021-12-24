@@ -1,0 +1,85 @@
+<button (click)="searchesManager()">ניהול החיפושים שלי</button>
+<button (click)="appliedJobsManager()">ניהול משרות</button>
+<button (click)="GetCV()">קורות חיים</button>
+<div *ngIf="searches">
+  <h1>החיפושים שלי</h1>
+  <div>
+  <p>
+  בינתיים ללא קריטריונים
+ </p>
+  <mat-accordion class="example-headers-align">
+      <mat-expansion-panel *ngFor="let i of searchesList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-description>         
+            <mat-icon></mat-icon>
+          </mat-panel-description>
+          <mat-panel-title>
+            {{ind+1}}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div style="text-align: right;margin-right: 150px;font-size: 18px;">
+          <label>תחום: {{getAreaNameByCode(i.AreaCode)}}</label><br>
+          <label>מיקום: {{i.Place}}</label><br>
+          <label>תדירות קבלת הצעות מתאימות: {{gettingOffersFrequency(i)}}</label>  
+          </div>
+        <mat-action-row>
+          <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
+          <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
+        </mat-action-row>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>
+<div *ngIf="!searches">
+<h1>המשרות אליהם פניתי</h1>
+<div>
+<p>
+בינתיים ללא קריטריונים
+</p>
+<mat-accordion class="example-headers-align">
+    <mat-expansion-panel *ngFor="let i of appliedJobsList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-description>         
+הגשת מועמדות למשרה זו בתאריך: {{i.SendingDate}}
+          <mat-icon></mat-icon>
+        </mat-panel-description>
+        <mat-panel-title>
+          {{ind+1}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div style="text-align: right;margin-right: 150px;font-size: 18px;">
+        <label>תחום: {{getAreaNameByCode(i.Request.RequestOfferDetails.AreaCode)}}</label><br>
+        <label>חברה: {{i.Request.PeopleOffer.Name}}</label><br>
+        <label>שם משרה: {{i.Request.RequestOfferDetails.Name}}</label><br>
+        <label>תיאור משרה: {{i.Request.RequestOfferDetails.OfferDescription}}</label><br>
+        <label>מיקום: {{i.Request.Place}}</label><br>
+        <label>פרטים נוספים: {{i.Request.RequestOfferDetails.MoreDetails}}</label>  
+        </div>
+      <mat-action-row>
+        <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
+        <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
+      </mat-action-row>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+</div>
+<p-dialog [modal]="true" position="top" [(visible)]="ShowCV"  [style]="{width: '630px'}">
+  <p-header>
+  קורות חיים
+  </p-header>
+  <br> <br>
+  <a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">{{CV}}</a><br>
+<label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>
+<input #fileInput type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
+ name="file" (change)="fileChange($event)" class="upload"><br>
+  <br> <br>
+  <p-footer *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'">
+      <app-display-button [changeCssEnter]="true" (click)="SentToPlacing('CV')" [Value]="'שמירת קובץ'"></app-display-button>
+      <app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button> 
+    </p-footer>
+    <p-footer *ngIf="(FileList==null||FileList.length==0||ind!='CV')&&CV!=null&&CV!=''&&!CV.endsWith('CV/')">
+      <app-display-button [changeCssEnter]="true" (click)="RemoveFile('CV')" [Value]="'מחיקה'"></app-display-button>      
+    </p-footer>
+</p-dialog>
+
+

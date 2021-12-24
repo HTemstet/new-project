@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+/* צבעים במאטריאל */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+/* אייקונים של מאטריאל */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+    background-color:rgb(245, 20, 12);
+  }
+.ui-radiobutton .ui-radiobutton-box.ui-state-active {
+    border-color: rgb(245, 20, 12)!important;
+    background-color:#ffffff!important;
+  }
+.ui-radiobutton .ui-radiobutton-box.ui-state-active .ui-radiobutton-icon{
+    background-color:rgb(245, 20, 12)!important;
+  }
+.ui-radiobutton-label{
+    margin: 5px;
+    font-size:16px;
+    font-weight: bold;
+    color:#34495e;
+  }
+.mat-accent .mat-slider-thumb, .mat-accent .mat-slider-thumb-label, .mat-accent .mat-slider-track-fill {
+    background-color:rgb(245, 20, 12);
+}
+.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb, .mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb-label {
+  background-color: #34495e;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color:rgb(245, 20, 12);
+}
+.mat-tab-label .mat-tab-label-content {
+  color:#34495e;
+  font-size:20px;
+  font-weight: bold;
+}
+.mat-expansion-indicator::after, .mat-expansion-panel-header-description {
+  color:#34495e;
+  font-size: 18px;
+}
+.ui-steps .ui-steps-item.ui-state-highlight .ui-steps-number {
+  background:rgb(245, 20, 12)!important;
+  color: #ffffff;
+}
+.ui-steps .ui-steps-item.ui-state-highlight .ui-steps-title {
+  font-weight:bold!important;
+  color:#34495e!important;
+  font-size: 18px!important;
+}
+.ui-steps .ui-steps-item .ui-menuitem-link .ui-steps-title {
+  display: block;
+  margin-top: 6px;
+  color:#34495e!important;
+  font-size: 16px!important;
+}
+.ui-button.ui-state-default.ui-button-success, body .ui-buttonset.ui-button-success > .ui-button.ui-state-default {
+  color: white!important;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #34495e!important;
+  border: 1px solid #34495e!important;
+}
+.ui-button.ui-state-default.ui-button-secondary,.ui-buttonset.ui-button-secondary > .ui-button.ui-state-default {
+  color: white!important;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:rgb(245, 20, 12)!important;
+  border: 1px solid rgb(245, 20, 12)!important;
+}
+ .ui-toast .ui-toast-message.ui-toast-message-warn {
+  background-color: white!important;
+  border: 0 none;
+  color:#34495e!important;
+}
+
+
+ 
+
+  

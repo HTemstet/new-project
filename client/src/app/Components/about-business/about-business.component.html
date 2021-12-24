@@ -1,0 +1,105 @@
+<!--<button (click)="searchesManager()">משרות שפרסמתי</button>-->
+<!--<button (click)="myBusiness()">פרטי העסק שלי</button>-->
+
+<div *ngIf="aboutbusiness">
+  <form #frmpd="ngForm">
+  <h1>{{PeopleServ.surf.FirstName + ' ' +PeopleServ.surf.Name}} - פרטי העסק</h1><br><br>
+ 
+<div class="row justify-content-md-center">
+<div class="panel savebutton">
+  <div class="col-md-offset-4 panel-heading" style="width: 230px;" (click)="searchesManager()">משרות שפרסמתי</div>
+  <div class="col-md-offset-6 panel-heading" style="width: 230px;" (click)="myBusiness()">פרטי העסק שלי</div>
+</div>
+</div><br><br>
+ 
+  <span class="ui-float-label " >
+        <input name="Logo" id="float-input" (click)="GetLogo()" style="cursor: pointer" type="text" size="70" pInputText> 
+        <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
+      <span><i class="fa fa-picture-o" style="margin-left:5px"></i></span>
+      לוגו
+      </label>
+     </span>
+     <br><br>
+    <span class="ui-float-label " >
+      <input (focus)="urlfocus($event)" (blur)="urlblur($event)" [(ngModel)]="SiteLink" pattern="https?://.+" type="url" placeholder="" type="text" name="site_link" 
+      #site_link="ngModel" id="float-input" size="70" pInputText>
+      <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
+         <span><i class="fa fa-external-link" style="margin-left:5px"></i></span>
+         לינק לאתר
+      </label>
+     </span>
+     <div *ngIf="site_link.invalid && site_link.touched">
+        <label class="validation" *ngIf="site_link.errors.pattern">קישור שגוי</label>   
+      </div><br>
+     <br><br>
+    <span class="ui-float-label " >
+        <textarea size="70" pInputText style="width:592px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
+      <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
+         <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
+         אודות העסק שלי
+      </label>
+     </span><br>
+     <br><br>
+      <button class="panel-footer" *ngIf="frmpd.form.invalid" (click)="ValidationServ.alert()"> 
+          <a style="color: white;" >אישור</a>         
+        </button>
+        <button class="panel-footer" *ngIf="frmpd.form.valid" (click)="OkFunc()"> 
+            <a style="color: white;" >אישור</a>         
+          </button>
+          <p-toast *ngIf="frmpd.form.invalid" position="bottom-center"></p-toast>
+          <p-toast *ngIf="frmpd.form.valid" position="bottom-center" (onClose) = "Navigatetoaboutemployer()"></p-toast>
+        </form>
+     <p-dialog [modal]="true" position="top" [(visible)]="ShowLogo"  [style]="{width: '630px'}">
+        <p-header>
+        לוגו
+        </p-header>
+        <br> <br>
+        <img *ngIf="Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')" 
+        [src]="PeopleServ.PictureNative+Logo" width="150px"><br>
+        <label *ngIf="Logo==null||Logo==''||Logo.endsWith('Logo/')">אין לוגו</label>
+        <input #fileInput type="file" (click)="ind='Logo'" accept=".jpeg,.gif,.png"
+         name="file" (change)="fileChange($event)" class="upload"><br>
+        <br> <br>
+        <p-footer *ngIf="FileList!=null&&FileList.length>0&&ind=='Logo'">
+            <app-display-button [changeCssEnter]="true" (click)="SentToPlacing('Logo')" [Value]="'שמירת לוגו'"></app-display-button>
+            <app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button> 
+          </p-footer>
+          <p-footer *ngIf="(FileList==null||FileList.length==0||ind!='Logo')&&Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')">
+            <app-display-button [changeCssEnter]="true" (click)="RemoveFile('Logo')" [Value]="'מחיקה'"></app-display-button> 
+           </p-footer>
+      </p-dialog>
+</div>
+<div *ngIf="!aboutbusiness">
+  <h1>החיפושים שלי</h1>
+  <div>
+  <p>
+  בינתיים ללא קריטריונים
+ </p>
+  <mat-accordion class="example-headers-align">
+      <mat-expansion-panel *ngFor="let i of searchesList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-description>         
+            <mat-icon></mat-icon>
+          </mat-panel-description>
+          <mat-panel-title>
+            {{ind+1}}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div style="text-align: right;margin-right: 150px;font-size: 18px;">
+          <label>תחום: {{getAreaNameByCode(i.AreaCode)}}</label><br>
+          <label>שם משרה: {{i.RequestOfferDetails.Name}}</label><br>
+          <label>תאור משרה: {{i.RequestOfferDetails.OfferDescription}}</label><br>
+          <label>מיקום: {{i.Place}}</label><br>
+          <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
+          <label>{{i.RequestOfferDetails.MoreDetails}} :פרטים נוספים</label><br>
+          </div>
+        <mat-action-row>
+          <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
+          <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
+        </mat-action-row>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>
+
+

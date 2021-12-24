@@ -1,0 +1,100 @@
+<form class="form" #formEent>
+    <!-- [focusOnShow]="false"[focusTrap]="false" -->
+ <p-dialog [(visible)]="GlobalServ.display" [responsive]="false" [modal]="true" (onHide)="ClosePopUp()"
+ [style]="{width: '630px'}" [responsive] ="false"
+ [maximizable]="false" [baseZIndex]="10350">
+ <p-header class="col-md-2" style="font-size:20px;color: #34495e">התחברות</p-header>
+ <div>
+   <br><br>
+ <span class="ui-float-label " >
+  <input [(ngModel)]="Email" name="Email"
+   required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" 
+   ngModel #emailref="ngModel"
+         id="float-input" (blur)="ColorChange(0)" (focus)="ChangeColor(0)"
+         type="text"  size="40" pInputText> 
+  <label class="col-md-7 clabel" for="float-input"> 
+   <span *ngIf="!iconemail" ><i class="fa fa-envelope"></i></span>
+   <span *ngIf="iconemail"><i class="fas fa-envelope-open"></i></span>
+   מייל
+  </label>
+</span>
+<div *ngIf="emailref.invalid && emailref.touched">
+    <label *ngIf="emailref.errors.required">מייל הינו שדה חובה</label> 
+    <label *ngIf="emailref.errors.pattern">כתובת המייל אינה תקינה</label>   
+  </div>
+<br><br><br *ngIf="useBr">
+<div *ngIf="ValidationServ.sendingTempPass">
+<span class="ui-float-label" >
+  <input [(ngModel)]="TempPass" name="TempPass"
+  ngModel required #pass="ngModel"
+         (blur)="ColorChange(1)" (focus)="ChangeColor(1)" id="float-input" 
+         type="text" size="40" pInputText> 
+  <label class="col-md-8 mfclabel" for="float-input">
+  <span *ngIf="!iconlock"><i class="fas fa-lock"></i></span>
+  <span *ngIf="iconlock"><i class="fas fa-lock-open"></i></span>
+  הכנס סיסמה זמנית
+</label></span>
+<div *ngIf="pass.invalid && pass.touched">
+  <label *ngIf="pass.errors.required">?רגע, מה עם סיסמה זמנית</label> 
+</div>
+<br><br>
+</div>
+<span class="ui-float-label">
+  <input [(ngModel)]="PeoplePassword" name="PeoplePassword" required minlength=8 maxlength=8 ngModel #passref="ngModel" 
+         type="password" (blur)="ColorChange(2)" (focus)="ChangeColor(2)"
+         (mousedown)="TextType(1)" (mouseout)="PasswordType(1)" size="40" pInputText> 
+  <label class="col-md-7 fclabel" for="float-input"  *ngIf="!ValidationServ.sendingTempPass" >
+    <span *ngIf="iconeye"><i class="fas fa-eye"></i></span>
+    <span *ngIf="!iconeye"><i class="fas fa-eye-slash"></i></span>
+    סיסמה    
+  </label>
+  <label for="float-input" class="col-md-8 fclabel" *ngIf="ValidationServ.sendingTempPass" >
+      <span *ngIf="iconeye"><i class="fas fa-eye"></i></span>
+      <span *ngIf="!iconeye"><i class="fas fa-eye-slash"></i></span>
+      סיסמה חדשה    
+    </label>
+</span>
+<div *ngIf="(passref.touched || passref.dirty)&&passref.invalid">
+  <label *ngIf="passref.errors.required">סיסמה זה שדה חובה</label> 
+  <label *ngIf="passref.errors.minlength">מספר הספרות קטן מידי</label>
+</div><br><br>
+<div *ngIf="ValidationServ.sendingTempPass" >
+<span class="ui-float-label">
+  <input [(ngModel)]="ValidPassword" name="ValidPassword" id="float-input"
+       (blur)="ColorChange(3)" (focus)="ChangeColor(3)"
+       ngModel required #validpass="ngModel"
+        type="text" size="40" pInputText> 
+  <label class="col-md-8 fclabel" for="float-input">
+    <span *ngIf="iconeyeval"><i class="fas fa-eye"></i></span>
+    <span *ngIf="!iconeyeval"><i class="fas fa-eye-slash"></i></span>
+    אימות סיסמה    
+  </label>
+</span>
+<div *ngIf="(validpass.touched || validpass.dirty)&&validpass.invalid">
+  <label *ngIf="validpass.errors.required">אופס, שכחת לאמת את הסיסמה</label> 
+  <label *ngIf="validpass.errors.minlength">מספר הספרות קטן מידי</label>
+</div><br><br>
+</div>
+
+<!-- לינק מעוצב -->
+<div  class="col-md-6" style="float: left;">
+  <div (click)="NewUser()" class="svg-wrapper">
+      <svg height="35" width="130" xmlns="http://www.w3.org/2000/svg">
+         <rect id="shape" height="35" width="130" /> 
+            <text x="30" y="22" fill="#34495e">משתמש חדש</text>           
+       </svg></div></div>
+<!-- לינק מעוצב -->
+  <div  class="col-md-6" style="float: left;">
+    <div (click)="ForgotPassword()" class="svg-wrapper">
+      <svg height="35" width="130" xmlns="http://www.w3.org/2000/svg">
+        <rect id="shape" height="35" width="130" /> 
+            <text  x="30" y="22" fill="#34495e">שכחת סיסמה</text>           
+      </svg></div></div>  
+        </div>
+ <p-footer>
+      <app-display-button  [changeCssEnter]="true" (click)="OkFunc()"></app-display-button>
+</p-footer>
+ </p-dialog>
+</form>
+<p-toast key="mes" position="bottom-center"></p-toast>
+

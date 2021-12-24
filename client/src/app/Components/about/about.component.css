@@ -1,0 +1,101 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  p{
+    text-align: center; 
+    color: #34495e;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 40px;
+    color: rgb(245, 20, 12);
+    font-weight: 600;
+    text-align: center; 
+  }
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(245, 20, 12);
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+  h3 {
+    font-size: 19px;
+    line-height: 0.5em;
+    color:  #34495e;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: right;
+  }  
+h4{
+  font-size: 22px;
+  line-height: 0.7em;
+  font-weight: bold ;
+  color:  #34495e;
+  margin-bottom: 30px;
+  text-align: center;
+} 
+  .jumbotron {
+    background-color:#34495e;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    height:180px;
+    border: solid;
+  }
+  .h1jumbotron{
+    font-size:40px;
+    margin-top:0.1px;
+  }
+  .pjumbotron{
+    color:white;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  i{
+    color:rgb(245, 20, 12);
+    font-size: 50px;
+  }
+  span{
+    color: rgb(245, 20, 12);
+    cursor: pointer;
+  }
+ 
+  .logo {
+    color: rgb(245, 20, 12);
+    font-size: 200px;
+  }
+.row input{
+text-align: right;
+}
+.row textarea{
+  text-align: right; 
+}
+
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(245, 20, 12);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-md-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }

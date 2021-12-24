@@ -1,0 +1,51 @@
+<h1 *ngIf="AreaServ.FullArea"> להלן ההצעות עבודה בתחום {{AreaServ.FullArea.Name}} המתאימות ביותר עבורך  </h1>
+<h1 *ngIf="!AreaServ.FullArea">להלן ההצעות העבודה המתאימות ביותר עבורך</h1>
+<br><br><br><br>
+
+<mat-accordion class="example-headers-align">
+    <mat-expansion-panel *ngFor="let i of RequestServ.JobOffers;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-description>
+            <a (click)="OpenCriterions()" routerLink=""> אחוזי התאמת ההצעה: {{i.AdjustmentPercentages}}</a>        
+          <mat-icon></mat-icon>
+          {{i.PeopleOffer.FirstName+' '+i.PeopleOffer.Name}}
+        </mat-panel-description>
+        <mat-panel-title>
+          {{ind+1}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div style="text-align: right;margin-right: 150px;font-size: 18px;">
+        <label>:פרטי המשרה</label><br><br>
+        <label>שם משרה: {{i.RequestOfferDetails.Name}}</label><br>
+        <label>תאור משרה: {{i.RequestOfferDetails.OfferDescription}}</label><br>
+        <label>מיקום: {{i.Place}}</label><br>
+        <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
+        <label>{{i.RequestOfferDetails.MoreDetails}} :פרטים נוספים</label><br>
+        <label class="link" (click)="$event.preventDefault();SendOfferEmail()">צור קשר</label>
+      </div>
+      <mat-action-row>
+        <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
+        <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
+      </mat-action-row>
+      <div *ngIf="ContactDetails">
+        <app-display-button [changeCssEnter]="true" (click)="GetCV()" 
+        Value="קורות חיים"></app-display-button><br>
+        <div *ngIf="ShowCV">
+        <!-- <input *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [(ngModel)]="CV"> -->
+        <a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">Download the File</a><br>
+        <label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>
+        <input type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
+         name="file" (change)="fileChange($event)" class="upload"><br>
+         <input type="button" value="מחיקה" (click)="RemoveFile('CV')"><br>
+         <div *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'"> 
+        <input type="button" value="ביטול" (click)="CancelationChangeFile()"><br>
+       </div> 
+       </div><br>
+       <label>הוסף מכתב מקדים</label>
+       <textarea style="color:black" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea>
+       <input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">
+      </div>
+    </mat-expansion-panel>
+    <app-enter *ngIf="PeopleServ.backtojoboffers" (LoginSuccess)="ContactDetails=true"></app-enter>
+  </mat-accordion>
+  <br><br><br><br>

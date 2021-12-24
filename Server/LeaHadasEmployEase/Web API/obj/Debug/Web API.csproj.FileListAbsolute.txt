@@ -1,0 +1,897 @@
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\Work\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר-עדכני בלבד\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\work\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ט אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\י אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יא אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יב אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\טז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כג אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כה אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כז אלול\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ה תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\ח תשרי\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יד חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\טו חשוון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Desktop\Handesaim\פרויקט\פרוייקט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\ג טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\יח טבת\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\כא שבט\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\א סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\י סיון\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\ה אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\יד אב\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרם סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\MyProject\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb

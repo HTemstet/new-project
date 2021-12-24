@@ -1,0 +1,111 @@
+<button (click)="logOf()">התנתק</button>
+<div class="col-md-offset-2 col-md-8">
+  <!-- [ngClass]="{'panelwidth1': GlobalServ.OccuredArea===true, 'panelwidth2': GlobalServ.OccuredArea=== false}"> -->
+   <div class="panel"
+   [ngClass]="{'ex3': GlobalServ.OccuredArea===true, 'ex4': GlobalServ.OccuredArea=== false}">
+     <div class="col-md-offset-3 col-md-6 panel-heading">פרטים אישיים</div>
+      <br> <br> <br> <br>
+        <form class="col-md-offset-1 col-md-3" style="text-align: left" #frmpd="ngForm">
+         <h3>פרטי הרשמה</h3>
+         <br>
+          <span class="ui-float-label " >
+          <input [(ngModel)]="PeopleServ.surf.Email" type="text" name="Email"
+          required pattern="^\w+([\.-]?\w+)*@\w+([.\-]?\w+)*(\.\w{2,3})+$" 
+          #email="ngModel" id="float-input" size="40" pInputText> 
+          <label class="col-md-offset-2" for="float-input" style="color:#34495e;margin-left: 4px"> 
+             <span><i class="fa fa-envelope" style="margin-left:5px"></i></span>
+             מייל
+          </label>
+         </span>
+         <div *ngIf="email.invalid && email.touched">
+           <label *ngIf="email.errors.required">מייל הינו שדה חובה</label> 
+           <label *ngIf="email.errors.pattern">כתובת המייל אינה תקינה</label>   
+         </div>
+         <br><br>
+         <span class="ui-float-label " >
+           <input [(ngModel)]="PeopleServ.surf.FirstName" name="FirstName"
+           type="text" pattern="[a-zA-Zא-ת ]*"
+           id="float-input" #name="ngModel" id="float-input" 
+           type="text"  size="40" pInputText> 
+           <label class="col-md-offset-2" for="float-input" style="color:#34495e;margin-left: 4px"> 
+           <span><i class="fas fa-user-alt" style="margin-left:5px"></i></span>
+         תאור עסק/ שם פרטי
+           </label>
+          </span>
+          <div *ngIf="name.invalid && name.touched">
+             <label *ngIf="name.errors.pattern">שדה זה יכול להכיל אותיות בלבד</label> 
+          </div>   
+           <br><br>
+          <span class="ui-float-label">
+           <input [(ngModel)]="PeopleServ.surf.Name" name="Name"  
+           type="text" pattern="[a-zA-Zא-ת ]*"
+           id="float-input" #lname="ngModel" id="float-input" 
+           type="text"  size="40" pInputText> 
+           <label class="col-md-offset-2" for="float-input" style="color:#34495e;margin-left: 4px"> 
+            <span><i class="fas fa-user-tag" style="margin-left:5px"></i></span>
+            שם עסק/ שם משפחה
+           </label>
+          </span>
+          <div *ngIf="lname.invalid && lname.touched">
+             <label *ngIf="lname.errors.pattern">שדה זה יכול להזין אותיות בלבד</label> 
+           </div>   
+          <br><br>
+          <span class="ui-float-label " >
+           <input [(ngModel)]="PeopleServ.surf.Phone" name="Phone" id="float-input" 
+           #phone="ngModel" minlength="10" maxlength="10" pattern="[0-9]*" type="text"
+            size="40" pInputText> 
+           <label class="col-md-offset-2" for="float-input" style="color:#34495e;margin-left: 4px"> 
+           <span><i class="fas fa-phone" style="margin-left:5px"></i></span>
+             נייד
+           </label>
+          </span>
+          <div *ngIf="phone.invalid && (phone.dirty ||phone.touched)">
+          <label *ngIf="phone.errors.minlength">עליך להזין 10 תוים</label><br>
+          <label *ngIf="phone.errors.pattern">אופס, כנראה שלא הכנסת מספרים</label>
+        </div>
+          <br> <br>
+          <div class="panel savebutton">
+            <div class="col-md-offset-1 col-md-2 panel-heading" *ngIf="frmpd.form.invalid" (click)="ValidationServ.alert()">אישור</div>
+            <div class="col-md-offset-1 col-md-2 panel-heading" *ngIf="frmpd.form.valid" (click)="OkFunc()">אישור</div>
+            <!-- <app-display-button [changeCssEnter]="true" *ngIf="frmpd.form.invalid" (click)="ValidationServ.alert()"></app-display-button>
+            <app-display-button [changeCssEnter]="true" *ngIf="frmpd.form.valid" (click)="OkFunc()"></app-display-button> -->  
+          </div>
+      </form>
+      <form class="col-md-offset-3 col-md-3" style="text-align: right" #frmvalidation="ngForm">
+       <h3>בדיקות אימות משתמש</h3> 
+       <br>
+        <div *ngFor="let i of ValidationServ.SurfValidations;let ind = index">
+            <span class="ui-float-label">
+                <input type="text" name="validq{{ind}}" 
+                [(ngModel)]="i.Name" 
+                 required pattern="[a-zA-Zא-ת ]*"
+                  id="float-input" #validq="ngModel" size="40" pInputText>
+                <label class="col-md-offset-4" style="float: left;color:#34495e;font-weight: bold;margin-left: 4px"
+                   for="float-input">
+                        <span class="space" *ngIf="i.Code==1"><i class="fas fa-h-square"></i></span>
+                        <span class="space" *ngIf="i.Code==2"><i><img src="https://img.icons8.com/ios-filled/18/000000/men-age-group-6.png" style="color:#34495e;"></i></span>    
+                        <span class="space" *ngIf="i.Code==3"><i class="fas fa-palette"></i></span>
+                        <span class="space" *ngIf="i.Code==4"><i class="fas fa-school"></i></span>      
+                        {{GetAllVal(i.Code)}}
+                      </label>
+                 </span>
+                 <div *ngIf="validq.errors &&(validq.invalid && validq.touched)">
+                    <label *ngIf="validq.errors.required">שדה זה חובה</label> 
+                    <label *ngIf="validq.errors.pattern">שדה זה יכול להכיל אותיות בלבד</label> 
+                  </div>
+                  <br><br>  
+        </div>
+        <div class="panel savebutton">
+          <div class="col-md-offset-1 col-md-2 panel-heading" *ngIf="frmvalidation.form.invalid" (click)="ValidationServ.alert()">אישור</div>
+          <div class="col-md-offset-1 col-md-2 panel-heading" *ngIf="frmvalidation.form.valid" (click)="SaveValidations()">אישור</div>
+          <!-- <app-display-button [changeCssEnter]="true" *ngIf="frmvalidation.form.invalid" (click)="ValidationServ.alert()"></app-display-button>
+          <app-display-button [changeCssEnter]="true" *ngIf="frmvalidation.form.valid" (click)="SaveValidations()"></app-display-button>       -->
+        </div>
+        </form>
+   </div>
+ </div>
+<br><br><br><br><br>
+<p-toast position="center"></p-toast>
+    <div class="container">
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+    </div>

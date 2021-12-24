@@ -1,0 +1,67 @@
+<div>
+    <!-- <div class="col-md-10 col-md-offset-1"> -->
+    <div class="section">
+      <div class="col-md-10 col-md-offset-1">
+        <br><br><br>
+        <div class="quicksearchdiv">
+          <br><br><br>
+          <div *ngIf="!Company" style="text-align:center">
+          <button *ngIf="!Quick" class="col-md-offset-1 col-md-2 search searchwideButton" (click)="SendToFather()">המשך לקריטריונים</button>
+          <button *ngIf="Quick" class="col-md-offset-1 col-md-1 search searchButton" (click)="SendToFather()"><i class="fas fa-search"></i></button>
+          <button *ngIf="Quick" class="col-md-2 search">
+              <input (keyup)="completeText()" (focus)="showMatSelect()"  *ngIf="Quick" [(ngModel)]="FreeSearchText" style="height: 51px; width: 240px;margin-left: -9%;font-size: 22px; color:black; text-align: right;padding-right: 30px;" autocomplete="on" placeholder="חיפוש חופשי">
+            <mat-select #Free *ngIf="FreeSearchText!=''&&matSelectShown" [(ngModel)]="FreeSearchText" [formControl]="FreeText">
+              <mat-option *ngFor="let i of FreeListSpecific" [value]="i">{{i}}</mat-option>
+            </mat-select>
+          </button>
+          <button class="col-md-2 search" (click)="popUpTravelTime()">זמן נסיעה</button>
+          <input class="col-md-2 search form-control"  ngx-google-places-autocomplete [(ngModel)]="GoogleSearchInput" (onAddressChange)="handleAddressChange($event)"/>    
+            <button class="col-md-2 search" (click)="AreaTitlesSelectOpen($event)">תפקיד
+              <i *ngIf="areaTtlesSelected()==1" style="cursor: pointer;float:left;opacity: 0.5;margin-top: 15px;height: 35px;" title="ניקוי בחירה" (click)="ClearAreaTitlesofQuickSearch()" class="fas fa-trash"></i>   
+              <mat-select #AreaTitlesSelect *ngIf="AreaCodeofQuickSearch!=undefined&&AreaCodeofQuickSearch!=0" [(ngModel)]="AreaTitlesofQuickSearch" [formControl]="AreaTitles" multiple>
+                  <mat-option>
+                    <ngx-mat-select-search style="width: 80%" placeholderLabel="חפש תפקידים" noEntriesFoundLabel="לא נמצאו תפקידים" (keyup)="onKeyTitles1()" [formControl]="bankMultiFilterCtrl"></ngx-mat-select-search>
+                </mat-option>
+                  <mat-option *ngFor="let i of areastitleslist" [value]="i.Code">{{i.Name}}</mat-option>
+                </mat-select>
+              </button>
+              <button class="col-md-2 search" (click)="ChooseAreaForQuickSearch($event);($event.target.tagName!='I')?AreasSelect.open():null">תחום
+                <i *ngIf="AreaCodeofQuickSearch!=undefined&&AreaCodeofQuickSearch!=0" style="cursor: pointer;float:left;opacity: 0.5;margin-top: 15px;height: 35px;" title="ניקוי בחירה" (click)="ClearAreaCodeofQuickSearch()" class="fas fa-trash"></i>    
+                <mat-select #AreasSelect [formControl]="Areas" (selectionChange)="ShowAreaTitles()" [(ngModel)]="AreaCodeofQuickSearch">
+                    <mat-option>
+                      <ngx-mat-select-search style="width: 80%" placeholderLabel="חפש תחום" noEntriesFoundLabel="לא נמצא תחום תואם לחיפוש" (keyup)="onKey1()" [formControl]="bankFilterCtrl"></ngx-mat-select-search>
+                     </mat-option>
+                    <mat-option *ngFor="let i of areaslist" [value]="i.Code">{{i.Name}}</mat-option>
+                  </mat-select>
+                </button>
+          <br><br><br><br><br>
+        </div>
+        
+
+        <div *ngIf="Company" style="margin-left: 230px; text-align:center">
+          <button class="col-md-2 search searchButton" (click)="CompanyToFather()"><i class="fas fa-search"></i></button>
+          <input [(ngModel)]="CompanyName" class="col-md-9 search" autocomplete="on" placeholder="הקלד שם חברה לחיפוש">
+          <br><br><br><br><br>
+        </div>
+
+
+
+        </div>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+  <p-dialog position="top" [(visible)]="p_dialog_display"  [style]="{width: '630px'}">
+    <p-header>
+    זמן נסיעה בדקות 
+    </p-header>
+    <br> <br>
+    <mat-slider [value]="TravetTime" thumbLabel [displayWith]="formatLabel" (change)="TravetTime=$event.value"  tickInterval="100" min="0" max="100"></mat-slider>
+    <br> <br>
+    <p-footer>
+        <app-display-button [changeCssEnter]="true" (click)="SaveTravelTime()"></app-display-button>
+    </p-footer>
+
+  </p-dialog>
+<router-outlet></router-outlet>
+                 
