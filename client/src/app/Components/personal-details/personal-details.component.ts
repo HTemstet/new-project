@@ -56,7 +56,8 @@ SaveValidations()
 {
   this.ValidationServ.SavePeopleValidation().subscribe(
     data=>{console.log('success');
-  alert('עודכנו פרטי ההתחברות')},
+  //alert('עודכנו פרטי ההתחברות')},
+  this.messageService.add({key:'mesl', severity:'info', summary:'!יופי', detail: 'עודכנו פרטי ההתחברות', sticky: true})},
     error=>console.log(error.message),
     ()=>console.log('finished')
     );
