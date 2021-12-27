@@ -1,8 +1,13 @@
-<button (click)="searchesManager()">משרות שפרסמתי</button>
-<button (click)="myBusiness()">פרטי העסק שלי</button>
 <div *ngIf="aboutbusiness">
   <form #frmpd="ngForm">
   <h1>{{PeopleServ.surf.FirstName + ' ' +PeopleServ.surf.Name}} - פרטי העסק</h1><br><br>
+
+  <div id="container">
+    <div class="panel savebutton">
+      <button class="panel-heading" style="width: 230px;" (click)="searchesManager()">משרות שפרסמתי</button>
+      <button class="panel-heading" style="width: 230px;" (click)="myBusiness()">פרטי העסק שלי</button> 
+    </div></div><br><br>
+
  <span class="ui-float-label " >
         <input name="Logo" id="float-input" (click)="GetLogo()" style="cursor: pointer" type="text" size="70" pInputText> 
         <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
@@ -21,15 +26,15 @@
      </span>
      <div *ngIf="site_link.invalid && site_link.touched">
         <label class="validation" *ngIf="site_link.errors.pattern">קישור שגוי</label>   
-      </div><br>
+      </div>
      <br><br>
     <span class="ui-float-label " >
-        <textarea size="70" pInputText style="width:592px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
+        <textarea size="70" pInputText style="width:550px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
       <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
          <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
          אודות העסק שלי
       </label>
-     </span><br>
+     </span>
      <br><br>
       <button class="panel-footer" *ngIf="frmpd.form.invalid" (click)="ValidationServ.alert()"> 
           <a style="color: white;" >אישור</a>         

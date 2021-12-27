@@ -839,3 +839,31 @@ C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\�
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojResolveAssemblyReference.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CoreCompileInputs.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml

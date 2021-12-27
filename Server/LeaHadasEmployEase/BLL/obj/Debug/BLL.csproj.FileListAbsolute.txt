@@ -417,3 +417,18 @@ C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\�
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
 C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb

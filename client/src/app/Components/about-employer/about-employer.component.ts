@@ -25,15 +25,33 @@ export class AboutEmployerComponent implements OnInit {
   }
   colorButtonOver()
   { 
-    document.querySelector("button").style.backgroundColor = "rgb(245, 20, 12)";
-    document.querySelector("button").style.color = "white";
-    document.querySelector("button").style.borderColor = "white";
+    document.getElementById("b1").style.backgroundColor = "rgb(245, 20, 12)";
+    document.getElementById("b1").style.color = "white";
+    document.getElementById("b1").style.borderColor = "white";
+   
+    //document.querySelector("button").style.backgroundColor = "rgb(245, 20, 12)";
+    //document.querySelector("button").style.color = "white";
+    //document.querySelector("button").style.borderColor = "white";
   }
   colorButtonOut()
   {
-    document.querySelector("button").style.backgroundColor = "white";
-    document.querySelector("button").style.color = "#34495e";
-    document.querySelector("button").style.borderColor = "rgb(245, 20, 12)";
+    document.getElementById("b1").style.backgroundColor = "white";
+    document.getElementById("b1").style.color = "#34495e";
+    document.getElementById("b1").style.borderColor = "rgb(245, 20, 12)";
+    
+    //document.querySelector("button").style.backgroundColor = "white";
+    //document.querySelector("button").style.color = "#34495e";
+    //document.querySelector("button").style.borderColor = "rgb(245, 20, 12)";
+  }
+  colorButtonOver1(){
+    document.getElementById("b2").style.backgroundColor = "rgb(245, 20, 12)";
+    document.getElementById("b2").style.color = "white";
+    document.getElementById("b2").style.borderColor = "white";
+  }
+  colorButtonOut1(){
+    document.getElementById("b2").style.backgroundColor = "white";
+    document.getElementById("b2").style.color = "#34495e";
+    document.getElementById("b2").style.borderColor = "rgb(245, 20, 12)";
   }
   dispalyAreaselect()
   {
