@@ -79,13 +79,14 @@ namespace BLL.Data_management
         //שמירת בקשה מסוימת וכן קריטריונים לבקשה זו, והחזרת הצעות מתאימות, אם מדובר בבקשה של עובד 
         public List<Requests_FullDTO> SavemyRequest(Requests_FullDTO request)
         {
+            List<Requests_FullDTO> l = JobOffers.GetFittingOffers(request);
             if (request.PeopleCode != 0)
             {
                 Requests r = Requests_FullDTO.convertDTOsetToDB(request);
                 CriterionsofRequestsDTO.DBlist = new List<CriterionsofRequests>();
-                if(request.RequestCode!=0)
+                if (request.RequestCode != 0)
                 {
-                  db.Entry(db.Requests.Find(request.RequestCode)).CurrentValues.SetValues(Requests_FullDTO.convertDTOsetToDB(request));
+                    db.Entry(db.Requests.Find(request.RequestCode)).CurrentValues.SetValues(Requests_FullDTO.convertDTOsetToDB(request));
                     db.CriterionsofRequests.ToList().ForEach(x =>
                     {
                         if (x.RequestCode == request.RequestCode)
@@ -94,15 +95,23 @@ namespace BLL.Data_management
                 }
                 else
                 {
-                  db.Requests.Add(r);
+                    db.Requests.Add(r);
                 }
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
                 db.SaveChanges();
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
-
-                if (r.Employee == false) return new List<Requests_FullDTO>();
+                if (r.Employee == false)
+                {
+                    Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList()).Where(req=>req.Employee==true&&req.AreaCode==r.AreaCode).ToList().ForEach(req =>
+                    {
+                      l = JobOffers.GetFittingOffers(req);
+                        if (l.Count > 0)
+                            SendEmail.SendingJobOffersWheneverThereIsaSuitableOffer(req,l);
+                    });
+                    return new List<Requests_FullDTO>(); 
+                }
             }
-           List<Requests_FullDTO> l=JobOffers.GetFittingOffers(request);
+            l=JobOffers.GetFittingOffers(request);
             return l;
         }
         public List<Requests_FullDTO> QuickSearch(short? AreaCode, string AreaTitleCode, string Place, double? Minutes, string FreeText)

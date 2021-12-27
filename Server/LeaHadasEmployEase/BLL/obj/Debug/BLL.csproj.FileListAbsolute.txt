@@ -432,3 +432,18 @@ d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\Le
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\BLL\obj\Debug\BLL.pdb
