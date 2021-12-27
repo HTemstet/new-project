@@ -59,7 +59,6 @@ export class PeopleService {
   FileName='';
   Placing(file:File,FolderName:string):Observable<any>
  {
-   debugger;
 this.FileName=file.name.split('.')[0]
 let formData=new FormData();
 formData.append('uploadFile',file,file.name);
@@ -67,7 +66,6 @@ return this.myhttp.post<any>(this.basicUrl+'PostFile/'+this.surf.Code+"/"+Folder
  }
  RemoveFile(FolderName:string)
 {
-  debugger;
   return this.myhttp.delete<any>(this.basicUrl+'RemoveFile/'+this.surf.Code+"/"+FolderName);
 }
 SaveSiteLinkandAbout()

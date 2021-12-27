@@ -125,7 +125,6 @@ ReqFeilds(eve:any,AreaTitles = false)
 }
   OkFunc()
   {
-    debugger;
     if(this.AreaCodeofQuickSearch == null||this.AreaCodeofQuickSearch==undefined||this.AreaCodeofQuickSearch==0)
     {
       this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תחום'});
@@ -143,7 +142,7 @@ ReqFeilds(eve:any,AreaTitles = false)
       this.OfferDetails.AreaCode=this.AreaCodeofQuickSearch;
       this.RequestServ.Request.AreaTitles=this.AreaTitlesofQuickSearch == null? ['""']: this.AreaTitlesofQuickSearch.toString();
       this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
-      this.myrouter.navigate(["request"]));
+      this.myrouter.navigate(["request/0"]));
       this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaServ.Area);  
     }
   }

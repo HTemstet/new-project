@@ -11,7 +11,7 @@ export class AreaService{
   basicUrl='http://localhost:53939/api/Area/';
   Allareas:Array<Area>=null;
   Area:number=null;
-  FullArea:Area;
+  FullArea:Area=new Area();
   AreaSearch=null;
   showAreas=null;
   constructor(private myhttp:HttpClient,private PeopleServ:PeopleService) {}

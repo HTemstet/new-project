@@ -15,8 +15,5 @@ export class JobOffersService {
   {
     return this.myhttp.post<any>(this.basicUrl+'SendOfferEmail/'+this.AreaServ.FullArea.Name+"/"+this.PeopleServ.surf.Code+"/"+RequestCode ,JobOfferEmail); 
   }
-  GetRequestByCode(RequestCode:number)
-  {
-    return this.myhttp.get<any>(this.basicUrl+'GetRequestByCode/'+RequestCode); 
-  }
+
 }

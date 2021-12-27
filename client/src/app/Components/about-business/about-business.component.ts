@@ -21,6 +21,11 @@ export class AboutBusinessComponent implements OnInit {
   }
   searchesList = new Array<myRequest>();
   aboutbusiness = true;
+  gotoRequest(requestId)
+  {
+    this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
+    this.myrouter.navigate(["/basicsearch/request/"+requestId]));
+  }
 searchesManager()
 { 
   this.aboutbusiness = false;
@@ -95,7 +100,6 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
   }
   SentToPlacing(FolderName:string)
   {
-    debugger;
   
     if(this.FileList!=null&&this.FileList.length>0)
     {

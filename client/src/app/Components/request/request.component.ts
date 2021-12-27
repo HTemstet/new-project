@@ -6,7 +6,7 @@ import { PeopleService } from 'src/app/Services/people.service';
 import { SimpleObject } from 'src/app/Classes/SimpleObject';
 import { GlobalService } from 'src/app/Services/global.service';
 import {MenuItem, MessageService} from 'primeng/api';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { ValidationService } from 'src/app/Services/validation.service';
 import { NgForm } from '@angular/forms';
 import { myRequest } from 'src/app/Classes/myRequest';
@@ -39,7 +39,8 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
     private RequestServ:RequestService,
     private ValidationServ:ValidationService,
     private messageService:MessageService,
-    private myrouter:Router ) {
+    private myrouter:Router,
+    private activatedRoute:ActivatedRoute ) {
 
 
   }
@@ -68,20 +69,35 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
   Title=new SimpleObject();
   FormValidations=new Array<CriterionsofAreas>(); 
   @ViewChild("CriterionsForm",{static:false}) CriterionsForm:NgForm;
+  requestId:number=0
   ngOnInit() 
   {
+  this.requestId= +this.activatedRoute.snapshot.params["id"];
+  if(this.requestId!=0&&this.RequestServ.Request.RequestCode!=this.requestId)
+  {
+    this.RequestServ.GetRequestByRequestId(this.requestId).subscribe(data=>{
+
+      this.RequestServ.Request=data;
+      this.getTitles();
+      this.ChooseEmployeeFunc();
+    });
+  }
+  else
+  {
+    let emp=this.RequestServ.Request.Employee;
+    this.RequestServ.Request=new myRequest();
+    this.RequestServ.Request.Employee=emp;
   this.getTitles();
   this.ChooseEmployeeFunc();
+  }
   } 
   ChooseEmployeeFunc()
     {
       this.RequestServ.getAllCriterionsByArea().subscribe(
         data=>{
-         console.log('ChooseEmployeeFunc',data);
          if(this.RequestServ.Request.CriterionsofRequests.length == 0||this.RequestServ.Request.CriterionsofRequests[0].AreaCode!= this.AreaServ.FullArea.Code)
           this.RequestServ.Request.CriterionsofRequests=data;
          this.TypesFunc();
-         console.log('criterions', this.RequestServ.Request.CriterionsofRequests[0])
          this.ChooseTitle(this.TitlesList[0]);
         },
         error=>console.log(error.message),
@@ -261,7 +277,6 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
     if(this.PeopleServ.surf.Code==0&&this.rightChoice!=1)
       this.SendEmailRadioChangeevent();
    else{
-    this.modelV=true;
     if(this.rightChoice==1)
     {
       this.RequestServ.Request.SendingJobOffersOnceaDay=false;
@@ -277,9 +292,10 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
         this.RequestServ.Request.SendingJobOffersWheneverThereIsaSuitableOffer=true;
         this.RequestServ.Request.SendingJobOffersOnceaDay=false;
       }
+      if(this.requestId==0)
     this.RequestServ.sendRequest().subscribe(
       data=>{
-        console.log('data',data);
+        this.modelV=true;
         this.RequestServ.JobOffers=data;
         if(this.RequestServ.JobOffers.length>0)
         {
@@ -316,7 +332,32 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
     );
     }
     else
-     this.SendingJobOffers=true;
+    {
+            if(this.requestId==0)
+                this.SendingJobOffers=true;
+            else{
+              this.RequestServ.sendRequest().subscribe(
+                data=>{
+                  this.modelV=true;
+                  this.RequestServ.JobOffers=data;
+                  if(this.RequestServ.JobOffers.length>0)
+                  {
+                    this.myrouter.navigate(['joboffers']);
+                  }
+                 else
+                 {
+                    this.modelVText = 'אין הצעות מתאימות כרגע, חכה להצעות מתאימות או שנה את הגדרות הסוכן ';
+                 }
+                },
+                error=>console.log(error.message),
+                ()=>console.log('finished')
+              );
+            }
+    }
+  }
+  updateEmailsStatus()
+  {
+    this.SendingJobOffers=true;
   }
   Previos(e:any)
   {
@@ -334,7 +375,6 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
   {
     if(this.FormValidations.length>0)
     {
-      debugger;
       this.messageService.clear();
       this.messageService.add({key: 'a', severity:'error', summary:'שגיאה', detail:'טופס שגוי'});  
       return;
@@ -356,7 +396,6 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
   showConfirm() {
   if(this.FormValidations.length>0)
   {
-    debugger;
     this.messageService.clear();
     this.messageService.add({key: 'a', severity:'error', summary:'שגיאה', detail:'טופס שגוי'});
     return;
@@ -370,6 +409,16 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
     this.finish=true;
     this.messageService.clear();
     this.messageService.add({key: 'c', sticky: true, severity:'warn', summary:'Are you sure?', detail:'Confirm to proceed'});
+}
+removeRequest()
+{
+  this.RequestServ.deleteRequest(this.requestId).subscribe(data=>{ 
+   this.messageService.add({severity:'success', summary: 'אישור', detail:'הבקשה נמחקה בהצלחה'});
+    setTimeout( () => { 
+      this.finish=true;
+      this.myrouter.navigateByUrl('freeorbyrareaserach');
+    }, 3000 );
+  })
 }
 InValid(i:CriterionsofAreas)
 {

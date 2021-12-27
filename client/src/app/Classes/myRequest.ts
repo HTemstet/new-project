@@ -4,7 +4,7 @@ import { People } from './People';
 export class myRequest
 {
     constructor(
-        public RequestCode = -1,
+        public RequestCode = 0,
         public PeopleCode=0,
         public PeopleOffer=new People(),
         public AreaCode=0,

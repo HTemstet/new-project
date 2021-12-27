@@ -31,7 +31,7 @@ export const routing:Routes=[
     { path:'aboutbusiness',component:AboutBusinessComponent},
     { path:'jobmanagement',component:JobManagementComponent},
     { path:'basicsearch',component:BasicSearchComponent,children:
-    [{path:'request',component:RequestComponent,canDeactivate: [PendingChangesGuard]}]}
+    [{path:'request/:id',component:RequestComponent,canDeactivate: [PendingChangesGuard]}]}
 
     // { path: '**', component: PageNotFoundComponent }
     // try_files $uri $uri/ /index.html =404;.

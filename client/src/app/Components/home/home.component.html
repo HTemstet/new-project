@@ -1,32 +1,31 @@
 <div class="logo" >
 <img class="imglogo" src="../../assets/Pictures/לוגו פרוייקט מלא.jpg" width="150px" height="80px">
 </div>
+
 <!-- <button (click)="CheckGoogleCSharpDistances()">בדיקת מרחקים בגוגל דרך C#</button>
 <button (click)="try()">ניסוי</button> -->
 <br><br><br>
 <nav>
     <a routerLink="/about">
-      <span class="glyphicon glyphicon-home" aria-hidden="true" style="font-size:15px;margin-right:10px"></span>JOBBA למה
-    </a>  
+      <span class="glyphicon glyphicon-home" aria-hidden="true" style="font-size:15px;margin-right:10px"></span>JOBBA למה</a>  
         <!-- <a *ngIf="GlobalServ.OccuredEnterance==false" (click)="newUser()">
             <i style='font-size:14px;margin-right:10px' class='fas'>&#xf234;</i> משתמש חדש</a>  -->
-    <a (click)="aboutEmployee()">
-      <i style='font-size:16px;margin-right:10px'  class='far'>&#xf2bb;</i>
-       ניהול חיפושים ומשרות
-    </a>
-    <a *ngIf="GlobalServ.OccuredEnterance==false" (click)="enter()">
-      <i style='font-size:15px;margin-right:10px' class='fas'>&#xf007;</i>כניסה</a>     
-       <a *ngIf="GlobalServ.OccuredEnterance==true" routerLink="/personaldetails">
-          <i style='font-size:16px;margin-right:10px'  class='far'>&#xf2bb;</i>
-            {{PeopleServ.surf.FirstName}} פרטים אישיים
-            <div *ngIf="showLoginSelect==true"></div>
-       </a>                     
-    <a (click)="RequestServ.Request.Employee=false;aboutEmployer()">
-        <span aria-hidden="true" style="margin-right:10px"></span><i class="fas fa-user-tag"></i>  גיוס עובדים </a>         
-    <a (click)="RequestServ.Request.Employee=true;dispalyAreaselect(true)">
-        <span aria-hidden="true" style="margin-right:10px"><i class="fas fa-search"></i></span>חיפוש עבודה</a>                         
-        <div class="animation start-contact"></div>
-</nav>
+            <a (click)="aboutEmployee()">
+              <i style='font-size:16px;margin-right:10px'  class='far'>&#xf2bb;</i>
+           ניהול חיפושים ומשרות
+                </a>
+            <a *ngIf="GlobalServ.OccuredEnterance==false" (click)="enter()">
+                <i style='font-size:15px;margin-right:10px' class='fas'>&#xf007;</i>כניסה</a>     
+                <a *ngIf="GlobalServ.OccuredEnterance==true" routerLink="/personaldetails">
+                  <i style='font-size:16px;margin-right:10px'  class='far'>&#xf2bb;</i>
+                  {{PeopleServ.surf.FirstName}} פרטים אישיים<div *ngIf="showLoginSelect==true">
+                  </div></a>                     
+          <a (click)="RequestServ.Request.Employee=false;aboutEmployer()">
+              <span aria-hidden="true" style="margin-right:10px"></span><i class="fas fa-user-tag"></i>  גיוס עובדים </a>         
+          <a (click)="RequestServ.Request.Employee=true;dispalyAreaselect(true)">
+              <span aria-hidden="true" style="margin-right:10px"><i class="fas fa-search"></i></span>חיפוש עבודה</a>                         
+<div class="animation start-contact"></div>
+    </nav>
 <br><br>
 <div [ngClass]="{'spaces col-md-11': GlobalServ.OccuredArea===true, 'col-md-12': GlobalServ.OccuredArea=== false}" style="text-align: center">
     <router-outlet></router-outlet>

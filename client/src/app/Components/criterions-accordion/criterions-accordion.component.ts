@@ -41,7 +41,6 @@ else
       else
         crit = ((i.FeildValidation.indexOf('required') > -1 && i.ValueofCriterion == null) ||
           (i.FeildValidation.indexOf('dynamically') > -1 && (i.ValueofCriterion == "true"))) ? i : null;
-         debugger;
           if (crit != null) {
         let parent = ele._body.nativeElement.parentNode;
         while (parent != null && parent.tagName != undefined) {
@@ -101,7 +100,6 @@ else
   }
   headerclicked(event)
   {
-   debugger;
    
   }
   ShowValidationMessage(ele, i: CriterionsofAreas, exp) {
@@ -134,7 +132,6 @@ else
         }
         parent = parent.parentNode;
       }
-      debugger;
       if (i.FeildValidation == null || i.FeildValidation == undefined || i.FeildValidation.indexOf('dynamically') == -1)
         this.valid.emit(i)
       exp.open();
@@ -166,7 +163,6 @@ else
     return i.Check;
   }
   checkedCheckBox(i, ele, exp) {
-    debugger;
     if (ele.checked) {
       i.Check = true;
       i.ValueofCriterion = "true";

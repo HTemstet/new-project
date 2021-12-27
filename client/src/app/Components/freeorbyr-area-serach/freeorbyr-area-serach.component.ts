@@ -195,15 +195,15 @@ import { MatSelect } from '@angular/material/select';
     ()=>console.log('finished')
   );
   }
-  goToRequest = false;
   basicSearchClick(e:any)
   {
+    debugger;
     if(e[0]==0||e[0]==undefined||e[0]==null)
     {
       this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תחום'});
     }
     else
-      if(e[1]==['""']||e[1]==null||e[1][0]=='""')
+      if(e[1]==['""']||e[1]==""||e[1]==null||e[1][0]=='""')
     {
       this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תפקיד/ים'});
     }
@@ -216,9 +216,8 @@ import { MatSelect } from '@angular/material/select';
        this.RequestServ.Request.AreaTitles=e[1];
        this.RequestServ.Request.Place=e[2];
        this.RequestServ.Request.EmployTravelTime=e[3];
-       this.goToRequest = true;   
        this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
-       this.myrouter.navigate(["/basicsearch/request"]));
+       this.myrouter.navigate(["/basicsearch/request/0"]));
        this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaServ.Area);
       }
       else

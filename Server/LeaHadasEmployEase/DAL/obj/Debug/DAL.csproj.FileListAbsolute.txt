@@ -1,22 +1,11 @@
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\DAL.dll.config
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\DAL.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\DAL.pdb
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\EntityFramework.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\EntityFramework.SqlServer.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\EntityFramework.xml
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\bin\Debug\EntityFramework.SqlServer.xml
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\obj\Debug\DAL.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\obj\Debug\DAL.pdb
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll.config
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.pdb
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.xml
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.xml
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.dll
-d:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.pdb

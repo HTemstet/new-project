@@ -48,11 +48,17 @@ namespace Web_API.Controllers
         {
             return Ok(new RequestBLL().GetFreeList());
         }
-        //קבלת בקשה מסוימת עפי קוד איש- לצורך תצוגת החיפושים למשתמש
+        //קבלת בקשות מסוימות עפי קוד איש- לצורך תצוגת החיפושים למשתמש
         [Route("GetRequestsByPeople/{PeopleCode}/{Employee}")]
         public IHttpActionResult GetRequestsByPeople(short PeopleCode,bool Employee)
         {
             return Ok(new RequestBLL().GetRequestsByPeople(PeopleCode, Employee));
+        }
+        //קבלת בקשה מסוימת עפי קוד בקשה
+        [Route("GetRequestByRequestId/{requestId}")]
+        public IHttpActionResult GetRequestByRequestId(short requestId)
+        {
+            return Ok(new RequestBLL().GetRequestByRequestId(requestId));
         }
         //בדיקת מרחקים בגוגל
         [Route("GetTravelTime")]
@@ -60,6 +66,17 @@ namespace Web_API.Controllers
         {
             //return Ok(JobOffers.GetTravelTime("Antwerpen Airport", "Antwerpen"));
             return Ok(JobOffers.GetTravelTime("Jerusalem", "Tel-Aviv"));
+        }
+        //קבלת בקשה מסוימת עפי קוד - שימושי לצורך יצירת קשר דרך משרה שנשלחה למייל
+        [Route("GetRequestByCode/{RequestCode}")]
+        public IHttpActionResult GetRequestByCode(short RequestCode)
+        {
+            return Ok(new RequestBLL().GetRequestByCode(RequestCode));
+        }
+        [Route("DeleteRequest/{RequestCode}")]
+        public void DeleteRequest(short RequestCode)
+        {
+            new RequestBLL().RemoveRequest(RequestCode);
         }
     }
 }

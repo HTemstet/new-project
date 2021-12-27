@@ -37,7 +37,6 @@ export class RequestService {
   QuickSearch(AreaCode:number, AreaTitleCode:string,
     Place:string,Minutes:number,FreeText:string):Observable<Array<myRequest>>
   {
-    debugger;
     return this.myhttp.get<Array<myRequest>>(this.basicUrl+'QuickSearch/'+AreaCode+'/'+ AreaTitleCode+
     '/'+(Place==''?'""':Place)+'/'+Minutes+'/'+(FreeText==''?'""':FreeText));
   }
@@ -57,5 +56,17 @@ export class RequestService {
   GetRequestsByPeople(Employee:boolean)
   {
     return this.myhttp.get<any>(this.basicUrl+'GetRequestsByPeople/'+this.PeopleServ.surf.Code+"/"+Employee); 
+  }
+  GetRequestByRequestId(requestId:number)
+  {
+    return this.myhttp.get<any>(this.basicUrl+'GetRequestByRequestId/'+requestId); 
+  }
+  GetRequestByCode(RequestCode:number)
+  {
+    return this.myhttp.get<any>(this.basicUrl+'GetRequestByCode/'+RequestCode); 
+  }
+  deleteRequest(RequestCode:number)
+  {
+    return this.myhttp.delete<any>(this.basicUrl+'DeleteRequest/'+RequestCode); 
   }
 }

@@ -83,9 +83,23 @@ namespace BLL.Data_management
             {
                 Requests r = Requests_FullDTO.convertDTOsetToDB(request);
                 CriterionsofRequestsDTO.DBlist = new List<CriterionsofRequests>();
-                db.Requests.Add(r);
+                if(request.RequestCode!=0)
+                {
+                  db.Entry(db.Requests.Find(request.RequestCode)).CurrentValues.SetValues(Requests_FullDTO.convertDTOsetToDB(request));
+                    db.CriterionsofRequests.ToList().ForEach(x =>
+                    {
+                        if (x.RequestCode == request.RequestCode)
+                            db.CriterionsofRequests.Remove(x);
+                    });
+                }
+                else
+                {
+                  db.Requests.Add(r);
+                }
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
                 db.SaveChanges();
+                db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
+
                 if (r.Employee == false) return new List<Requests_FullDTO>();
             }
            List<Requests_FullDTO> l=JobOffers.GetFittingOffers(request);
@@ -159,5 +173,22 @@ namespace BLL.Data_management
             else
                 return null;
         }
+        //קבלת בקשה מסוימת עפי קוד בקשה
+        public Requests_FullDTO GetRequestByRequestId(short requestId)
+        { 
+            Requests_FullDTO q = Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList())
+                .Find(x => x.RequestCode == requestId);
+            if (q!=null)
+                q.CriterionsofRequests = JobOffers.getCriterionsofRequests(q.AreaCode, q.CriterionsofRequests.ToList());
+            return q;
+        }
+        //קבלת בקשה מסוימת עפי קוד בקשה
+        public void RemoveRequest(short requestId)
+        {
+            db.Requests.Remove(db.Requests.ToList().Find(r => r.RequestCode == requestId));
+            db.CriterionsofRequests.RemoveRange(db.CriterionsofRequests.ToList().Where(r => r.RequestCode == requestId));
+            db.SaveChanges();
+         }
+
     }
 }

@@ -18,9 +18,9 @@ export class HomeComponent implements OnInit {
   AreaSearch=null;
   LogosList =new Array<any>();
   LogosRandom = false;
-  constructor(private GlobalServ:GlobalService, private messageService:MessageService,
-    private AreaServ:AreaService,private PeopleServ:PeopleService,
-    private ValidationServ:ValidationService, private RequestServ:RequestService ,private myrouter:Router) { }
+  constructor(private GlobalServ:GlobalService,    private messageService:MessageService,
+     private AreaServ:AreaService,private PeopleServ:PeopleService,
+    private ValidationServ:ValidationService, private RequestServ:RequestService,private myrouter:Router) { }
     ngOnInit() {
     // RouterModule.forRoot(ROUTES,{ useHash: true })
     this.AreaServ.getAreas();
@@ -106,7 +106,6 @@ aboutEmployer()
 }
 dispalyAreaselect(click=false)
 {
-  debugger;
   this.RequestServ.Request.Employee=true;
   if(window.location.href=="http://localhost:4200/"||click == true)
     this.myrouter.navigate(["/freeorbyrareaserach"]);  

@@ -19,11 +19,5 @@ namespace Web_API.Controllers
             new JobsAppliedForBLL().AddJobsAppliedFor(PeoppleCode,RequestCode);
             JobOfferEmail.SendOfferEmail(Area);
         }
-        //קבלת בקשה מסוימת עפי קוד - שימושי לצורך יצירת קשר דרך משרה שנשלחה למייל
-        [Route("GetRequestByCode/{RequestCode}")]
-        public IHttpActionResult GetRequestByCode(short RequestCode)
-        {
-            return Ok(new RequestBLL().GetRequestByCode(RequestCode));
-        }
     }
 }

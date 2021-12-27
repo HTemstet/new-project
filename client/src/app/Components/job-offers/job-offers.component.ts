@@ -27,7 +27,7 @@ export class JobOffersComponent implements OnInit {
    if(document.location.href.indexOf('?')!=-1)
    {
     const httpParams = new HttpParams({ fromString: document.location.href.split('?')[1] });
-    this.JobOffersServ.GetRequestByCode(+httpParams.get('JobID')).subscribe(
+    this.RequestServ.GetRequestByCode(+httpParams.get('JobID')).subscribe(
     data=>{
       if(data!=null)
        this.RequestServ.JobOffers = data;
@@ -45,13 +45,6 @@ export class JobOffersComponent implements OnInit {
     CV='';
     ContactDetails=false;
     PreliminaryLetter='';
-    //#endregion
-  ChooseOffer(Code:number)
- {
-  this.RequestServ.Request.CriterionsofRequests=this.RequestServ.JobOffers[Code].CriterionsofRequests;
-  this.myrouter.navigateByUrl('freeorbyrareaserach', {skipLocationChange: true}).then(()=>
-  this.myrouter.navigate(["/request"]));
- }
 
 //  
 step = 0;
@@ -66,10 +59,10 @@ nextStep() {
 prevStep() {
   this.step--;
 }
-OpenCriterions()
+OpenCriterions(requestId)
 {
   //window.open("http://localhost:4200/joboffers", "_blank"); // Open new tab
-  this.myrouter.navigate(["/request"]);
+  this.myrouter.navigate(["/request/"+requestId]);
 }
 SendOfferEmail()
 {

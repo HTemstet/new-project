@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'd:\Users\User\Downloads\פרויקט טבת תשפב!!!\Server\LeaHadasEmployEase\DAL\DAL\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\פרויקט גמר - טרום סיום\Server\LeaHadasEmployEase\DAL\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -3,7 +3,7 @@ import { AreaService } from 'src/app/Services/area.service';
 import { SimpleObject } from 'src/app/Classes/SimpleObject';
 import { GlobalService } from 'src/app/Services/global.service';
 import { MessageService } from 'primeng/api';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { AreasTitlesService } from 'src/app/Services/areas-titles.service';
 import { RequestService } from 'src/app/Services/request.service';
 import { MatSelect } from '@angular/material/select';
@@ -25,6 +25,9 @@ export class BasicSearchComponent implements OnInit,AfterViewInit {
     this.AreaServ.getAreaswithoutSubscribe().subscribe(
       data=>{this.AreaServ.Allareas=data;
         this.areaslist = data.sort((a, b) => a.Name > b.Name ? 1 : a.Name === b.Name ? 0 : -1);
+        this.AreaServ.Area=this.AreaCodeofQuickSearch;
+        this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaCodeofQuickSearch);
+    
         this.ShowAreaTitles();
       },
       error=>console.log(error.message),
@@ -37,8 +40,9 @@ this.ShowAreaTitles();
   constructor(private GlobalServ:GlobalService, private RequestServ:RequestService,
     private AreaServ:AreaService, private AreasTitlesServ:AreasTitlesService,
     private messageService: MessageService,
-    private myrouter:Router) { }
-
+    private myrouter:Router,
+    private activatedRoute:ActivatedRoute) { }
+requestId:number=0;
   ngOnInit() {
     this.AreaServ.getAreaswithoutSubscribe().subscribe(
       data=>{this.AreaServ.Allareas=data;
@@ -47,19 +51,46 @@ this.ShowAreaTitles();
       error=>console.log(error.message),
       ()=>console.log('finished')
     );
-   this.AreaCodeofQuickSearch =  this.RequestServ.Request.AreaCode;
-   this.ChooseAreaForQuickSearch();
-   this.AreaTitlesofQuickSearch = this.GlobalServ.Titles;
-   this.GoogleSearchInput =  this.RequestServ.Request.Place;
-   this.TravetTime =  this.RequestServ.Request.EmployTravelTime;
-   if(this.Quick==true) 
-   {
-     this.RequestServ.GetFreeList().subscribe(
-      data=> this.FreeList = data,
-      error=>console.log(error.message),
-      ()=>console.log('finished')
-    );
-   }
+    let url=window.location.href;
+    let index=url.indexOf('request')+8;   
+    this.requestId= +window.location.href.substr(index)||0;
+    if(this.requestId!=0)
+    {
+      this.RequestServ.GetRequestByRequestId(this.requestId).subscribe(data=>{
+        this.RequestServ.Request=data;
+        this.initialize();
+        let selectedTitles=this.RequestServ.Request.AreaTitles.split(",");
+        if(selectedTitles.length>0)
+        {
+          this.AreaTitlesofQuickSearch=[];
+          selectedTitles.forEach(x=>
+            this.AreaTitlesofQuickSearch.push(+x));
+            this.ShowAreaTitles();
+        }   
+      });
+    }
+    else
+    this.initialize();
+
+  }
+  initialize()
+  {
+    this.AreaCodeofQuickSearch=this.AreaServ.Area;
+    if(this.AreaCodeofQuickSearch==undefined||this.AreaCodeofQuickSearch==0)
+      this.AreaCodeofQuickSearch =  this.RequestServ.Request.AreaCode;
+
+    this.ChooseAreaForQuickSearch();
+    this.AreaTitlesofQuickSearch = this.GlobalServ.Titles;
+    this.GoogleSearchInput =  this.RequestServ.Request.Place;
+    this.TravetTime =  this.RequestServ.Request.EmployTravelTime;
+    if(this.Quick==true) 
+    {
+      this.RequestServ.GetFreeList().subscribe(
+       data=> this.FreeList = data,
+       error=>console.log(error.message),
+       ()=>console.log('finished')
+     );
+    }
   }
   @Input() Quick=false;
   @Input() Company=false;
@@ -73,7 +104,7 @@ this.ShowAreaTitles();
   ShowProffesionalAreaTitles =false;
   AreaCode=0;
   AreaTitlesofProf=['']
-  AreaTitlesofQuickSearch=['""']
+  AreaTitlesofQuickSearch:any=['""']
   AreaTitlesProf = new FormControl();
   FreeText = new FormControl();
   FreeTextSearch = '';
@@ -107,7 +138,7 @@ this.ShowAreaTitles();
   {
     this.RequestServ.Request.AreaTitles=this.AreaTitlesofProf.toString();
     this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
-    this.myrouter.navigate(["request"]));
+    this.myrouter.navigate(["request/"+this.RequestServ.Request.RequestCode]));
     this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaServ.Area);
   }
   popUpTravelTime()
@@ -150,11 +181,14 @@ ShowAreaTitles()
 {
   if(this.AreaCodeofQuickSearch!=undefined&&this.AreaCodeofQuickSearch!=0)
   {
+if(this.AreaServ.Area!=this.AreaCodeofQuickSearch)
+     this.AreaTitlesofQuickSearch=[];
     this.AreaServ.Area=this.AreaCodeofQuickSearch;
+   
     this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaCodeofQuickSearch);
     this.AreasTitlesServ.getAreasTitles(this.AreaCodeofQuickSearch).
     subscribe(
-      data=>{this.AreasTitlesServ.AreasTitlesList =data,
+      data=>{this.AreasTitlesServ.AreasTitlesList =data;
       this.areastitleslist = data.sort((a, b) => a.Name > b.Name ? 1 : a.Name === b.Name ? 0 : -1);
       if( this.AreaTitlesSelect)
         this.AreaTitlesSelect.open();
@@ -167,7 +201,6 @@ ShowAreaTitles()
 }
 SaveTravelTime()
 {
-  debugger;
   this.p_dialog_display=false;
   if(this.AreaServ.showAreas&&this.AreaServ.AreaSearch)
     this.RequestServ.Request.EmployTravelTime=this.TravetTime;
@@ -179,15 +212,37 @@ formatLabel(value: number) {
   }
   return value;
 }
-h()
-{
-  alert('hi')
-}
 SendToFather()
 {
   this.GlobalServ.Titles = this.AreaTitlesofQuickSearch
+  if(window.location.href.indexOf("request")==-1)
     this.continue_event.emit([this.AreaCodeofQuickSearch, this.AreaTitlesofQuickSearch.toString(),
-      this.GoogleSearchInput,this.TravetTimeToSsve,this.FreeSearchText]);  
+      this.GoogleSearchInput,this.TravetTimeToSsve,this.FreeSearchText]); 
+  else 
+   this.criterionsRefresh([this.AreaCodeofQuickSearch, this.AreaTitlesofQuickSearch.toString(),
+    this.GoogleSearchInput,this.TravetTimeToSsve,this.FreeSearchText]);
+}
+criterionsRefresh(e:any)
+{
+  if(e[0]==0||e[0]==undefined||e[0]==null)
+  {
+    this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תחום'});
+  }
+  else
+    if(e[1]==['""']||e[1]==""||e[1]==null||e[1][0]=='""')
+  {
+    this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תפקיד/ים'});
+  }
+  else
+  {
+    this.RequestServ.Request.AreaCode=e[0];
+    this.RequestServ.Request.AreaTitles=e[1];
+    this.RequestServ.Request.Place=e[2];
+    this.RequestServ.Request.EmployTravelTime=e[3];
+    this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
+    this.myrouter.navigate(["/basicsearch/request/"+this.requestId]));
+    this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaServ.Area);
+  } 
 }
   onKey1()
   {
@@ -230,6 +285,7 @@ SendToFather()
  }
  ClearAreaCodeofQuickSearch()
  {
+   debugger;
    this.AreaCodeofQuickSearch =0;
    this.AreaTitlesofQuickSearch =['""'];
  }

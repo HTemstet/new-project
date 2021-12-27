@@ -20,7 +20,8 @@
         <div style="text-align: right;margin-right: 150px;font-size: 18px;">
           <label>תחום: {{getAreaNameByCode(i.AreaCode)}}</label><br>
           <label>מיקום: {{i.Place}}</label><br>
-          <label>תדירות קבלת הצעות מתאימות: {{gettingOffersFrequency(i)}}</label>  
+          <label>תדירות קבלת הצעות מתאימות: {{gettingOffersFrequency(i)}}</label> 
+          <button (click)="gotoRequest(i.RequestCode)">עדכון/מחיקת בקשה</button>
           </div>
         <mat-action-row>
           <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>

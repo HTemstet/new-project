@@ -20,6 +20,11 @@ export class JobManagementComponent implements OnInit {
   ngOnInit() {
  
 }
+gotoRequest(requestId)
+{
+  this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
+  this.myrouter.navigate(["/basicsearch/request/"+requestId]));
+}
 searches = false;
 searchesManager()
 { 
@@ -88,7 +93,6 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
   }
   SentToPlacing(FolderName:string)
   {
-    debugger;
     if(this.FileList!=null&&this.FileList.length>0)
     {
       let File:File=this.FileList[0];

@@ -6,7 +6,7 @@
                <input class="required" (focus)="placefocus($event)" (blur)="placeblur($event)" placeholder="" required name="Place" #Place="ngModel" [(ngModel)]="RequestServ.Request.Place" 
                (change)="RequestServ.Request.Place!=''?ReqFeilds($event):null" id="float-input" 
                 ngx-google-places-autocomplete (onAddressChange)="handleAddressChange($event)"  type="text"
-                size="53" pInputText> 
+                size="50" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-map-marker" style="margin-left:5px"></i></span>
               מיקום 
@@ -17,16 +17,15 @@
              </div>
             <br><br>
             <span class="ui-float-label " >
-               <input name="Time" id="float-input" (click)="popUpTravelTime()" [(ngModel)]="RequestServ.Request.EmployTravelTime" style="cursor: pointer"
-                type="text" size="53" pInputText> 
+               <input name="Time" id="float-input" (click)="popUpTravelTime()" [(ngModel)]="RequestServ.Request.EmployTravelTime" style="cursor: pointer" type="text" size="50" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-clock-o" style="margin-left:5px"></i></span>
             זמן נסיעה לעובד
              </label>
             </span>
-            <br><br>
+            <br>
             <span class="ui-float-label " >
-              <textarea size="53" pInputText style="width:430px;color:black;height:110px" id="float-input" name="MoreDetails" [(ngModel)]="OfferDetails.MoreDetails"></textarea>
+              <textarea size="50" pInputText style="width:430px;color:black;height:110px" id="float-input" name="MoreDetails" [(ngModel)]="OfferDetails.MoreDetails"></textarea>
               <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
                 פרטים נוספים
@@ -35,9 +34,9 @@
      </div> 
      <div class="col-md-offset-3 col-md-2 rightdiv">
          <span class="ui-float-label " >
-               <input class="required" (change)="OfferDetails.Name!=''?ReqFeilds($event):null" [(ngModel)]="OfferDetails.Name"
-               type="text" name="Name" required 
-               #Name="ngModel" id="float-input" size="53" pInputText> 
+               <input class="required" (change)="OfferDetails.Name!=''?ReqFeilds($event):null" [(ngModel)]="OfferDetails.Name" type="text" name="Name"
+               required 
+               #Name="ngModel" id="float-input" size="50" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
                   <span><i class="fa fa-tag" style="margin-left:5px"></i></span>
                   שם משרה
@@ -51,7 +50,7 @@
                 <input [(ngModel)]="OfferDetails.OfferDescription" name="OfferDescription"
                 type="text"
                 id="float-input" #OfferDescription="ngModel" id="float-input" 
-                type="text"  size="53" pInputText> 
+                type="text"  size="50" pInputText> 
                 <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
                 <span><i class="fa fa-tags" style="margin-left:5px"></i></span>
                תאור משרה 

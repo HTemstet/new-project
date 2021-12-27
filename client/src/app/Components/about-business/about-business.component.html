@@ -1,14 +1,9 @@
+<button (click)="searchesManager()">משרות שפרסמתי</button>
+<button (click)="myBusiness()">פרטי העסק שלי</button>
 <div *ngIf="aboutbusiness">
   <form #frmpd="ngForm">
   <h1>{{PeopleServ.surf.FirstName + ' ' +PeopleServ.surf.Name}} - פרטי העסק</h1><br><br>
-
-<div id="container">
-<div class="panel savebutton">
-  <button class="panel-heading" style="width: 230px;" (click)="searchesManager()">משרות שפרסמתי</button>
-  <button class="panel-heading" style="width: 230px;" (click)="myBusiness()">פרטי העסק שלי</button>
-</div></div><br><br>
- 
-  <span class="ui-float-label">
+ <span class="ui-float-label " >
         <input name="Logo" id="float-input" (click)="GetLogo()" style="cursor: pointer" type="text" size="70" pInputText> 
         <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
       <span><i class="fa fa-picture-o" style="margin-left:5px"></i></span>
@@ -29,7 +24,7 @@
       </div><br>
      <br><br>
     <span class="ui-float-label " >
-        <textarea size="70" pInputText style="width:545px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
+        <textarea size="70" pInputText style="width:592px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
       <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
          <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
          אודות העסק שלי
@@ -88,6 +83,7 @@
           <label>מיקום: {{i.Place}}</label><br>
           <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
           <label>{{i.RequestOfferDetails.MoreDetails}} :פרטים נוספים</label><br>
+          <button (click)="gotoRequest(i.RequestCode)">עדכון/מחיקת משרה</button>
           </div>
         <mat-action-row>
           <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>

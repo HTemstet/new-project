@@ -6,7 +6,7 @@
     <mat-expansion-panel *ngFor="let i of RequestServ.JobOffers;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-description>
-            <a (click)="OpenCriterions()" routerLink=""> אחוזי התאמת ההצעה: {{i.AdjustmentPercentages}}</a>        
+            <a (click)="OpenCriterions(i.RequestCode)" routerLink=""> אחוזי התאמת ההצעה: {{i.AdjustmentPercentages}}</a>        
           <mat-icon></mat-icon>
           {{i.PeopleOffer.FirstName+' '+i.PeopleOffer.Name}}
         </mat-panel-description>

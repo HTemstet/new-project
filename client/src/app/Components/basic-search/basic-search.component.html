@@ -6,18 +6,19 @@
         <div class="quicksearchdiv">
           <br><br><br>
           <div *ngIf="!Company" style="text-align:center">
-          <button *ngIf="!Quick" class="col-md-offset-1 col-md-2 search searchwideButton" (click)="SendToFather()">המשך לקריטריונים</button>
-          <button *ngIf="Quick" class="col-md-offset-1 col-md-1 search searchButton" (click)="SendToFather()"><i class="fas fa-search"></i></button>
+          <button #continueButton *ngIf="!Quick" class="col-md-offset-1 col-md-2 search searchwideButton" [disabled]="criterionsDisplay?'disabled':''" [style.backGround.gray]="criterionsDisplay" (click)="SendToFather()">המשך לקריטריונים</button>
+          <button #quickContinueButton *ngIf="Quick" class="col-md-offset-1 col-md-1 search searchButton" (click)="SendToFather()"><i class="fas fa-search"></i></button>
           <button *ngIf="Quick" class="col-md-2 search">
-              <input (keyup)="completeText()" (focus)="showMatSelect()"  *ngIf="Quick" [(ngModel)]="FreeSearchText" style="height: 51px; width: 240px;margin-left: -9%;font-size: 22px; color:black; text-align: right;padding-right: 30px;" autocomplete="on" placeholder="חיפוש חופשי">
+              <input (keyup)="completeText()" (focus)="showMatSelect()"  *ngIf="Quick" [(ngModel)]="FreeSearchText" style="height: 51px;margin-left: -10%;" autocomplete="on" placeholder="חיפוש חופשי">
             <mat-select #Free *ngIf="FreeSearchText!=''&&matSelectShown" [(ngModel)]="FreeSearchText" [formControl]="FreeText">
               <mat-option *ngFor="let i of FreeListSpecific" [value]="i">{{i}}</mat-option>
             </mat-select>
+
           </button>
           <button class="col-md-2 search" (click)="popUpTravelTime()">זמן נסיעה</button>
           <input class="col-md-2 search form-control"  ngx-google-places-autocomplete [(ngModel)]="GoogleSearchInput" (onAddressChange)="handleAddressChange($event)"/>    
             <button class="col-md-2 search" (click)="AreaTitlesSelectOpen($event)">תפקיד
-              <i *ngIf="areaTtlesSelected()==1" style="cursor: pointer;float:left;opacity: 0.5;margin-top: 15px;height: 35px;" title="ניקוי בחירה" (click)="ClearAreaTitlesofQuickSearch()" class="fas fa-trash"></i>   
+              <i  *ngIf="areaTtlesSelected()==1" style="cursor: pointer;float:left;opacity: 0.5;margin-top: 15px;height: 35px;" title="ניקוי בחירה" (click)="ClearAreaTitlesofQuickSearch()" class="fas fa-trash"></i>   
               <mat-select #AreaTitlesSelect *ngIf="AreaCodeofQuickSearch!=undefined&&AreaCodeofQuickSearch!=0" [(ngModel)]="AreaTitlesofQuickSearch" [formControl]="AreaTitles" multiple>
                   <mat-option>
                     <ngx-mat-select-search style="width: 80%" placeholderLabel="חפש תפקידים" noEntriesFoundLabel="לא נמצאו תפקידים" (keyup)="onKeyTitles1()" [formControl]="bankMultiFilterCtrl"></ngx-mat-select-search>
@@ -63,5 +64,6 @@
     </p-footer>
 
   </p-dialog>
+  <p-toast position="bottom-center"></p-toast>
 <router-outlet></router-outlet>
                  
