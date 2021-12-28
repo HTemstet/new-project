@@ -134,15 +134,16 @@ ReqFeilds(eve:any,AreaTitles = false)
       this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תפקיד/ים'});
     }
     else{
-      this.RequestServ.Request.RequestOfferDetails=this.OfferDetails;
+      this.RequestServ.RequestOfferDetails=this.OfferDetails;
       this.RequestServ.Request.Employee=false;
       this.GlobalServ.OccuredArea=true;
       // this.Continue=true;
       this.RequestServ.Request.AreaCode = this.AreaCodeofQuickSearch;
       this.OfferDetails.AreaCode=this.AreaCodeofQuickSearch;
+      debugger;
       this.RequestServ.Request.AreaTitles=this.AreaTitlesofQuickSearch == null? ['""']: this.AreaTitlesofQuickSearch.toString();
       this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
-      this.myrouter.navigate(["request/0"]));
+      this.myrouter.navigate(["basicsearch/request/0"]));
       this.AreaServ.FullArea=this.AreaServ.Allareas.find(x=>x.Code==this.AreaServ.Area);  
     }
   }
@@ -203,11 +204,13 @@ ReqFeilds(eve:any,AreaTitles = false)
  public bankMultiFilterCtrl: FormControl = new FormControl();
  ClearAreaTitlesofQuickSearch()
  {
+   ;
   this.AreaTitlesofQuickSearch =['""'];
  }
  ClearAreaCodeofQuickSearch()
  {
    this.AreaCodeofQuickSearch =0;
+   ;
    this.AreaTitlesofQuickSearch =['""'];
  }
 areaTtlesSelected()

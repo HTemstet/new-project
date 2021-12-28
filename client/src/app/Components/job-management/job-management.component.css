@@ -18,3 +18,27 @@
   .mat-expansion-panel-header .mat-panel-title{
     text-align: right;
   }
+  .butt{
+    color: white;
+    background-image: linear-gradient(90deg, #34495e, rgb(245, 20, 12));   
+    border-radius: 15px;
+    font-weight: bold;
+    font-size:16px;
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  .pheader{
+    color: "#34495e";
+    font-size: 20px;
+  }
+  .lb{
+    font-size: 17px;
+    text-align: center;
+    color: "#34495e";
+  }
+  .lb1{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(245, 20, 12);
+  }
+  

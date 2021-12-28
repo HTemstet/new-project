@@ -62,3 +62,13 @@ label {margin-left: 34%}
     text-align: center;
     color: rgb(245, 20, 12);
   }
+  .butt{
+    color: white;
+    background-image: linear-gradient(90deg, #34495e, rgb(245, 20, 12));   
+    border-radius: 15px;
+    font-weight: bold;
+    font-size:15px;
+    flex-grow: 1;
+    cursor: pointer;
+  }
+

@@ -20,3 +20,14 @@ d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\Le
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.dll
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\DAL\obj\Debug\DAL.pdb

@@ -172,8 +172,9 @@ import { MatSelect } from '@angular/material/select';
       if(this.RequestServ.JobOffers.length>0)
         this.myrouter.navigate(['joboffers']);
       else
-        alert('תוצאות החיפוש המהיר לא הניבו תוצאות, נסה למקד את החיפוש באמצעות חיפוש מקצועי')
-   },
+        //alert('תוצאות החיפוש המהיר לא הניבו תוצאות, נסה למקד את החיפוש באמצעות חיפוש מקצועי')
+        this.messageService.add({severity:'info',summary:'!שים לב', detail:'תוצאות החיפוש המהיר לא הניבו תוצאות, נסה למקד את החיפוש באמצעות חיפוש מקצועי'});
+      },
     error=>console.log(error.message),
     ()=>console.log('finished')
   );
@@ -189,7 +190,8 @@ import { MatSelect } from '@angular/material/select';
       if(this.RequestServ.JobOffers.length>0)
         this.myrouter.navigate(['joboffers']);
       else
-        alert('לחברה זו אין כרגע משרות מתאימות')
+        //alert('לחברה זו אין כרגע משרות מתאימות')
+        this.messageService.add({severity:'info',summary:'!שים לב', detail:'לחברה זו אין כרגע משרות מתאימות'});
    },
     error=>console.log(error.message),
     ()=>console.log('finished')

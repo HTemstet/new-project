@@ -47,7 +47,9 @@ else
   OkFunc()
   {
     this.PeopleServ.updatepeople().subscribe(
-      data=>alert('השינויים נשמרו'),
+      data=>
+      //alert('השינויים נשמרו'),
+      this.messageService.add({key:'mes', severity:'success', summary:'!מצוין', detail: 'השינויים נשמרו', sticky: true}),
       error=>console.log(console.log(error.message)),
      ()=>console.log('finished')
  );
@@ -57,7 +59,7 @@ SaveValidations()
   this.ValidationServ.SavePeopleValidation().subscribe(
     data=>{console.log('success');
   //alert('עודכנו פרטי ההתחברות')},
-  this.messageService.add({key:'mesl', severity:'info', summary:'!יופי', detail: 'עודכנו פרטי ההתחברות', sticky: true})},
+  this.messageService.add({key:'mes', severity:'success', summary:'!יופי', detail: 'עודכנו פרטי ההתחברות', sticky: true})},
     error=>console.log(error.message),
     ()=>console.log('finished')
     );

@@ -16,7 +16,7 @@ namespace BLL.Logical_calculations
     //אולי להעביר אותה לתיקית bll-חישובים לוגיים
     public static class JobOffers
     {
-        const double Percent = 60;
+        const double Percent = 0;
         //אולי מיקום 2 הפונקציות הבאות הוא בכלל לא פה
         //ויתכן מאוד שאפשר לבטל אותם בכלל ולהשתמש
         //בפונקציות ההמרה של קריטריונים לתחומים לעץ

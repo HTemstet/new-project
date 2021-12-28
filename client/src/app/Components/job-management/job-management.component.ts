@@ -6,6 +6,7 @@ import { AreaService } from 'src/app/Services/area.service';
 import { RequestService } from 'src/app/Services/request.service';
 import { myRequest } from 'src/app/Classes/myRequest';
 import { Router} from '@angular/router';
+import { MessageService } from 'primeng/api';
 @Component({
   selector: 'app-job-management',
   templateUrl: './job-management.component.html',
@@ -13,8 +14,12 @@ import { Router} from '@angular/router';
 })
 export class JobManagementComponent implements OnInit {
 
-  constructor(private AreaServ:AreaService,private RequestServ:RequestService,private myrouter:Router, 
-    private JobManagementServ:JobManagementService,private PeopleServ:PeopleService) { }
+  constructor(private AreaServ:AreaService,
+    private RequestServ:RequestService,
+    private myrouter:Router, 
+    private JobManagementServ:JobManagementService,
+    private PeopleServ:PeopleService,
+    private messageService: MessageService,) { }
   appliedJobsList = new Array<JobsAppliedFor>();
   searchesList = new Array<myRequest>();
   ngOnInit() {
@@ -74,7 +79,10 @@ appliedJobsManager()
 RemoveFile(FolderName:string)
  {
 this.PeopleServ.RemoveFile(FolderName).subscribe(
-  data=>{alert('הקובץ נמחק בהצלחה');this.GetProphilBySwitch()},
+  data=>{
+    //alert('הקובץ נמחק בהצלחה');
+    this.messageService.add({severity:'success',summary:'!יש', detail:'הקובץ נמחק בהצלחה'});
+    this.GetProphilBySwitch()},
   error=>console.log(console.log(error.message)),
  ()=>console.log('finished')
  );
@@ -99,7 +107,7 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
       this.fileName=File.name;
       this.PeopleServ.Placing(File,FolderName).subscribe(
         data=>{
-          alert(FolderName)
+          //alert(FolderName)
           this.GetProphilBySwitch()
           this.FileList=null;
           this.fileInput.first.nativeElement.value = '';

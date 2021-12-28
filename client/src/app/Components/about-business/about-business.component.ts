@@ -81,7 +81,10 @@ getAreaNameByCode(AreaCode:number)
  RemoveFile(FolderName:string)
  {
 this.PeopleServ.RemoveFile(FolderName).subscribe(
-  data=>{alert('הקובץ נמחק בהצלחה');this.GetProphilBySwitch()},
+  data=>{
+    //alert('הקובץ נמחק בהצלחה');
+    this.messageService.add({ severity:'success', summary:'אוקי', detail: 'הקובץ נמחק בהצלחה', sticky: true});
+    this.GetProphilBySwitch()},
   error=>console.log(console.log(error.message)),
  ()=>console.log('finished')
  );
@@ -108,7 +111,7 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
       this.fileName=File.name;
       this.PeopleServ.Placing(File,FolderName).subscribe(
         data=>{
-          alert(FolderName)
+          //alert(FolderName)
           this.GetProphilBySwitch();
           this.FileList =null;
           this.fileInput.first.nativeElement.value = '';

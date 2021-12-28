@@ -6,7 +6,7 @@
                <input class="required" (focus)="placefocus($event)" (blur)="placeblur($event)" placeholder="" required name="Place" #Place="ngModel" [(ngModel)]="RequestServ.Request.Place" 
                (change)="RequestServ.Request.Place!=''?ReqFeilds($event):null" id="float-input" 
                 ngx-google-places-autocomplete (onAddressChange)="handleAddressChange($event)"  type="text"
-                size="50" pInputText> 
+                size="54" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-map-marker" style="margin-left:5px"></i></span>
               מיקום 
@@ -17,15 +17,17 @@
              </div>
             <br><br>
             <span class="ui-float-label " >
-               <input name="Time" id="float-input" (click)="popUpTravelTime()" [(ngModel)]="RequestServ.Request.EmployTravelTime" style="cursor: pointer" type="text" size="50" pInputText> 
+               <input name="Time" id="float-input" (click)="popUpTravelTime()"
+                   [(ngModel)]="RequestServ.Request.EmployTravelTime" style="cursor: pointer" 
+                   type="text" size="54" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-clock-o" style="margin-left:5px"></i></span>
             זמן נסיעה לעובד
              </label>
             </span>
-            <br>
+            <br><br>
             <span class="ui-float-label " >
-              <textarea size="50" pInputText style="width:430px;color:black;height:110px" id="float-input" name="MoreDetails" [(ngModel)]="OfferDetails.MoreDetails"></textarea>
+              <textarea size="54" pInputText style="width:430px;color:black;height:110px" id="float-input" name="MoreDetails" [(ngModel)]="OfferDetails.MoreDetails"></textarea>
               <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
              <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
                 פרטים נוספים
@@ -36,7 +38,7 @@
          <span class="ui-float-label " >
                <input class="required" (change)="OfferDetails.Name!=''?ReqFeilds($event):null" [(ngModel)]="OfferDetails.Name" type="text" name="Name"
                required 
-               #Name="ngModel" id="float-input" size="50" pInputText> 
+               #Name="ngModel" id="float-input" size="54" pInputText> 
                <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
                   <span><i class="fa fa-tag" style="margin-left:5px"></i></span>
                   שם משרה
@@ -50,7 +52,7 @@
                 <input [(ngModel)]="OfferDetails.OfferDescription" name="OfferDescription"
                 type="text"
                 id="float-input" #OfferDescription="ngModel" id="float-input" 
-                type="text"  size="50" pInputText> 
+                type="text"  size="54" pInputText> 
                 <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
                 <span><i class="fa fa-tags" style="margin-left:5px"></i></span>
                תאור משרה 
@@ -77,10 +79,12 @@
                  <br><br>
                  <span class="ui-float-label">
                     <button #but1 class="required" style="width: 430px" id="float-input" (click)="AreaTitlesSelectOpen($event)"            
-                     size="50" pInputText>
-                     <i *ngIf="areaTtlesSelected()==1" style="cursor: pointer;float:right;opacity: 0.5;margin-top: 5px" title="ניקוי בחירה" (click)="ClearAreaTitlesofQuickSearch()" class="fas fa-trash"></i>   
-                     <mat-select  [formControl]="AreaTitles" [disabled]="AreaCodeofQuickSearch==null||AreaCodeofQuickSearch==undefined||AreaCodeofQuickSearch==0" [(ngModel)]="AreaTitlesofQuickSearch" name="AreaTitlesSelect" required #AreaTitlesSelect #AreaTitlesSelect="ngModel" multiple 
-                     (selectionChange)="ReqFeilds(but1,true)"> 
+                     size="54" pInputText>
+                     <i *ngIf="areaTtlesSelected()==1" style="cursor: pointer;float:right;opacity: 0.5;margin-top: 5px" title="ניקוי בחירה" 
+                         (click)="ClearAreaTitlesofQuickSearch()" class="fas fa-trash"></i>   
+                     <mat-select  [formControl]="AreaTitles" [disabled]="AreaCodeofQuickSearch==null||AreaCodeofQuickSearch==undefined||AreaCodeofQuickSearch==0"
+                         [(ngModel)]="AreaTitlesofQuickSearch" name="AreaTitlesSelect" required #AreaTitlesSelect #AreaTitlesSelect="ngModel" multiple 
+                         (selectionChange)="ReqFeilds(but1,true)"> 
                         <mat-option><ngx-mat-select-search (keyup)="onKeyTitles1()" [formControl]="bankMultiFilterCtrl"></ngx-mat-select-search></mat-option>
                         <mat-option *ngFor="let i of areastitleslist" [value]="i.Code">{{i.Name}}</mat-option>
                        </mat-select>  

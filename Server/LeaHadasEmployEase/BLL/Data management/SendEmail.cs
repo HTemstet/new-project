@@ -93,6 +93,20 @@ namespace BLL.Data_management
             }, m_ctSource.Token);
 
         }
-
+        public static void SendingJobOffersWheneverThereIsaSuitableOffer(Requests_FullDTO req ,List<Requests_FullDTO> ljo)
+        {
+            JOBBAEntities db = new JOBBAEntities();
+            SendEmailtoClient(PeopleDTO.convertDBsetToDTO(db.People.ToList()).Find(b => b.Code == req.PeopleCode).Email, $" נמצאו {ljo.Count} משרות חדשות עבורך ",
+   //כאן ישלח קוד HTML שיכיל את האוביטים הנשלחים כרגע
+   string.Join("<br><br>", ljo.Select(b => $@"<div style='text-align: right;margin-right: 150px;font-size: 18px;'>
+                      <h1>פרטי המשרה</h1><br><br>
+                      <label>שם משרה: { b.RequestOfferDetails.Name}</label><br>
+                      <label>תאור משרה: { b.RequestOfferDetails.OfferDescription}</label><br>
+                      <label>מיקום: { b.Place}</label><br>
+                      <label>מס' דקות נסיעה: { b.EmployTravelTime}</label><br>
+                      <label>פרטים נוספים: { b.RequestOfferDetails.MoreDetails}</label><br>
+                      <a href='http://localhost:4200/joboffers?JobID=" + b.RequestCode + "'>צור קשר</a><br>" +
+    "<a href='http://localhost:4200/basicsearch/request/" + b.RequestCode + "'>הסר</a></div>")));
+        }
     }
 }

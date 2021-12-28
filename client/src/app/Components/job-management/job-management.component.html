@@ -1,10 +1,15 @@
-<button (click)="searchesManager()">ניהול החיפושים שלי</button>
+<!--<button (click)="searchesManager()">ניהול החיפושים שלי</button>
 <button (click)="appliedJobsManager()">ניהול משרות</button>
-<button (click)="GetCV()">קורות חיים</button>
+<button (click)="GetCV()">קורות חיים</button>-->
+
+<button class="butt" (click)="searchesManager()" style="width: 165px;height: 50px">ניהול החיפושים שלי</button><label style="color: white;">111</label>
+<button class="butt" (click)="GetCV()" style="width: 165px;height: 50px">קורות חיים</button><label style="color: white;">111</label>
+<button class="butt" (click)="appliedJobsManager()" style="width: 165px;height: 50px">ניהול משרות</button>
+
 <div *ngIf="searches">
   <h1>החיפושים שלי</h1>
   <div>
-  <p>
+  <p> 
   בינתיים ללא קריטריונים
  </p>
   <mat-accordion class="example-headers-align">
@@ -64,23 +69,32 @@
   </mat-accordion>
 </div>
 </div>
+
 <p-dialog [modal]="true" position="top" [(visible)]="ShowCV"  [style]="{width: '630px'}">
-  <p-header>
-  קורות חיים
-  </p-header>
-  <br> <br>
+  <p-header class="pheader">
+    כאן תוכל להעלות את קורות חיים
+</p-header>
+  <br>
+  <label class="lb">:ניתנים להעלאה רק קבצים בעלי הסיומות הבאות</label><br>
+  <label class="lb1">.doc  .rtf  .docx  .pdf</label><br><br>
+
   <a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">{{CV}}</a><br>
-<label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>
+<!--<label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>-->
 <input #fileInput type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
  name="file" (change)="fileChange($event)" class="upload"><br>
-  <br> <br>
+ 
   <p-footer *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'">
-      <app-display-button [changeCssEnter]="true" (click)="SentToPlacing('CV')" [Value]="'שמירת קובץ'"></app-display-button>
-      <app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button> 
+      <!--<app-display-button [changeCssEnter]="true" (click)="SentToPlacing('CV')" [Value]="'שמירת קובץ'"></app-display-button>
+      <app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button>-->
+      <button class="butt" (click)="SentToPlacing('CV')" style="float: left;width: 130px;height: 35px">שמירת קובץ</button>
+      <button class="butt" (click)="CancelationChangeFile()" style="margin-left: 130px;width: 130px;height: 35px">ביטול</button> 
     </p-footer>
     <p-footer *ngIf="(FileList==null||FileList.length==0||ind!='CV')&&CV!=null&&CV!=''&&!CV.endsWith('CV/')">
-      <app-display-button [changeCssEnter]="true" (click)="RemoveFile('CV')" [Value]="'מחיקה'"></app-display-button>      
+      <!--<app-display-button [changeCssEnter]="true" (click)="RemoveFile('CV')" [Value]="'מחיקה'"></app-display-button> --> 
+      <button class="butt" (click)="RemoveFile('CV')" style="float: left;width: 130px;height: 35px">מחיקה</button><br><br>    
     </p-footer>
 </p-dialog>
+<p-toast position="bottom-center"></p-toast>
+
 
 

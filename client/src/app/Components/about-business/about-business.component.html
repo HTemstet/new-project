@@ -45,26 +45,32 @@
           <p-toast *ngIf="frmpd.form.invalid" position="bottom-center"></p-toast>
           <p-toast *ngIf="frmpd.form.valid" position="bottom-center" (onClose) = "Navigatetoaboutemployer()"></p-toast>
         </form>
-     <p-dialog [modal]="true" position="top" [(visible)]="ShowLogo"  [style]="{width: '630px'}">
-        <p-header>
-        לוגו
-        </p-header>
-        <br> <br>
-        <img *ngIf="Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')" 
-        [src]="PeopleServ.PictureNative+Logo" width="150px"><br>
-        <label *ngIf="Logo==null||Logo==''||Logo.endsWith('Logo/')">אין לוגו</label>
-        <input #fileInput type="file" (click)="ind='Logo'" accept=".jpeg,.gif,.png"
-         name="file" (change)="fileChange($event)" class="upload"><br>
-        <br> <br>
-        <p-footer *ngIf="FileList!=null&&FileList.length>0&&ind=='Logo'">
-            <app-display-button [changeCssEnter]="true" (click)="SentToPlacing('Logo')" [Value]="'שמירת לוגו'"></app-display-button>
-            <app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button> 
-          </p-footer>
-          <p-footer *ngIf="(FileList==null||FileList.length==0||ind!='Logo')&&Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')">
-            <app-display-button [changeCssEnter]="true" (click)="RemoveFile('Logo')" [Value]="'מחיקה'"></app-display-button> 
-           </p-footer>
-      </p-dialog>
-</div>
+        <p-dialog [modal]="true" position="top" [(visible)]="ShowLogo"  [style]="{width: '630px'}">
+          <p-header class="pheader">
+              כאן תוכל להעלות את הלוגו של העסק שלך
+          </p-header>
+          <br> 
+          <label class="lb">:ניתנים להעלאה רק קבצים בעלי הסיומות הבאות</label><br>
+          <label class="lb1">.jpeg  .gif  .png  .jpg</label><br><br>
+          <img *ngIf="Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')" 
+          [src]="PeopleServ.PictureNative+Logo" width="150px"><br>
+          <!---<label *ngIf="Logo==null||Logo==''||Logo.endsWith('Logo/')">אין לוגו</label>--->
+          <input #fileInput type="file" (click)="ind='Logo'" accept=".jpeg,.gif,.png,.jpg"
+           name="file" (change)="fileChange($event)" class="upload"
+           ><br>
+          <br> 
+          <p-footer *ngIf="FileList!=null&&FileList.length>0&&ind=='Logo'">
+              <!--<app-display-button [changeCssEnter]="true" (click)="SentToPlacing('Logo')" [Value]="'שמירת לוגו'"></app-display-button><br>-->     
+              <!--<app-display-button [changeCssEnter]="true" (click)="CancelationChangeFile()" [Value]="'ביטול'"></app-display-button> -->
+
+              <button class="butt" (click)="SentToPlacing('Logo')" style="float: left;width: 130px;height: 35px">שמירת לוגו</button>
+              <button class="butt" (click)="CancelationChangeFile()" style="margin-left: 130px;width: 130px;height: 35px">ביטול</button>
+            </p-footer>
+            <p-footer *ngIf="(FileList==null||FileList.length==0||ind!='Logo')&&Logo!=null&&Logo!=''&&!Logo.endsWith('Logo/')">
+              <!--<app-display-button [changeCssEnter]="true" (click)="RemoveFile('Logo')" [Value]="'מחיקה'"></app-display-button>--> 
+              <button class="butt" (click)="RemoveFile('Logo')" style="float: left;width: 130px;height: 35px">מחיקה</button><br><br>
+             </p-footer>
+        </p-dialog></div>
 <div *ngIf="!aboutbusiness">
   <h1>החיפושים שלי</h1>
   <div>
@@ -98,5 +104,7 @@
     </mat-accordion>
   </div>
 </div>
+
+<p-toast position="bottom-center"></p-toast>
 
 

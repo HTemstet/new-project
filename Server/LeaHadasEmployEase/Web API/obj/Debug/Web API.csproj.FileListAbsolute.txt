@@ -867,3 +867,31 @@ d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\Le
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
 d:\Users\User\Downloads\פרוויקט טבת תשפב\git\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Web API.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\BLL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\DTO.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\BLL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\DAL.dll.config
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\DTO.pdb
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.csproj.CopyComplete
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.dll
+C:\Users\user\Desktop\הנדסאים - שנות לימוד\פרויקט גמר\GIT\new-project\Server\LeaHadasEmployEase\Web API\obj\Debug\Web API.pdb

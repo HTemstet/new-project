@@ -7,6 +7,7 @@ import { CriterionsofAreas } from '../Classes/CriterionsofAreas';
 import { AreaService } from './area.service';
 import { People } from '../Classes/People';
 import { SimpleObject } from '../Classes/SimpleObject';
+import { OfferDetails } from '../Classes/OfferDetails';
 export  enum TypesEnum {List,Number,Boolean,Date,Hour,PartOfaList}
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,7 @@ export class RequestService {
   constructor(private myhttp:HttpClient, private PeopleServ:PeopleService,private AreaServ:AreaService) { }
   basicUrl='http://localhost:53939/api/Request/';
   Request=new myRequest();
+  RequestOfferDetails=new OfferDetails();
   JobOffers:Array<myRequest>;
   getTitles():Observable<Array<SimpleObject>>
   {
@@ -32,6 +34,8 @@ export class RequestService {
   {
     this.Request.PeopleCode=this.PeopleServ.surf.Code;
     this.Request.AreaCode=this.AreaServ.Area,this.Request;
+    this.Request.RequestOfferDetails=this.RequestOfferDetails;
+    debugger;
     return this.myhttp.post<Array<myRequest>>(this.basicUrl+'SavemyRequest',this.Request); 
   }
   QuickSearch(AreaCode:number, AreaTitleCode:string,
