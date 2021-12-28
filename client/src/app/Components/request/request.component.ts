@@ -84,9 +84,7 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
   }
   else
   {
-    let emp=this.RequestServ.Request.Employee;
-    this.RequestServ.Request=new myRequest();
-    this.RequestServ.Request.Employee=emp;
+  this.RequestServ.Request.CriterionsofRequests=new Array<CriterionsofAreas>(); 
   this.getTitles();
   this.ChooseEmployeeFunc();
   }

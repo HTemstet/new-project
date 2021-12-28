@@ -35,7 +35,6 @@ export class RequestService {
     this.Request.PeopleCode=this.PeopleServ.surf.Code;
     this.Request.AreaCode=this.AreaServ.Area,this.Request;
     this.Request.RequestOfferDetails=this.RequestOfferDetails;
-    debugger;
     return this.myhttp.post<Array<myRequest>>(this.basicUrl+'SavemyRequest',this.Request); 
   }
   QuickSearch(AreaCode:number, AreaTitleCode:string,

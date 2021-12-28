@@ -199,7 +199,6 @@ import { MatSelect } from '@angular/material/select';
   }
   basicSearchClick(e:any)
   {
-    debugger;
     if(e[0]==0||e[0]==undefined||e[0]==null)
     {
       this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תחום'});

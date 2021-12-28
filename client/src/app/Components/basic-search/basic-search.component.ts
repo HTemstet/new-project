@@ -62,7 +62,6 @@ requestId:number=0;
         let selectedTitles=this.RequestServ.Request.AreaTitles.split(",");
         if(selectedTitles.length>0)
         {
-          debugger;
           this.AreaTitlesofQuickSearch=[];
           selectedTitles.forEach(x=>
             this.AreaTitlesofQuickSearch.push(+x));
@@ -81,7 +80,6 @@ requestId:number=0;
       this.AreaCodeofQuickSearch =  this.RequestServ.Request.AreaCode;
 
     this.ChooseAreaForQuickSearch();
-    debugger;
     this.AreaTitlesofQuickSearch = this.GlobalServ.Titles;
     this.GoogleSearchInput =  this.RequestServ.Request.Place;
     this.TravetTime =  this.RequestServ.Request.EmployTravelTime;
@@ -185,7 +183,6 @@ ShowAreaTitles()
   {
 if(this.AreaServ.Area!=this.AreaCodeofQuickSearch)
 {
-  debugger;
   this.AreaTitlesofQuickSearch=[];
 }
     this.AreaServ.Area=this.AreaCodeofQuickSearch;
@@ -286,12 +283,10 @@ criterionsRefresh(e:any)
 
  ClearAreaTitlesofQuickSearch()
  {
-   debugger;
   this.AreaTitlesofQuickSearch =['""'];
  }
  ClearAreaCodeofQuickSearch()
  {
-   debugger;
    this.AreaCodeofQuickSearch =0;
    this.AreaTitlesofQuickSearch =['""'];
  }

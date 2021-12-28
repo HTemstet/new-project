@@ -140,7 +140,6 @@ ReqFeilds(eve:any,AreaTitles = false)
       // this.Continue=true;
       this.RequestServ.Request.AreaCode = this.AreaCodeofQuickSearch;
       this.OfferDetails.AreaCode=this.AreaCodeofQuickSearch;
-      debugger;
       this.RequestServ.Request.AreaTitles=this.AreaTitlesofQuickSearch == null? ['""']: this.AreaTitlesofQuickSearch.toString();
       this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
       this.myrouter.navigate(["basicsearch/request/0"]));
