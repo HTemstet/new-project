@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6b6e2f971da64f3fb6be6c4a36425427" Name="Diagram1">
+      <Diagram DiagramId="f7158f96b5b94c97a55c0af8ea718ef8" Name="Diagram1">
         <EntityTypeShape EntityType="JOBBAModel.Areas" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
         <EntityTypeShape EntityType="JOBBAModel.AreasTitles" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
         <EntityTypeShape EntityType="JOBBAModel.Criterions" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
@@ -18,22 +18,22 @@
         <EntityTypeShape EntityType="JOBBAModel.PeopleValidation" Width="1.5" PointX="6" PointY="15.25" IsExpanded="true" />
         <EntityTypeShape EntityType="JOBBAModel.Requests" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
         <EntityTypeShape EntityType="JOBBAModel.Validations" Width="1.5" PointX="3.75" PointY="16.5" IsExpanded="true" />
-        <AssociationConnector Association="JOBBAModel.FK__AreasTitl__AreaC__1A14E395" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__AreaC__2E1BDC42" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__AreaC__21B6055D" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Requests__AreaCo__1DE57479" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__2A4B4B5E" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__2D27B809" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__30F848ED" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__31EC6D26" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__35BCFE0A" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Criterion__Reque__34C8D9D1" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Peopl__24927208" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Reque__25869641" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__Reque__20C1E124" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Peopl__145C0A3F" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__Requests__People__1CF15040" ManuallyRouted="false" />
-        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Valid__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__AreasTitl__AreaC__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__AreaC__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__AreaC__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Requests__AreaCo__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Crite__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Criterion__Reque__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Peopl__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__JobsAppli__Reque__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__OfferDeta__Reque__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Peopl__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__Requests__People__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="JOBBAModel.FK__PeopleVal__Valid__3C69FB99" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

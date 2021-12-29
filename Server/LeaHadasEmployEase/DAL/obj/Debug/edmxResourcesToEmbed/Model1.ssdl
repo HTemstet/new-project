@@ -127,7 +127,7 @@
     <Property Name="ValidationCode" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ValidationName" Type="varchar" MaxLength="20" />
   </EntityType>
-  <Association Name="FK__AreasTitl__AreaC__1A14E395">
+  <Association Name="FK__AreasTitl__AreaC__412EB0B6">
     <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
     <End Role="AreasTitles" Type="Self.AreasTitles" Multiplicity="*" />
     <ReferentialConstraint>
@@ -139,7 +139,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__AreaC__2E1BDC42">
+  <Association Name="FK__Criterion__AreaC__5535A963">
     <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
     <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
     <ReferentialConstraint>
@@ -151,7 +151,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Crite__2A4B4B5E">
+  <Association Name="FK__Criterion__Crite__5165187F">
     <End Role="CriterionsTitles" Type="Self.CriterionsTitles" Multiplicity="0..1" />
     <End Role="Criterions" Type="Self.Criterions" Multiplicity="*" />
     <ReferentialConstraint>
@@ -163,7 +163,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Crite__2D27B809">
+  <Association Name="FK__Criterion__Crite__5441852A">
     <End Role="Criterions" Type="Self.Criterions" Multiplicity="0..1" />
     <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="*" />
     <ReferentialConstraint>
@@ -175,7 +175,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Crite__30F848ED">
+  <Association Name="FK__Criterion__Crite__5812160E">
     <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
     <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
     <ReferentialConstraint>
@@ -187,7 +187,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Crite__31EC6D26">
+  <Association Name="FK__Criterion__Crite__59063A47">
     <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
     <End Role="CriterionsDependency" Type="Self.CriterionsDependency" Multiplicity="*" />
     <ReferentialConstraint>
@@ -199,7 +199,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Crite__35BCFE0A">
+  <Association Name="FK__Criterion__Crite__5CD6CB2B">
     <End Role="CriterionsofAreas" Type="Self.CriterionsofAreas" Multiplicity="0..1" />
     <End Role="CriterionsofRequests" Type="Self.CriterionsofRequests" Multiplicity="*" />
     <ReferentialConstraint>
@@ -211,7 +211,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Criterion__Reque__34C8D9D1">
+  <Association Name="FK__Criterion__Reque__5BE2A6F2">
     <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -225,7 +225,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__JobsAppli__Peopl__24927208">
+  <Association Name="FK__JobsAppli__Peopl__4BAC3F29">
     <End Role="People" Type="Self.People" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -239,7 +239,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__JobsAppli__Reque__25869641">
+  <Association Name="FK__JobsAppli__Reque__4CA06362">
     <End Role="Requests" Type="Self.Requests" Multiplicity="0..1" />
     <End Role="JobsAppliedFor" Type="Self.JobsAppliedFor" Multiplicity="*" />
     <ReferentialConstraint>
@@ -251,7 +251,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__OfferDeta__AreaC__21B6055D">
+  <Association Name="FK__OfferDeta__AreaC__48CFD27E">
     <End Role="Areas" Type="Self.Areas" Multiplicity="0..1" />
     <End Role="OfferDetails" Type="Self.OfferDetails" Multiplicity="*" />
     <ReferentialConstraint>
@@ -263,7 +263,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__OfferDeta__Reque__20C1E124">
+  <Association Name="FK__OfferDeta__Reque__47DBAE45">
     <End Role="Requests" Type="Self.Requests" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -277,7 +277,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PeopleVal__Peopl__145C0A3F">
+  <Association Name="FK__PeopleVal__Peopl__3B75D760">
     <End Role="People" Type="Self.People" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -291,7 +291,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PeopleVal__Valid__15502E78">
+  <Association Name="FK__PeopleVal__Valid__3C69FB99">
     <End Role="Validations" Type="Self.Validations" Multiplicity="0..1" />
     <End Role="PeopleValidation" Type="Self.PeopleValidation" Multiplicity="*" />
     <ReferentialConstraint>
@@ -303,7 +303,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Requests__AreaCo__1DE57479">
+  <Association Name="FK__Requests__AreaCo__44FF419A">
     <End Role="Areas" Type="Self.Areas" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -317,7 +317,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Requests__People__1CF15040">
+  <Association Name="FK__Requests__People__440B1D61">
     <End Role="People" Type="Self.People" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
@@ -345,67 +345,67 @@
     <EntitySet Name="PeopleValidation" EntityType="Self.PeopleValidation" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Requests" EntityType="Self.Requests" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Validations" EntityType="Self.Validations" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__AreasTitl__AreaC__1A14E395" Association="Self.FK__AreasTitl__AreaC__1A14E395">
+    <AssociationSet Name="FK__AreasTitl__AreaC__412EB0B6" Association="Self.FK__AreasTitl__AreaC__412EB0B6">
       <End Role="Areas" EntitySet="Areas" />
       <End Role="AreasTitles" EntitySet="AreasTitles" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__AreaC__2E1BDC42" Association="Self.FK__Criterion__AreaC__2E1BDC42">
+    <AssociationSet Name="FK__Criterion__AreaC__5535A963" Association="Self.FK__Criterion__AreaC__5535A963">
       <End Role="Areas" EntitySet="Areas" />
       <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Crite__2A4B4B5E" Association="Self.FK__Criterion__Crite__2A4B4B5E">
+    <AssociationSet Name="FK__Criterion__Crite__5165187F" Association="Self.FK__Criterion__Crite__5165187F">
       <End Role="CriterionsTitles" EntitySet="CriterionsTitles" />
       <End Role="Criterions" EntitySet="Criterions" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Crite__2D27B809" Association="Self.FK__Criterion__Crite__2D27B809">
+    <AssociationSet Name="FK__Criterion__Crite__5441852A" Association="Self.FK__Criterion__Crite__5441852A">
       <End Role="Criterions" EntitySet="Criterions" />
       <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Crite__30F848ED" Association="Self.FK__Criterion__Crite__30F848ED">
+    <AssociationSet Name="FK__Criterion__Crite__5812160E" Association="Self.FK__Criterion__Crite__5812160E">
       <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
       <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Crite__31EC6D26" Association="Self.FK__Criterion__Crite__31EC6D26">
+    <AssociationSet Name="FK__Criterion__Crite__59063A47" Association="Self.FK__Criterion__Crite__59063A47">
       <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
       <End Role="CriterionsDependency" EntitySet="CriterionsDependency" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Crite__35BCFE0A" Association="Self.FK__Criterion__Crite__35BCFE0A">
+    <AssociationSet Name="FK__Criterion__Crite__5CD6CB2B" Association="Self.FK__Criterion__Crite__5CD6CB2B">
       <End Role="CriterionsofAreas" EntitySet="CriterionsofAreas" />
       <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
     </AssociationSet>
-    <AssociationSet Name="FK__Criterion__Reque__34C8D9D1" Association="Self.FK__Criterion__Reque__34C8D9D1">
+    <AssociationSet Name="FK__Criterion__Reque__5BE2A6F2" Association="Self.FK__Criterion__Reque__5BE2A6F2">
       <End Role="Requests" EntitySet="Requests" />
       <End Role="CriterionsofRequests" EntitySet="CriterionsofRequests" />
     </AssociationSet>
-    <AssociationSet Name="FK__JobsAppli__Peopl__24927208" Association="Self.FK__JobsAppli__Peopl__24927208">
+    <AssociationSet Name="FK__JobsAppli__Peopl__4BAC3F29" Association="Self.FK__JobsAppli__Peopl__4BAC3F29">
       <End Role="People" EntitySet="People" />
       <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
     </AssociationSet>
-    <AssociationSet Name="FK__JobsAppli__Reque__25869641" Association="Self.FK__JobsAppli__Reque__25869641">
+    <AssociationSet Name="FK__JobsAppli__Reque__4CA06362" Association="Self.FK__JobsAppli__Reque__4CA06362">
       <End Role="Requests" EntitySet="Requests" />
       <End Role="JobsAppliedFor" EntitySet="JobsAppliedFor" />
     </AssociationSet>
-    <AssociationSet Name="FK__OfferDeta__AreaC__21B6055D" Association="Self.FK__OfferDeta__AreaC__21B6055D">
+    <AssociationSet Name="FK__OfferDeta__AreaC__48CFD27E" Association="Self.FK__OfferDeta__AreaC__48CFD27E">
       <End Role="Areas" EntitySet="Areas" />
       <End Role="OfferDetails" EntitySet="OfferDetails" />
     </AssociationSet>
-    <AssociationSet Name="FK__OfferDeta__Reque__20C1E124" Association="Self.FK__OfferDeta__Reque__20C1E124">
+    <AssociationSet Name="FK__OfferDeta__Reque__47DBAE45" Association="Self.FK__OfferDeta__Reque__47DBAE45">
       <End Role="Requests" EntitySet="Requests" />
       <End Role="OfferDetails" EntitySet="OfferDetails" />
     </AssociationSet>
-    <AssociationSet Name="FK__PeopleVal__Peopl__145C0A3F" Association="Self.FK__PeopleVal__Peopl__145C0A3F">
+    <AssociationSet Name="FK__PeopleVal__Peopl__3B75D760" Association="Self.FK__PeopleVal__Peopl__3B75D760">
       <End Role="People" EntitySet="People" />
       <End Role="PeopleValidation" EntitySet="PeopleValidation" />
     </AssociationSet>
-    <AssociationSet Name="FK__PeopleVal__Valid__15502E78" Association="Self.FK__PeopleVal__Valid__15502E78">
+    <AssociationSet Name="FK__PeopleVal__Valid__3C69FB99" Association="Self.FK__PeopleVal__Valid__3C69FB99">
       <End Role="Validations" EntitySet="Validations" />
       <End Role="PeopleValidation" EntitySet="PeopleValidation" />
     </AssociationSet>
-    <AssociationSet Name="FK__Requests__AreaCo__1DE57479" Association="Self.FK__Requests__AreaCo__1DE57479">
+    <AssociationSet Name="FK__Requests__AreaCo__44FF419A" Association="Self.FK__Requests__AreaCo__44FF419A">
       <End Role="Areas" EntitySet="Areas" />
       <End Role="Requests" EntitySet="Requests" />
     </AssociationSet>
-    <AssociationSet Name="FK__Requests__People__1CF15040" Association="Self.FK__Requests__People__1CF15040">
+    <AssociationSet Name="FK__Requests__People__440B1D61" Association="Self.FK__Requests__People__440B1D61">
       <End Role="People" EntitySet="People" />
       <End Role="Requests" EntitySet="Requests" />
     </AssociationSet>
