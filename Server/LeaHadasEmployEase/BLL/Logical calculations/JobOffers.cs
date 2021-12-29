@@ -154,9 +154,11 @@ namespace BLL.Logical_calculations
         public static List<Requests_FullDTO> GetJobOffers(List<CriterionsofRequestsDTO> CriterionsofRequest, List<Requests_FullDTO> RequestsList)
         {
             List<Requests_FullDTO> DTOlist = new List<Requests_FullDTO>();
-            RequestsList.ForEach(a => DTOlist.Add(
-                GetJobOffer(CriterionsofRequest, a)
-                ));
+            RequestsList.ForEach(a => { }
+            //DTOlist.Add(
+            //    GetJobOffer(CriterionsofRequest, a)
+            //    )
+            );
             return DTOlist.Where(x => x.AdjustmentPercentages >= Percent).ToList();
         }
         public static List<Requests_FullDTO> GetFittingOffers(Requests_FullDTO Request)
