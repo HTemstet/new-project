@@ -96,7 +96,7 @@ namespace BLL.Data_management
         public static void SendingJobOffersWheneverThereIsaSuitableOffer(Requests_FullDTO req ,Requests_FullDTO offer)
         {
             JOBBAEntities db = new JOBBAEntities();
-            SendEmailtoClient(PeopleDTO.convertDBsetToDTO(db.People.ToList()).Find(b => b.Code == req.PeopleCode).Email, $" מעסיק העלה ברדע זה משרה חמה עברך! ",
+            SendEmailtoClient(PeopleDTO.convertDBsetToDTO(db.People.ToList()).Find(b => b.Code == req.PeopleCode).Email, $" מעסיק העלה ברגע זה משרה חמה עברך! ",
    //כאן ישלח קוד HTML שיכיל את האוביטים הנשלחים כרגע
    $@"<br><br><div style='text-align: right;margin-right: 150px;font-size: 18px;'>
                       <h1>פרטי המשרה</h1><br><br>
@@ -106,7 +106,7 @@ namespace BLL.Data_management
                       <label>מס' דקות נסיעה: { offer.EmployTravelTime}</label><br>
                       <label>פרטים נוספים: { offer.RequestOfferDetails.MoreDetails}</label><br>
                       <a href='http://localhost:4200/joboffers?JobID=" + offer.RequestCode + "'>צור קשר</a><br>" +
-    "<a href='http://localhost:4200/basicsearch/request/" + offer.RequestCode + "'>הסר</a></div>");
+    "<a href='http://localhost:4200/basicsearch/request/" + req.RequestCode + "'>הסר</a></div>");
         }
     }
 }

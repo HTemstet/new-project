@@ -99,6 +99,8 @@ namespace BLL.Data_management
                 }
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
                 db.SaveChanges();
+                db.Entry(r).GetDatabaseValues();
+                request.RequestCode=r.RequestCode;
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
                 if (r.Employee == false)
                 {

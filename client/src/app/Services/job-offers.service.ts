@@ -13,7 +13,7 @@ export class JobOffersService {
   basicUrl='http://localhost:53939/api/JobOffers/';
   SendOfferEmail(RequestCode:number,JobOfferEmail:JobOfferEmail):Observable<any>
   {
-    return this.myhttp.post<any>(this.basicUrl+'SendOfferEmail/'+this.AreaServ.FullArea.Name+"/"+this.PeopleServ.surf.Code+"/"+RequestCode ,JobOfferEmail); 
+    return this.myhttp.post<any>(this.basicUrl+'SendOfferEmail/'+this.AreaServ.FullArea.Code+"/"+this.PeopleServ.surf.Code+"/"+RequestCode ,JobOfferEmail); 
   }
 
 }

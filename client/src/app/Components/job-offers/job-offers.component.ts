@@ -24,13 +24,24 @@ export class JobOffersComponent implements OnInit {
     ,private myrouter:Router) { }
 
   ngOnInit() {
+
    if(document.location.href.indexOf('?')!=-1)
    {
     const httpParams = new HttpParams({ fromString: document.location.href.split('?')[1] });
     this.RequestServ.GetRequestByCode(+httpParams.get('JobID')).subscribe(
     data=>{
       if(data!=null)
-       this.RequestServ.JobOffers = data;
+      {
+         this.RequestServ.JobOffers = data;
+         if(this.AreaServ.FullArea.Code==0)
+         {
+           this.AreaServ.getAreaswithoutSubscribe().subscribe(areas_data=>
+             {
+               this.AreaServ.Allareas=areas_data;
+               this.AreaServ.FullArea=this.AreaServ.Allareas.find(a=>a.Code==data[0].AreaCode);
+             })
+         }
+      }
       else
        alert('המשרה אוישה וירדה ממאגר המשרות')
     },

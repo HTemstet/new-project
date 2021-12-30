@@ -14,7 +14,7 @@ namespace Web_API.Controllers
     {
         //שליחת אימייל למעסיק עם קורות חיים או מידע אחר וכן שמירת הפניה במסד הנתונים
         [Route("SendOfferEmail/{Area}/{PeoppleCode}/{RequestCode}")]
-        public void PostSendOfferEmail(string Area,short? PeoppleCode,short? RequestCode,JobOfferEmail JobOfferEmail)
+        public void PostSendOfferEmail(short? Area,short? PeoppleCode,short? RequestCode,JobOfferEmail JobOfferEmail)
         {
             new JobsAppliedForBLL().AddJobsAppliedFor(PeoppleCode,RequestCode);
             JobOfferEmail.SendOfferEmail(Area);
