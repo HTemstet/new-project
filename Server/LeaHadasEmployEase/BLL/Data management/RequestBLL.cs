@@ -79,7 +79,7 @@ namespace BLL.Data_management
         //שמירת בקשה מסוימת וכן קריטריונים לבקשה זו, והחזרת הצעות מתאימות, אם מדובר בבקשה של עובד 
         public List<Requests_FullDTO> SavemyRequest(Requests_FullDTO request)
         {
-            List<Requests_FullDTO> l = JobOffers.GetFittingOffers(request);
+            List<Requests_FullDTO> l = new List<Requests_FullDTO>();
             if (request.PeopleCode != 0)
             {
                 Requests r = Requests_FullDTO.convertDTOsetToDB(request);
@@ -104,9 +104,12 @@ namespace BLL.Data_management
                 {
                     Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList()).Where(req=>req.Employee==true&&req.AreaCode==r.AreaCode).ToList().ForEach(req =>
                     {
-                      l = JobOffers.GetFittingOffers(req);
-                        if (l.Count > 0)
-                            SendEmail.SendingJobOffersWheneverThereIsaSuitableOffer(req,l);
+                        Requests_FullDTO result=null;
+                        if (QuickSearch(req.AreaCode, req.AreaTitles, req.Place, req.EmployTravelTime, "", request))
+                            result = request;
+                        //JobOffers.GetJobOffer(req.CriterionsofRequests.ToList(), request);
+                        if(result!=null)
+                          SendEmail.SendingJobOffersWheneverThereIsaSuitableOffer(req,request);
                     });
                     return new List<Requests_FullDTO>(); 
                 }
@@ -118,18 +121,24 @@ namespace BLL.Data_management
         {
             List<short> lvr= JobOffers.getListValues(AreaTitleCode);
             List<Requests_FullDTO> lq = Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList())
-                .Where(x => x.Employee == false && x.AreaCode == AreaCode && lvr.Intersect(JobOffers.getListValues(x.AreaTitles)).Any()
-                 &&(
-                 x.RequestOfferDetails != null&&(Minutes==0|| Place == "\"\""|| JobOffers.GetTravelTime(x.Place, Place)< (Nullable.Compare(x.EmployTravelTime, Minutes) > 0 ?Minutes : x.EmployTravelTime ))  
-                 && (FreeText== "\"\""||(x.RequestOfferDetails.Name.Contains(FreeText)|| x.RequestOfferDetails.OfferDescription.Contains(FreeText)||
-                 x.RequestOfferDetails.MoreDetails.Contains(FreeText)))
-                 )).ToList();
+                .Where(x => QuickSearch(AreaCode, AreaTitleCode,Place,Minutes,FreeText, x)).ToList();
             lq.ForEach(offer =>
             {
                 offer.CriterionsofRequests = JobOffers.getCriterionsofRequests(offer.AreaCode, offer.CriterionsofRequests.ToList());
                 offer.PeopleOffer = PeopleDTO.convertDBsetToDTO(db.People.ToList().Find(x => x.PeopleCode == offer.PeopleCode));
             });
             return lq;
+        }
+        public Boolean QuickSearch(short? AreaCode, string AreaTitleCode, string Place, double? Minutes, string FreeText,Requests_FullDTO r)
+        {
+            if (r.Employee == false && r.AreaCode == AreaCode && JobOffers.getListValues(AreaTitleCode).Intersect(JobOffers.getListValues(r.AreaTitles)).Any()
+                  && (
+                  r.RequestOfferDetails != null && (Minutes == 0 || Place == "\"\"" || JobOffers.GetTravelTime(r.Place, Place) < (Nullable.Compare(r.EmployTravelTime, Minutes) > 0 ? Minutes : r.EmployTravelTime))
+                  && (FreeText == "\"\"" || (r.RequestOfferDetails.Name.Contains(FreeText) || r.RequestOfferDetails.OfferDescription.Contains(FreeText) ||
+                  r.RequestOfferDetails.MoreDetails.Contains(FreeText)))
+                  ))
+                return true;
+            return false;
         }
         public List<Requests_FullDTO> CompanySearch(string Company)
         {

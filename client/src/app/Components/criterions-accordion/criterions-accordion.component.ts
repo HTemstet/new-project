@@ -10,7 +10,11 @@ import { TypesEnum, RequestService } from 'src/app/Services/request.service';
 })
 export class CriterionsAccordionComponent implements OnInit, AfterViewInit {
   constructor(public RequestServ: RequestService, public cdRef: ChangeDetectorRef) { }
-
+d(i,event)
+{
+  debugger;
+  i.LevelofImportance =event
+}
   ngAfterViewInit() {
     this.cdRef.detectChanges();
   }

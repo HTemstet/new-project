@@ -93,20 +93,20 @@ namespace BLL.Data_management
             }, m_ctSource.Token);
 
         }
-        public static void SendingJobOffersWheneverThereIsaSuitableOffer(Requests_FullDTO req ,List<Requests_FullDTO> ljo)
+        public static void SendingJobOffersWheneverThereIsaSuitableOffer(Requests_FullDTO req ,Requests_FullDTO offer)
         {
             JOBBAEntities db = new JOBBAEntities();
-            SendEmailtoClient(PeopleDTO.convertDBsetToDTO(db.People.ToList()).Find(b => b.Code == req.PeopleCode).Email, $" נמצאו {ljo.Count} משרות חדשות עבורך ",
+            SendEmailtoClient(PeopleDTO.convertDBsetToDTO(db.People.ToList()).Find(b => b.Code == req.PeopleCode).Email, $" מעסיק העלה ברדע זה משרה חמה עברך! ",
    //כאן ישלח קוד HTML שיכיל את האוביטים הנשלחים כרגע
-   string.Join("<br><br>", ljo.Select(b => $@"<div style='text-align: right;margin-right: 150px;font-size: 18px;'>
+   $@"<br><br><div style='text-align: right;margin-right: 150px;font-size: 18px;'>
                       <h1>פרטי המשרה</h1><br><br>
-                      <label>שם משרה: { b.RequestOfferDetails.Name}</label><br>
-                      <label>תאור משרה: { b.RequestOfferDetails.OfferDescription}</label><br>
-                      <label>מיקום: { b.Place}</label><br>
-                      <label>מס' דקות נסיעה: { b.EmployTravelTime}</label><br>
-                      <label>פרטים נוספים: { b.RequestOfferDetails.MoreDetails}</label><br>
-                      <a href='http://localhost:4200/joboffers?JobID=" + b.RequestCode + "'>צור קשר</a><br>" +
-    "<a href='http://localhost:4200/basicsearch/request/" + b.RequestCode + "'>הסר</a></div>")));
+                      <label>שם משרה: { offer.RequestOfferDetails.Name}</label><br>
+                      <label>תאור משרה: { offer.RequestOfferDetails.OfferDescription}</label><br>
+                      <label>מיקום: { offer.Place}</label><br>
+                      <label>מס' דקות נסיעה: { offer.EmployTravelTime}</label><br>
+                      <label>פרטים נוספים: { offer.RequestOfferDetails.MoreDetails}</label><br>
+                      <a href='http://localhost:4200/joboffers?JobID=" + offer.RequestCode + "'>צור קשר</a><br>" +
+    "<a href='http://localhost:4200/basicsearch/request/" + offer.RequestCode + "'>הסר</a></div>");
         }
     }
 }
