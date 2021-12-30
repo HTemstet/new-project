@@ -83,7 +83,7 @@ import { MatSelect } from '@angular/material/select';
   ChooseArea()
   {
     if(this.AreaCode==0)
-      //this.AreaServ.Area=1;
+        //this.AreaServ.Area=1;
         this.messageService.add({severity:'error',summary:'אופס', detail:'רגע רגע, שכחת לבחור תחום'});
     else  
     {
