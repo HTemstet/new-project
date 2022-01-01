@@ -8,7 +8,6 @@ import { JobOffersComponent } from '../Components/job-offers/job-offers.componen
 import { AboutEmployerComponent } from '../Components/about-employer/about-employer.component';
 import { FreeorbyrAreaSerachComponent } from '../Components/freeorbyr-area-serach/freeorbyr-area-serach.component';
 import { Routes } from '@angular/router';
-import { TryComponent } from '../Components/try/try.component';
 import { OfferDetailsComponent } from '../Components/offer-details/offer-details.component';
 import { AboutBusinessComponent } from '../Components/about-business/about-business.component';
 import { JobManagementComponent } from '../Components/job-management/job-management.component';
@@ -16,7 +15,6 @@ import { PendingChangesGuard } from './pending-changes';
 import { BasicSearchComponent } from '../Components/basic-search/basic-search.component';
 
 export const routing:Routes=[
-    // { path:'',redirectTo:'ads',pathMatch:'full'},
     { path:'about',component:AboutComponent},
     { path:'aboutemployer',component:AboutEmployerComponent},
     { path:'enter',component:EnterComponent},

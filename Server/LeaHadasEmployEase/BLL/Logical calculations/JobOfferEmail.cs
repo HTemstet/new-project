@@ -1,4 +1,5 @@
 ﻿using BLL.Data_management;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,11 @@ namespace BLL.Logical_calculations
         //כאן יהיה לכאורה string שיכיל את התוכן הרצוי ולאו דווקא object 
         public string PreliminaryLetter { get; set; }
         public string CV { get; set; }
-        public void SendOfferEmail(string Area)
+        public void SendOfferEmail(short? Area)
         {
-            SendEmail.SendEmailtoClient(Email,$"הודעה מעובד רלוונטי לגבי משרה שפרסמת בתחום {Area}", PreliminaryLetter,CV);
+           AreasDTO area=new AreasBLL().getAllAreas().Find(a => a.Code == Area);
+            if(area!=null)
+               SendEmail.SendEmailtoClient(Email,$"הודעה מעובד רלוונטי לגבי משרה שפרסמת בתחום {area.Name}", PreliminaryLetter,CV);
         }
     }
 }

@@ -103,7 +103,7 @@
               <span>{{i.invalid_message}}</span>
             </label>
             <mat-icon *ngSwitchCase="EnumTypes.List" style="float:right">list_alt</mat-icon>
-            <mat-slider style="float:right" *ngIf="ShowLevel&&!RequestServ.Request.Employee" thumbLabel [displayWith]="formatLabel" (change)="i.LevelofImportance =$event.value" tickInterval="100" min="1" max="10"></mat-slider>
+            <mat-slider style="float:right" *ngIf="ShowLevel&&!RequestServ.Request.Employee" thumbLabel [displayWith]="formatLabel" (change)="d(i,$event.value)" tickInterval="100" min="1" max="10"></mat-slider>
           </mat-panel-description>
         </mat-expansion-panel-header>
     <div *ngIf="i.CriterionsofAreasTree.length>0&&exp3.expanded==true">

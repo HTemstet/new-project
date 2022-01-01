@@ -45,7 +45,7 @@
     <mat-expansion-panel *ngFor="let i of appliedJobsList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-description>         
-הגשת מועמדות למשרה זו בתאריך: {{i.SendingDate}}
+הגשת מועמדות למשרה זו בתאריך: {{i.SendingDate|date: 'dd/MM/yyyy'}}
           <mat-icon></mat-icon>
         </mat-panel-description>
         <mat-panel-title>
