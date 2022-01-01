@@ -47,6 +47,7 @@ export class JobOffersComponent implements OnInit {
     PreliminaryLetter='';
 
 //  
+ShowAboutMe=false;
 step = 0;
 setStep(index: number) {
   this.step = index;
@@ -106,7 +107,8 @@ GetCV()
 {
    this.PeopleServ.getCV().subscribe(
    data=>{this.CV=data;
-   this.ShowCV=!this.ShowCV},
+   this.ShowCV=!this.ShowCV
+   this.ShowAboutMe=false},
    error=>console.log(console.log(error.message)),
   ()=>console.log('finished')
   );
@@ -148,5 +150,9 @@ FileList:FileList;
       ()=>console.log('finished')
    );
    }
+ }
+ ShowAbout(){
+   this.ShowCV=false;
+   this.ShowAboutMe=!this.ShowAboutMe;
  }
 }
