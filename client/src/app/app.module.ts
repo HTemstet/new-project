@@ -43,7 +43,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import { TryComponent } from './Components/try/try.component';
 import { BasicSearchComponent } from './Components/basic-search/basic-search.component';
 import { CriterionsAccordionComponent } from './Components/criterions-accordion/criterions-accordion.component';
 import { OfferDetailsComponent } from './Components/offer-details/offer-details.component';
@@ -67,7 +66,6 @@ import { PendingChangesGuard } from './OtherPages/pending-changes';
     LoadingComponent,
     AboutEmployerComponent,
     FreeorbyrAreaSerachComponent,
-    TryComponent,
     BasicSearchComponent,
     CriterionsAccordionComponent,
     OfferDetailsComponent,
