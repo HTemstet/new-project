@@ -29,12 +29,18 @@
       </div>
      <br><br>
     <span class="ui-float-label " >
-        <textarea size="70" pInputText style="width:550px;color:black" id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
+        <textarea size="70"
+         required maxlength=500 #aboutbusy="ngModel"
+         pInputText style="width:550px;color:black" 
+         id="float-input" name="MoreDetails" [(ngModel)]="AboutBusiness"></textarea>
       <label class="col-md-offset-2" for="float-input" style="color:#34495e;"> 
          <span><i class="fa fa-commenting-o" style="margin-left:5px"></i></span>
          אודות העסק שלי
       </label>
      </span>
+    <!-- <div *ngIf="aboutbusy.invalid">
+      <label *ngIf="aboutbusy.errors.maxlength">מספר התווים מוגבל ל500</label>
+    </div>-->
      <br><br>
       <button class="panel-footer" *ngIf="frmpd.form.invalid" (click)="ValidationServ.alert()"> 
           <a style="color: white;" >אישור</a>         

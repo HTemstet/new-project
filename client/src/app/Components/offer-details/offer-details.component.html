@@ -3,7 +3,8 @@
     <form class="container" #frmpd="ngForm">     
      <div class="col-md-offset-1 col-md-2 leftdiv">
          <span class="ui-float-label " >   
-               <input class="required" (focus)="placefocus($event)" (blur)="placeblur($event)" placeholder="" required name="Place" #Place="ngModel" [(ngModel)]="RequestServ.Request.Place" 
+               <input class="required" (focus)="placefocus($event)" (blur)="placeblur($event)" 
+               placeholder="" required name="Place" #Place="ngModel" [(ngModel)]="RequestServ.Request.Place" 
                (change)="RequestServ.Request.Place!=''?ReqFeilds($event):null" id="float-input" 
                 ngx-google-places-autocomplete (onAddressChange)="handleAddressChange($event)"  type="text"
                 size="54" pInputText> 

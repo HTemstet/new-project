@@ -15,37 +15,50 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <div style="text-align: right;margin-right: 150px;font-size: 18px;">
-        <label>:פרטי המשרה</label><br><br>
-        <label>שם משרה: {{i.RequestOfferDetails.Name}}</label><br>
+        <label class="headerjob">:פרטי המשרה</label><br><br>
+        <label>שם משרה:  {{i.RequestOfferDetails.Name}}</label><br>
         <label>תאור משרה: {{i.RequestOfferDetails.OfferDescription}}</label><br>
         <label>מיקום: {{i.Place}}</label><br>
-        <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
-        <label>{{i.RequestOfferDetails.MoreDetails}} :פרטים נוספים</label><br>
+        <!-- <label>מס' דקות נסיעה: {{i.EmployTravelTime}}</label><br> -->
+        <label>פרטים נוספים: {{i.RequestOfferDetails.MoreDetails}}</label><br>
         <label class="link" (click)="$event.preventDefault();SendOfferEmail()">צור קשר</label>
       </div>
       <mat-action-row>
         <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
         <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
       </mat-action-row>
-      <div *ngIf="ContactDetails">
-        <app-display-button [changeCssEnter]="true" (click)="GetCV()" 
-        Value="קורות חיים"></app-display-button><br>
-        <div *ngIf="ShowCV">
-        <!-- <input *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [(ngModel)]="CV"> -->
-        <a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">Download the File</a><br>
-        <label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>
-        <input type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
-         name="file" (change)="fileChange($event)" class="upload"><br>
-         <input type="button" value="מחיקה" (click)="RemoveFile('CV')"><br>
-         <div *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'"> 
-        <input type="button" value="ביטול" (click)="CancelationChangeFile()"><br>
-       </div> 
-       </div><br>
-       <label>הוסף מכתב מקדים</label>
-       <textarea style="color:black" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea>
-       <input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">
-      </div>
     </mat-expansion-panel>
     <app-enter *ngIf="PeopleServ.backtojoboffers" (LoginSuccess)="ContactDetails=true"></app-enter>
   </mat-accordion>
   <br><br><br><br>
+
+  <!--צור קשר-->
+<p-dialog [modal]="true" position="top" [(visible)]="ContactDetails"  [style]="{width: '660px'}">
+
+  <!--<div *ngIf="ContactDetails">-->
+    <button class="butt" (click)="GetCV()" style="width: 165px;height:48px">העלה קורות חיים</button><br>
+    <div *ngIf="ShowCV">
+    <!-- <input *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [(ngModel)]="CV"> -->
+    <br>
+    <label class="lb">:ניתנים להעלאה רק קבצים בעלי הסיומות הבאות</label><br>
+    <label class="lb1">.doc  .rtf  .docx  .pdf</label><br>
+  
+    <!--<a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">{{CV}}</a><br>-->
+  <!--<label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>-->
+  <input class="butt" #fileInput type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
+   name="file" (change)="fileChange($event)" class="upload" style="margin: center;"><br>
+
+  <div *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'"> 
+    <!--<button class="butt" (click)="CancelationChangeFile()" style=" width: 130px;height: 35px">ביטול</button>-->
+    <button class="butt" (click)="RemoveFile('CV')" style="width: 130px;height: 35px">מחיקה</button><br><br>    
+  </div> 
+   </div><br>
+   <button class="butt" (click)="ShowAbout()" style="width: 165px;height: 48px">הוסף מכתב מקדים</button><br>
+   <!--<label>הוסף מכתב מקדים</label>--><br>
+   <div *ngIf="ShowAboutMe">
+   <textarea style="color:black;width:600;height: 150;" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea><br>
+   <input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">
+  </div>
+  <!--</div>-->
+
+</p-dialog>

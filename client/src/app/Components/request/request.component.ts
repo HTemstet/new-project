@@ -9,7 +9,6 @@ import {MenuItem, MessageService} from 'primeng/api';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { ValidationService } from 'src/app/Services/validation.service';
 import { NgForm } from '@angular/forms';
-import { myRequest } from 'src/app/Classes/myRequest';
 import { ComponentCanDeactivate } from 'src/app/OtherPages/pending-changes';
 import { Observable } from 'rxjs/Observable';
 // import * as $ from "jquery";
@@ -30,8 +29,6 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
       return true;
     return false;
   }
-
-
     
   constructor(private GlobalServ:GlobalService,
     private AreaServ:AreaService,
@@ -41,7 +38,6 @@ export class RequestComponent implements OnInit ,ComponentCanDeactivate {
     private messageService:MessageService,
     private myrouter:Router,
     private activatedRoute:ActivatedRoute ) {
-
 
   }
   CriterionsofAreaListSmall=new Array<CriterionsofAreas>();
