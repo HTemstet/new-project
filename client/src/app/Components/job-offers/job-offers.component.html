@@ -27,12 +27,7 @@
         <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
         <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
       </mat-action-row>
-    </mat-expansion-panel>
-    <app-enter *ngIf="PeopleServ.backtojoboffers" (LoginSuccess)="ContactDetails=true"></app-enter>
-  </mat-accordion>
-  <br><br><br><br>
-
-  <!--צור קשר-->
+      <!--צור קשר-->
 <p-dialog [modal]="true" position="top" [(visible)]="ContactDetails"  [style]="{width: '660px'}">
 
   <!--<div *ngIf="ContactDetails">-->
@@ -62,3 +57,9 @@
   <!--</div>-->
 
 </p-dialog>
+    </mat-expansion-panel>
+    <app-enter *ngIf="PeopleServ.backtojoboffers" (LoginSuccess)="ContactDetails=true"></app-enter>
+  </mat-accordion>
+  <br><br><br><br>
+
+
