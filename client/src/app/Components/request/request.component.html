@@ -1,6 +1,6 @@
 <div *ngIf="requestId!=0">
-  <button (click)="removeRequest()">מחיקת בקשה</button>
-  <button *ngIf="RequestServ.Request.Employee" (click)="updateEmailsStatus()">עדכון סטטוס בקשה</button>
+  <br><button class="butt" (click)="removeRequest()" style="width: 230px;height: 40px">מחיקת בקשה</button>
+  <button class="butt" *ngIf="RequestServ.Request.Employee" (click)="updateEmailsStatus()" style="width: 230px;height: 40px">עדכון סטטוס בקשה</button><br><br> 
 </div>
 <div [ngClass]="{'col-md-11': GlobalServ.OccuredArea===true, 'col-md-12': GlobalServ.OccuredArea=== false}" >
   <h1 class="HeadTitle w3-animate-top">בקשה לתחום <a (click)="goToBasicSearch()" (mouseover)="underline($event)" (mouseout)="ununderline($event)" style="cursor: pointer;">{{AreaServ.FullArea?.Name}}</a></h1>

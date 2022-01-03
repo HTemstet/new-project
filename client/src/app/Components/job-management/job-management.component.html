@@ -16,16 +16,17 @@
         <mat-expansion-panel-header>
           <mat-panel-description>         
             <mat-icon></mat-icon>
+            <label style="color:black;font-size: 20px;text-align: center;">חיפוש בתחום {{getAreaNameByCode(i.AreaCode)}}</label>
           </mat-panel-description>
           <mat-panel-title>
             {{ind+1}}
           </mat-panel-title>
         </mat-expansion-panel-header>
         <div style="text-align: right;margin-right: 150px;font-size: 18px;">
-          <label>תחום: {{getAreaNameByCode(i.AreaCode)}}</label><br>
-          <label>מיקום: {{i.Place}}</label><br>
-          <label>תדירות קבלת הצעות מתאימות: {{gettingOffersFrequency(i)}}</label> 
-          <button (click)="gotoRequest(i.RequestCode)">עדכון/מחיקת בקשה</button>
+          <label style="color: rgb(245, 20, 12);">:תחום<p style="color: #34495e;">{{getAreaNameByCode(i.AreaCode)}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:מיקום<p style="color: #34495e;">{{i.Place}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:תדירות קבלת הצעות מתאימות<p style="color: #34495e;">{{gettingOffersFrequency(i)}}</p></label><br><br>
+          <button class="butt" (click)="gotoRequest(i.RequestCode)" style="float: right;width: 200px;height: 35px">עדכון/מחיקת בקשה</button><br><br>    
           </div>
         <mat-action-row>
           <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
@@ -53,12 +54,12 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <div style="text-align: right;margin-right: 150px;font-size: 18px;">
-        <label>תחום: {{getAreaNameByCode(i.Request.RequestOfferDetails.AreaCode)}}</label><br>
-        <label>חברה: {{i.Request.PeopleOffer.Name}}</label><br>
-        <label>שם משרה: {{i.Request.RequestOfferDetails.Name}}</label><br>
-        <label>תיאור משרה: {{i.Request.RequestOfferDetails.OfferDescription}}</label><br>
-        <label>מיקום: {{i.Request.Place}}</label><br>
-        <label>פרטים נוספים: {{i.Request.RequestOfferDetails.MoreDetails}}</label>  
+          <label style="color: rgb(245, 20, 12);">:תחום<p style="color: #34495e;">{{getAreaNameByCode(i.Request.RequestOfferDetails.AreaCode)}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:חברה<p style="color: #34495e;">{{i.Request.PeopleOffer.Name}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:שם משרה<p style="color: #34495e;">{{i.Request.RequestOfferDetails.Name}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:תאור משרה<p style="color: #34495e;">{{i.Request.RequestOfferDetails.OfferDescription}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:מיקום<p style="color: #34495e;">{{i.Request.Place}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:פרטים נוספים<p style="color: #34495e;">{{i.Request.RequestOfferDetails.MoreDetails}}</p></label><br><br><br>
         </div>
       <mat-action-row>
         <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>

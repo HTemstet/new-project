@@ -85,21 +85,22 @@
   <mat-accordion class="example-headers-align">
       <mat-expansion-panel *ngFor="let i of searchesList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
         <mat-expansion-panel-header>
-          <mat-panel-description>         
-            <mat-icon></mat-icon>
-          </mat-panel-description>
+          <mat-panel-description style="font-size: 20px;">
+          <mat-icon></mat-icon>
+          {{getAreaNameByCode(i.AreaCode)}}
+        </mat-panel-description>
           <mat-panel-title>
             {{ind+1}}
           </mat-panel-title>
         </mat-expansion-panel-header>
         <div style="text-align: right;margin-right: 150px;font-size: 18px;">
-          <label>תחום: {{getAreaNameByCode(i.AreaCode)}}</label><br>
-          <label>שם משרה: {{i.RequestOfferDetails.Name}}</label><br>
-          <label>תאור משרה: {{i.RequestOfferDetails.OfferDescription}}</label><br>
-          <label>מיקום: {{i.Place}}</label><br>
+          <label style="color: rgb(245, 20, 12);">:תחום<p style="color: #34495e;">{{getAreaNameByCode(i.AreaCode)}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:שם משרה<p style="color: #34495e;">{{i.RequestOfferDetails.Name}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:תאור משרה<p style="color: #34495e;">{{i.RequestOfferDetails.OfferDescription}}</p></label><br>
+          <label style="color: rgb(245, 20, 12);">:מיקום<p style="color: #34495e;">{{i.Place}}</p></label><br>
           <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
-          <label>{{i.RequestOfferDetails.MoreDetails}} :פרטים נוספים</label><br>
-          <button (click)="gotoRequest(i.RequestCode)">עדכון/מחיקת משרה</button>
+          <label style="color: rgb(245, 20, 12);">:פרטים נוספים<p style="color: #34495e;">{{i.RequestOfferDetails.MoreDetails}}</p></label><br><br>
+          <button class="butt" (click)="gotoRequest(i.RequestCode)" style="width: 230px;height: 40px">עדכון/מחיקת משרה</button><br><br> 
           </div>
         <mat-action-row>
           <button mat-button color="warn" (click)="prevStep()"> הקודם <i class="fas fa-caret-up"></i></button>
