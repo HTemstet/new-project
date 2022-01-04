@@ -16,11 +16,11 @@
       </mat-expansion-panel-header>
       <div style="text-align: right;margin-right: 150px;font-size: 18px;">
         <label class="headerjob">:פרטי המשרה</label><br><br>
-        <label>שם משרה:  {{i.RequestOfferDetails.Name}}</label><br>
-        <label>תאור משרה: {{i.RequestOfferDetails.OfferDescription}}</label><br>
-        <label>מיקום: {{i.Place}}</label><br>
-        <!-- <label>מס' דקות נסיעה: {{i.EmployTravelTime}}</label><br> -->
-        <label>פרטים נוספים: {{i.RequestOfferDetails.MoreDetails}}</label><br>
+        <label style="color: rgb(245, 20, 12);">:שם משרה<p style="color: #34495e;">{{i.RequestOfferDetails.Name}}</p></label><br>
+        <label style="color: rgb(245, 20, 12);">:תאור משרה<p style="color: #34495e;">{{i.RequestOfferDetails.OfferDescription}}</p></label><br>
+        <label style="color: rgb(245, 20, 12);">:מיקום<p style="color: #34495e;">{{i.Place}}</p></label><br>
+        <!-- <label>{{i.EmployTravelTime}} :מס' דקות נסיעה</label><br> -->
+        <label style="color: rgb(245, 20, 12);">:פרטים נוספים<p style="color: #34495e;">{{i.RequestOfferDetails.MoreDetails}}</p></label><br><br><br>
         <label class="link" (click)="$event.preventDefault();SendOfferEmail()">צור קשר</label>
       </div>
       <mat-action-row>
@@ -28,8 +28,8 @@
         <button mat-button color="primary" (click)="nextStep()"> הבא <i class="fas fa-caret-down"></i></button>
       </mat-action-row>
       <!--צור קשר-->
-<p-dialog [modal]="true" position="top" [(visible)]="ContactDetails"  [style]="{width: '660px'}">
-
+<p-dialog position="top" [(visible)]="ContactDetails"  [style]="{width: '660px'}">
+  <p-header class="col-md-2" style="font-size:20px;color: #34495e">צור קשר</p-header><br>
   <!--<div *ngIf="ContactDetails">-->
     <button class="butt" (click)="GetCV()" style="width: 165px;height:48px">העלה קורות חיים</button><br>
     <div *ngIf="ShowCV">
@@ -49,10 +49,11 @@
   </div> 
    </div><br>
    <button class="butt" (click)="ShowAbout()" style="width: 165px;height: 48px">הוסף מכתב מקדים</button><br>
-   <!--<label>הוסף מכתב מקדים</label>--><br>
-   <div *ngIf="ShowAboutMe">
-   <textarea style="color:black;width:600;height: 150;" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea><br>
-   <input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">
+   <br><div *ngIf="ShowAboutMe">
+    <textarea maxlength="500" size="50" style="color:black;width: 350px;height:90px;" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea><br><br>
+   <!--<input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">-->
+   <button class="butt" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)"
+    style="width: 90px;height: 35px">שלח</button>   
   </div>
   <!--</div>-->
 
