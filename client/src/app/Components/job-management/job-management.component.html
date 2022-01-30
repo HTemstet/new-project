@@ -1,14 +1,12 @@
-<!--<button (click)="searchesManager()">ניהול החיפושים שלי</button>
-<button (click)="appliedJobsManager()">ניהול משרות</button>
-<button (click)="GetCV()">קורות חיים</button>-->
-
+   
 <button class="butt" (click)="searchesManager()" style="width: 165px;height: 50px">ניהול החיפושים שלי</button><label style="color: white;">111</label>
 <button class="butt" (click)="GetCV()" style="width: 165px;height: 50px">קורות חיים</button><label style="color: white;">111</label>
 <button class="butt" (click)="appliedJobsManager()" style="width: 165px;height: 50px">ניהול משרות</button>
 
 <div *ngIf="searches">
   <h1>החיפושים שלי</h1>
-  <div>
+  <h6>{{emptySearchList}}</h6>
+  <div>      
   <p> 
  </p>
   <mat-accordion class="example-headers-align">
@@ -38,6 +36,7 @@
 </div>
 <div *ngIf="!searches">
 <h1>המשרות אליהם פניתי</h1>
+<h6>{{emptyList}}</h6>
 <div>
 <p>
 <!-- בינתיים ללא קריטריונים -->
@@ -45,8 +44,9 @@
 <mat-accordion class="example-headers-align">
     <mat-expansion-panel *ngFor="let i of appliedJobsList;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
       <mat-expansion-panel-header>
-        <mat-panel-description>         
-הגשת מועמדות למשרה זו בתאריך: {{i.SendingDate|date: 'dd/MM/yyyy'}}
+        <mat-panel-description> 
+            <a (click)="OpenCriterions(i.Request.RequestCode)"> אחוזי התאמת ההצעה: {{i.Request.AdjustmentPercentages}}</a>          
+          <label>הגשת מועמדות למשרה זו בתאריך: {{i.SendingDate|date: 'dd/MM/yyyy'}}</label>      
           <mat-icon></mat-icon>
         </mat-panel-description>
         <mat-panel-title>

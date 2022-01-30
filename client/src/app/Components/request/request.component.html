@@ -1,72 +1,103 @@
-<div *ngIf="requestId!=0">
-  <br><button class="butt" (click)="removeRequest()" style="width: 230px;height: 40px">מחיקת בקשה</button>
-  <button class="butt" *ngIf="RequestServ.Request.Employee" (click)="updateEmailsStatus()" style="width: 230px;height: 40px">עדכון סטטוס בקשה</button><br><br> 
+<!-- במידה ומדובר בבקשה קיימת - אפשרות מחיקה ו/או עדכון -->
+<div *ngIf="requestId!=0&&enableDeleteRequest">
+  <!-- מחיקת בקשה -->
+  <br><button class="butt" (click)="removeRequest()"
+   style="width: 230px;height: 40px">מחיקת בקשה</button>
+<!-- עדכון סטטוס קבלת הצעות לעובד -->
+  <button class="butt" *ngIf="RequestServ.Request.Employee" 
+  (click)="updateEmailsStatus()" style="width: 230px;height: 40px">
+  עדכון סטטוס בקשה</button><br><br> 
 </div>
-<div [ngClass]="{'col-md-11': GlobalServ.OccuredArea===true, 'col-md-12': GlobalServ.OccuredArea=== false}" >
-  <h1 class="HeadTitle w3-animate-top">בקשה לתחום <a (click)="goToBasicSearch()" (mouseover)="underline($event)" (mouseout)="ununderline($event)" style="cursor: pointer;">{{AreaServ.FullArea?.Name}}</a></h1>
+<div [ngClass]="{'col-md-11': GlobalServ.OccuredArea===true, 
+'col-md-12': GlobalServ.OccuredArea=== false}" >
+  <!-- כותרת - ציון תחום הבקשה, חזרה לחיפוש בסיסי בליחצה -->
+  <h1 class="HeadTitle w3-animate-top">בקשה לתחום
+     <a (click)="goToBasicSearch()" (mouseover)="underline($event)"
+      (mouseout)="ununderline($event)" style="cursor: pointer;">{{AreaServ.FullArea?.Name}}</a></h1>
   <h3 class="HeadTitle2 w3-animate-zoom">!מלא כמה שיותר פרטים לצורך התאמה מלאה</h3>
 </div>
 <br><br><br><br><br><br>
+<!-- כותרות הקריטריונים -->
 <p-steps class="ui" [model]="items" [(activeIndex)]="activeIndex" [readonly]="true"></p-steps>
 <br><br>
   <div class="container">
         <div class="row">
           <div class="col-md-1">
-              <mat-icon class="prev-next-icons" title="הקודם" *ngIf="activeIndex!=0" style="float: left" (click)="Previos($event)">keyboard_arrow_left</mat-icon>
+            <!-- מעבר אחורנית לקריטריונים של הכותרות הקודמות -->
+              <mat-icon class="prev-next-icons" title="הקודם" *ngIf="activeIndex!=0" 
+              style="float: left" (click)="Previos($event)">keyboard_arrow_left</mat-icon>
           </div>
           <div class="col-md-10">
               <div class="panel">
                   <div class="panel-heading">
+                    <!-- כותרת קבוצת הקריטריונים - עפ"י ה step שעליו עומדים -->
                       <h3 class="text-center">{{Title.Name}}</h3>
                   </div><br>
                   <form #CriterionsForm="ngForm">
                       <mat-accordion class="example-headers-align">
-                        <app-criterions-accordion [list]="CriterionsofAreaListSmall" [ShowLevel]="true" (invalid)="InValid($event)" (valid)="Valid($event)"></app-criterions-accordion>
+                        <!-- קריאה לקומפוננטת תצוגת הקריטריונים, עם קבוצת בלוקי הקריטריונים של הכותרת הנוכחית -->
+                        <app-criterions-accordion [list]="CriterionsofAreaListSmall" 
+                        [ShowLevel]="true" (invalid)="InValid($event)" (valid)="Valid($event)">
+                      </app-criterions-accordion>
                         </mat-accordion>
                 <br><br>
-                    <button *ngIf="TitlesList!=null&&activeIndex==TitlesList[this.TitlesList.length-1].Code-1" class="panel-footer" (click)="showConfirm($event)"> 
+                <!-- סיום הזנ ערכי הקריטריונים 
+                 (פעיל רק במידה והטופס תקין עפ"י בדיקות תקינות הקריטריונים) --> 
+                    <button *ngIf="TitlesList!=null&&activeIndex==TitlesList[this.TitlesList.length-1].Code-1"
+                     class="panel-footer" (click)="showConfirm($event)"> 
                         <a style="color: white;" >סיום</a>         
                     </button>
                 </form>
               </div>
           </div>
           <div class="col-md-1">
-              <mat-icon class="prev-next-icons" title="הבא" *ngIf="TitlesList!=null&&activeIndex!=TitlesList[this.TitlesList.length-1].Code-1" (click)="Next($event)">keyboard_arrow_right</mat-icon>            
+              <!-- מעבר קדימה לקריטריונים של הכותרות הבאה
+               (פעיל רק במידה והטופס תקין עפ"י בדיקות תקינות הקריטריונים) -->
+              <mat-icon class="prev-next-icons" title="הבא" 
+              *ngIf="TitlesList!=null&&activeIndex!=TitlesList[this.TitlesList.length-1].Code-1"
+               (click)="Next($event)">keyboard_arrow_right</mat-icon>            
           </div>
       </div>
   </div>
 <br><br>
 <p-toast  position="bottom-center" key="a"></p-toast>
+<!-- הודעה בסיום הזנת ערכי הקריטריונים -->
 <p-toast position="center" key="c" (onClose)="onReject()" [modal]="true" [baseZIndex]="5000">
   <ng-template let-message pTemplate="message">
       <div class="divstyle">
-          <!-- <i class="fas fa-hand-paper w3-animate-bottom" style="font-size: 3em"></i> -->
           <h2 class="w3-animate-bottom">,רגע, רגע</h2>
           <p class="pstyle">האם אתה בטוח שסיימת למלא את כל הפרטים המתאימים לך בכדי לקבל את ההצעות הכי מתאימות</p>
       </div><br>
       <div class="ui-g ui-fluid">
           <div class="ui-g-6">
-              <button type="button" pButton (click)="onReject()" label="לא, רוצה להמשיך למלאות" class="ui-button-secondary"></button>
+              <button type="button" pButton (click)="onReject()" label="לא, רוצה להמשיך למלאות" 
+              class="ui-button-secondary"></button>
           </div>
           <div class="ui-g-6">
-            <button type="button" pButton (click)="model()" label="כן סיימתי, ממשיך להצעות" class="ui-button-success"></button>
+            <!-- שמירת הבקשה למעסיק או פתיחת חלון סטטוס שליחת הצעות לעובד -->
+            <button type="button" pButton (click)="model()" label="כן סיימתי, ממשיך להצעות" 
+            class="ui-button-success"></button>
         </div>
       </div>
   </ng-template>
 </p-toast>
 
-
+<!-- חלון סטטוס שליחת הצעות עבודה לעובד -->
  <p-dialog [(visible)]="SendingJobOffers" [modal]="true" 
  [style]="{width: '590px'}" [responsive] ="false"
  [maximizable]="false" [baseZIndex]="10350">
  <p-header class="headerRadio">?מה אתה מעדיף </p-header><br>
 <div class="radio-group">
-  <div><p-radioButton class="prl" dir="rtl" name="group2" value="1" inputId="p1" [(ngModel)]="rightChoice" label="צפיה בהצעות באתר בלבד"></p-radioButton></div><br>
-  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" name="group2" value="2" inputId="p2" [(ngModel)]="rightChoice" label="קבלת הצעות למייל פעם ביום"></p-radioButton></div><br>
-  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" name="group2" value="3" inputId="p3" [(ngModel)]="rightChoice" label="קבלת הצעות למייל ברגע שנמצאה הצעה מתאימה"></p-radioButton></div>
+  <div><p-radioButton class="prl" dir="rtl" name="group2" value="1" inputId="p1"
+     [(ngModel)]="rightChoice" label="צפיה בהצעות באתר בלבד"></p-radioButton></div><br>
+  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" 
+    name="group2" value="2" inputId="p2" [(ngModel)]="rightChoice" label="קבלת הצעות למייל פעם ביום"></p-radioButton></div><br>
+  <div><p-radioButton class="prl" dir="rtl" (click)="SendEmailRadioChangeevent()" 
+    name="group2" value="3" inputId="p3" [(ngModel)]="rightChoice" label="קבלת הצעות למייל ברגע שנמצאה הצעה מתאימה"></p-radioButton></div>
 </div><br>
 <label *ngIf="error">רגע, שכחת לבחור את האופציה המתאימה עבורך</label>
  <p-footer>
+   <!-- שמירת הבקשה -->
       <app-display-button  [changeCssEnter]="true" (click)="OkFunc()"></app-display-button>
  </p-footer>
 </p-dialog>
@@ -88,4 +119,5 @@
    </div>  
    <p class="ptitle">{{modelVText}}</p>
 </p-dialog>
+<!-- הפניה לקומפוננטת כניסה למערכת - במידה והמשתמש לא היה רשום -->
 <app-enter *ngIf="PeopleServ.backtoemloyee" (LoginSuccess)="OkFunc()"></app-enter>

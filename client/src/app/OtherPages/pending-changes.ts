@@ -8,6 +8,7 @@ export interface ComponentCanDeactivate {
 
 @Injectable()
 export class PendingChangesGuard implements CanDeactivate<ComponentCanDeactivate> {
+  // הודעת אזהרה בעת עזיבת קומפוננטות הזנת ערכי הקריטריונים ללא שמירה
   canDeactivate(component: ComponentCanDeactivate): boolean | Observable<boolean> {
     return component.canDeactivate() ?
       true :

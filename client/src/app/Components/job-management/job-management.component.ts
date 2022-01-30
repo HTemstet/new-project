@@ -31,6 +31,7 @@ gotoRequest(requestId)
   this.myrouter.navigate(["/basicsearch/request/"+requestId]));
 }
 searches = false;
+emptySearchList='';
 searchesManager()
 { 
   this.step = 0;
@@ -39,10 +40,23 @@ searchesManager()
     data=>
    {
     this.searchesList = data;
+    if(!this.searchesList||this.searchesList.length==0)
+    {
+      this.emptySearchList='אין חיפושים זמינים';
+    }
+    else
+      this.emptySearchList=''; 
    },
     error=>console.log(console.log(error.message)),
    ()=>console.log('finished')
    ); 
+}
+emptyList='לא פנית עדיין לשום משרה';
+OpenCriterions(requestId)
+{
+  this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
+  this.myrouter.navigate(["/basicsearch/request/"+requestId+'/'+1]));
+
 }
 appliedJobsManager()
 {
@@ -52,6 +66,13 @@ appliedJobsManager()
     data=>
    {
     this.appliedJobsList = data;
+    this.adjustmentForHagasha();
+    if(!this.appliedJobsList||this.appliedJobsList.length==0)
+    {
+      this.emptyList='לא פנית עדיין לשום משרה'
+    }
+    else
+       this.emptyList=''
    },
     error=>console.log(console.log(error.message)),
    ()=>console.log('finished')
@@ -80,7 +101,6 @@ RemoveFile(FolderName:string)
  {
 this.PeopleServ.RemoveFile(FolderName).subscribe(
   data=>{
-    //alert('הקובץ נמחק בהצלחה');
     this.messageService.add({severity:'success',summary:'!יש', detail:'הקובץ נמחק בהצלחה'});
     this.GetProphilBySwitch()},
   error=>console.log(console.log(error.message)),
@@ -107,7 +127,6 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
       this.fileName=File.name;
       this.PeopleServ.Placing(File,FolderName).subscribe(
         data=>{
-          //alert(FolderName)
           this.GetProphilBySwitch()
           this.FileList=null;
           this.fileInput.first.nativeElement.value = '';
@@ -115,6 +134,17 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
         error=>console.log(console.log(error.message)),
        ()=>console.log('finished')
     );
+    }
+  }
+  adjustmentForHagasha()
+  {
+    let percent=75;
+    if(this.appliedJobsList!=null&&this.appliedJobsList.length>0)
+    {
+      this.appliedJobsList.forEach(j=>{
+        j.Request.AdjustmentPercentages=percent;
+        percent-=4;
+      })
     }
   }
 gettingOffersFrequency(i:myRequest)

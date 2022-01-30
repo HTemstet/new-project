@@ -75,14 +75,18 @@ requestId:number=0;
   }
   initialize()
   {
-    this.AreaCodeofQuickSearch=this.AreaServ.Area;
+    // this.AreaCodeofQuickSearch=this.AreaServ.Area;
     if(this.AreaCodeofQuickSearch==undefined||this.AreaCodeofQuickSearch==0)
+    if(window.location.href.indexOf("request")!=-1)
       this.AreaCodeofQuickSearch =  this.RequestServ.Request.AreaCode;
 
     this.ChooseAreaForQuickSearch();
-    this.AreaTitlesofQuickSearch = this.GlobalServ.Titles;
-    this.GoogleSearchInput =  this.RequestServ.Request.Place;
-    this.TravetTime =  this.RequestServ.Request.EmployTravelTime;
+    if(window.location.href.indexOf("request")!=-1)
+    {
+      this.AreaTitlesofQuickSearch = this.GlobalServ.Titles;
+      this.GoogleSearchInput =  this.RequestServ.Request.Place;
+      this.TravetTime =  this.RequestServ.Request.EmployTravelTime;  
+    }
     if(this.Quick==true) 
     {
       this.RequestServ.GetFreeList().subscribe(

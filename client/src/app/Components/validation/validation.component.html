@@ -42,8 +42,6 @@
           </div><br>
     </div><br>
     <div class="panel-footer">
-       <!-- <app-display-button *ngIf="frmVA.form.invalid" (click)="ValidationServ.alert()" [changeCssValidation]="true" ></app-display-button>
-       <app-display-button *ngIf="frmVA.form.valid" (click)="OkFunc()" [changeCssValidation]="true"></app-display-button> -->
      <button *ngIf="frmVA.form.invalid" (click)="ValidationServ.alert()">אישור</button>
      <button *ngIf="frmVA.form.valid" (click)="OkFunc()">אישור</button>
       </div>

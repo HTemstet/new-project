@@ -26,6 +26,7 @@ export class AboutBusinessComponent implements OnInit {
     this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
     this.myrouter.navigate(["/basicsearch/request/"+requestId]));
   }
+  emptyList='';
 searchesManager()
 { 
   this.aboutbusiness = false;
@@ -33,6 +34,12 @@ searchesManager()
     data=>
    {
     this.searchesList = data;
+    if(!this.searchesList||this.searchesList.length==0)
+    {
+this.emptyList='לא פרסמת עדיין משרות'
+    }
+    else
+    this.emptyList='';
    },
     error=>console.log(console.log(error.message)),
    ()=>console.log('finished')
@@ -82,7 +89,6 @@ getAreaNameByCode(AreaCode:number)
  {
 this.PeopleServ.RemoveFile(FolderName).subscribe(
   data=>{
-    //alert('הקובץ נמחק בהצלחה');
     this.messageService.add({ severity:'success', summary:'אוקי', detail: 'הקובץ נמחק בהצלחה', sticky: true});
     this.GetProphilBySwitch()},
   error=>console.log(console.log(error.message)),
@@ -111,7 +117,6 @@ this.PeopleServ.RemoveFile(FolderName).subscribe(
       this.fileName=File.name;
       this.PeopleServ.Placing(File,FolderName).subscribe(
         data=>{
-          //alert(FolderName)
           this.GetProphilBySwitch();
           this.FileList =null;
           this.fileInput.first.nativeElement.value = '';

@@ -30,7 +30,8 @@ namespace BLL.Logical_calculations
             if (ca.CriterionsofAreasTree != null)
                 ca.CriterionsofAreasTree.ForEach(x => { MakeTree(x, CriterionsList, CriterionsDependency); CriterionsList.Remove(x); });
         }
-        public static List<CriterionsofRequestsDTO> getCriterionsofRequests(short? AreaCode, List<CriterionsofRequestsDTO> CriterionsList)
+        public static List<CriterionsofRequestsDTO> getCriterionsofRequests(short? AreaCode,
+            List<CriterionsofRequestsDTO> CriterionsList)
         {
             List<CriterionsofRequestsDTO> CriterionsofRequestsListToReturn = new List<CriterionsofRequestsDTO>();
             List<CriterionsDependencyDTO> CriterionsDependency = CriterionsDependencyDTO.convertDBsetToDTO(
@@ -65,23 +66,27 @@ namespace BLL.Logical_calculations
             }
             return shortcodes;
         }
-        public static double GetAdjustment(List<CriterionsofRequestsDTO> criterion1, List<CriterionsofRequestsDTO> criterion2, short? LevelofImportance, Requests_FullDTO offertoreturn)
+        //חישוב אחוזי התאמת קריטריונים בין בקשת עובד למעסיק
+        public static double GetAdjustment(List<CriterionsofRequestsDTO> criterion1, 
+            List<CriterionsofRequestsDTO> criterion2, short? LevelofImportance, Requests_FullDTO offertoreturn)
         {
-            //הערה: החלטתי שחלוקת רמות החשיבות מתחלקת שווה בשווה בין הבלוקים, ולא עפי מספר הקריטרינים
+            //חלוקת רמות החשיבות מתחלקת שווה בשווה בין הבלוקים, ולא עפי מספר הקריטרינים
             //האבא מקבל כמו הבן
-            //אולי כדאי לשנות את החלוקה
             short percent = Convert.ToInt16(LevelofImportance / (criterion1.Count + 1));
             for (int i = 0; i < criterion1.Count; i++)
             {
-                offertoreturn.AdjustmentPercentages += GetAdjustment(criterion1[i].CriterionsofAreasTree, criterion2[i].CriterionsofAreasTree, percent, offertoreturn);
+                //שליחת עץ התלויות שוב לפונקציה לצורך קבלת רמות ההתאמה הפנימית
+                offertoreturn.AdjustmentPercentages += GetAdjustment(criterion1[i].CriterionsofAreasTree,
+                    criterion2[i].CriterionsofAreasTree, percent, offertoreturn);
                 ComparisionOperators criterion2ComparisionOperator =
                 CriterionsofAreasDTO.convertDBsetToDTO(new JOBBAEntities().CriterionsofAreas.ToList()).
                     Where(a => a.CriterionofAreaCode == criterion2[i].CriterionofAreaCode).ToList()
                     [0].ComparisionOperator;
-                //אולי להוסיף פה בדיקה שלא מדובר בקריטריון שהוא חלק מרשימה - כי אז אין ערך לקריטריון - הערך שנבחר מהרשימה שמור באבא
                 int x, y;
+                //ערכי שתי הקריטריונים
                 Int32.TryParse(criterion1[i].ValueofCriterion, out x);
                 Int32.TryParse(criterion2[i].ValueofCriterion, out y);
+                //השוואה עפ"י אופרטור ההשוואה מטבלת הקריטריונים
                 switch (criterion2ComparisionOperator)
                 {
                     case ComparisionOperators.BigEqual:
@@ -114,15 +119,18 @@ namespace BLL.Logical_calculations
                             offertoreturn.AdjustmentPercentages += percent;
                         }
                         break;
+                        //רשימה מרובה
                     case ComparisionOperators.And:
                         if(criterion1[i].ValueofCriterion!=null&& criterion2[i].ValueofCriterion!=null)
                         {
+                            //שליפת הערכים מהרשימה עבור קריטריון העובד
                             List<short> criterion1list1 = getListValues(criterion1[i].ValueofCriterion);
+                            //שליפת הערכים מהרשימה עבור קריטריון המעסיק
                             List<short> criterion2list1 = getListValues(criterion2[i].ValueofCriterion);
-                            //כנראה בשורה הבאה החלוקה היא ב criterion2list1
+                            //חלוקת רמות העדיפות למספר הערכים ברשימת המעסיק
                             int per = percent / criterion2list1.Count();
                             List<short> fittingcodes = criterion1list1.Intersect(criterion2list1).ToList();
-                            //להוסיף בדיקה אם זה לא null
+                            //מספור אחוזי ההתאמה
                             foreach (short code in fittingcodes)
                                 offertoreturn.AdjustmentPercentages += per;
                         }                     
@@ -133,38 +141,53 @@ namespace BLL.Logical_calculations
             }
             return offertoreturn.AdjustmentPercentages;
         }
-        public static Requests_FullDTO GetJobOffer(List<CriterionsofRequestsDTO> CriterionsofRequest, Requests_FullDTO offer)
+       //החזרת אחוזי התאמת הצעת עובד למעסיק
+        public static Requests_FullDTO GetJobOffer(List<CriterionsofRequestsDTO> CriterionsofRequest,
+            Requests_FullDTO offer)
         {
-            offer.CriterionsofRequests = getCriterionsofRequests(offer.AreaCode, offer.CriterionsofRequests.ToList());
+            //יצירת עץ קריטריונים למעסיק
+            offer.CriterionsofRequests = getCriterionsofRequests(offer.AreaCode, 
+                offer.CriterionsofRequests.ToList());
             //כאשר עושים את החישוב לא מיד כשנכנסת הבקשה - אז גם את הבקשה יש להמיר 
             //לעץ, כי היא לא תהיה עץ בגלל שהיא חזרה כך מהלקוח
-            //ההמרה מתבצעת עבור חישוב לא מידי אך גם עבור חישוב מידי, כי זה לא מזיק ומונע פונקציה נפרדת לחישוב מידי ומאוחר
+            //ההמרה מתבצעת עבור חישוב לא מידי אך גם עבור חישוב מידי,
+            //כי זה לא מזיק ומונע פונקציה נפרדת לחישוב מידי ומאוחר
+           //יצירת עץ קריטריונים לעובד
             CriterionsofRequest = getCriterionsofRequests(offer.AreaCode, CriterionsofRequest);
             for (int i = 0; i < CriterionsofRequest.Count; i++)
-                //החלטתי לשלוח גם את אב הבלוק כרשימה ע"מ להשתמש טוב בפרמטר של הפונקציה הרקורסיבית,
-                //אולי זה לא טוב וצריך לשנות
-                //אולי אפשר אפילו לשלוח ישירות את כל הבלוקים ביחד
-                //צריך לבדוק מה יהיה עם רמות העדיפות במקרה כזה
-                offer.AdjustmentPercentages += GetAdjustment(new List<CriterionsofRequestsDTO>() { CriterionsofRequest[i] },
-               new List<CriterionsofRequestsDTO>() { offer.CriterionsofRequests.ToList()[i] }, offer.CriterionsofRequests.ToList()[i].LevelofImportance, offer);
+                //שליחה לפונקציה רקורסיבית של מספור אחוזי ההתאמה
+                offer.AdjustmentPercentages += GetAdjustment(new List<CriterionsofRequestsDTO>()
+                { CriterionsofRequest[i] },
+               new List<CriterionsofRequestsDTO>() { offer.CriterionsofRequests.ToList()[i] },
+               offer.CriterionsofRequests.ToList()[i].LevelofImportance, offer);
+           //שליחת פרטי מפרסם המשרה
             offer.PeopleOffer = PeopleDTO.convertDBsetToDTO(new RequestBLL()
                    .db.People.ToList().Find(x => x.PeopleCode == offer.PeopleCode));
             return offer;
         }
-        public static List<Requests_FullDTO> GetJobOffers(List<CriterionsofRequestsDTO> CriterionsofRequest, List<Requests_FullDTO> RequestsList)
+        //שליפת ההצעות המתאימות באחוזי התאמה גבוהים
+        public static List<Requests_FullDTO> GetJobOffers(List<CriterionsofRequestsDTO> CriterionsofRequest,
+            List<Requests_FullDTO> RequestsList)
         {
+            //רשימת ההצעות להחזרה
             List<Requests_FullDTO> DTOlist = new List<Requests_FullDTO>();
             RequestsList.ForEach(a =>
             DTOlist.Add(
+                //בדיקת התאמת בקשת עובד ומעסיק
                 GetJobOffer(CriterionsofRequest, a)
                 )
             );
+            //אחוזי התאמה - מ 60% ומעלה
             return DTOlist.Where(x => x.AdjustmentPercentages >= Percent).ToList();
         }
+        //קבלת רשימת הצעות מתאימות
         public static List<Requests_FullDTO> GetFittingOffers(Requests_FullDTO Request)
         {
+            //שליחת כל ההצעות שהתאימו עפ"י החיפוש המהיר
+            //לפונקציית החיפוש המקצועי
             List<Requests_FullDTO> OffersList = JobOffers.GetJobOffers(Request.CriterionsofRequests.ToList(),
-                  new RequestBLL().QuickSearch(Request.AreaCode, Request.AreaTitles, Request.Place, Request.EmployTravelTime, ""));
+                  new RequestBLL().QuickSearch(Request.AreaCode, Request.AreaTitles,
+                  Request.Place, Request.EmployTravelTime, ""));
             return OffersList;
         }
         public static float GetTravelTime(string source, string destintion)

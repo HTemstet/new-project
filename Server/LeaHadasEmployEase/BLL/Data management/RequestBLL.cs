@@ -17,7 +17,8 @@ namespace BLL.Data_management
         {
             return CriterionsTitlesDTO.convertDBsetToDTO(db.CriterionsTitles.ToList());
         }
-        //בנית עץ תלויות של קריטריונים לתחום כך שראש העץ לא תלוי באף קריטריון וכל אלו שתחתיו תלויים בו או גם זה בזה
+        //בנית עץ תלויות של קריטריונים לתחום 
+        //כך שראש העץ לא תלוי באף קריטריון וכל אלו שתחתיו תלויים בו או גם זה בזה
         private void MakeTree(CriterionsofAreasDTO ca, List<CriterionsofAreasDTO> CriterionsList,
             List<CriterionsDependencyDTO> CriterionsDependency)
         {
@@ -31,8 +32,10 @@ namespace BLL.Data_management
             {
                 //מעבר על כל אחד מהקריטריונים לתחום שתלויים בו
                 //בנית עץ תלויות מכל אחד מהאיברים כאשר הוא מהווה את ראש העץ
-                //מחיקת כל אחד מהאיברים התלויים בקריטריון לתחום שנשלח מרשימת הקריטריונים לתחום מסוים לפני הכנסת חלק מהם לתוך אחרים בעקבות התלות 
-                ca.CriterionsofAreasTree.ForEach(x => { MakeTree(x, CriterionsList, CriterionsDependency); CriterionsList.Remove(x); });
+                //מחיקת כל אחד מהאיברים התלויים בקריטריון לתחום שנשלח מרשימת הקריטריונים 
+                //לתחום מסוים לפני הכנסת חלק מהם לתוך אחרים בעקבות התלות 
+                ca.CriterionsofAreasTree.ForEach(x => { MakeTree(x, CriterionsList, CriterionsDependency);
+                    CriterionsList.Remove(x); });
             }
         }
         //החזרת קריטריונים לתחום מסוים
@@ -84,6 +87,7 @@ namespace BLL.Data_management
             {
                 Requests r = Requests_FullDTO.convertDTOsetToDB(request);
                 CriterionsofRequestsDTO.DBlist = new List<CriterionsofRequests>();
+                //עדכון בקשה קיימת
                 if (request.RequestCode != 0)
                 {
                     db.Entry(db.Requests.Find(request.RequestCode)).CurrentValues.SetValues(Requests_FullDTO.convertDTOsetToDB(request));
@@ -93,15 +97,20 @@ namespace BLL.Data_management
                             db.CriterionsofRequests.Remove(x);
                     });
                 }
+                //הוספת בקשה חדשה
                 else
                 {
                     db.Requests.Add(r);
+                    db.SaveChanges();
+                    db.Entry(r).GetDatabaseValues();
                 }
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
                 db.SaveChanges();
-                db.Entry(r).GetDatabaseValues();
-                request.RequestCode=r.RequestCode;
+                request.RequestCode = r.RequestCode;
+
                 db.CriterionsofRequests.AddRange(r.CriterionsofRequests);
+                // במידה ומסובר במעסיק - בדיקת התאמת כל בקשות העובדים בתחום הזה
+                //שביקשו לקבל הצעות עבודה בכל פעם שישנה משרה מתאימה
                 if (r.Employee == false)
                 {
                     Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList()).Where(req=>req.Employee==true&&req.AreaCode==r.AreaCode).ToList().ForEach(req =>
@@ -116,11 +125,16 @@ namespace BLL.Data_management
                     return new List<Requests_FullDTO>(); 
                 }
             }
+            //במידה ומדובר בעובד
+            //החזרת הצעות עבודה מתאימות לצפיה ישירות באתר 
+            //(גם אם הוא ביקש לקבל למייל אחת ליום/בכל פעם שישנה משרה מתאימה)
             l=JobOffers.GetFittingOffers(request);
             return l;
         }
+        //חיפוש מהיר
         public List<Requests_FullDTO> QuickSearch(short? AreaCode, string AreaTitleCode, string Place, double? Minutes, string FreeText)
         {
+            //פירוק רשימת התפקידים שנבחרו
             List<short> lvr= JobOffers.getListValues(AreaTitleCode);
             List<Requests_FullDTO> lq = Requests_FullDTO.convertDBsetToDTO(db.Requests.ToList())
                 .Where(x => QuickSearch(AreaCode, AreaTitleCode,Place,Minutes,FreeText, x)).ToList();
@@ -131,12 +145,25 @@ namespace BLL.Data_management
             });
             return lq;
         }
-        public Boolean QuickSearch(short? AreaCode, string AreaTitleCode, string Place, double? Minutes, string FreeText,Requests_FullDTO r)
+        //חיפוש מהיר
+        public Boolean QuickSearch(short? AreaCode, string AreaTitleCode, string Place,
+            double? Minutes, string FreeText,Requests_FullDTO r)
         {
-            if (r.Employee == false && r.AreaCode == AreaCode && JobOffers.getListValues(AreaTitleCode).Intersect(JobOffers.getListValues(r.AreaTitles)).Any()
+            if (r.Employee == false && 
+                //התאמת תחום
+                r.AreaCode == AreaCode &&
+                //התאמת תפקידים - פירוק רשימת התפקידים שנשלחו
+                //ובדיקה האם לפחות אחד מהתפקידים תואם את ההצעה הנוכחית
+                JobOffers.getListValues(AreaTitleCode).Intersect(JobOffers.getListValues(r.AreaTitles)).Any()
                   && (
-                  r.RequestOfferDetails != null && (Minutes == 0 || Place == "\"\"" || JobOffers.GetTravelTime(r.Place, Place) < (Nullable.Compare(r.EmployTravelTime, Minutes) > 0 ? Minutes : r.EmployTravelTime))
-                  && (FreeText == "\"\"" || (r.RequestOfferDetails.Name.Contains(FreeText) || r.RequestOfferDetails.OfferDescription.Contains(FreeText) ||
+                  //פרטי בקשה קיימת - לא אמור ליפול פה אף פעם
+                  r.RequestOfferDetails != null && (Minutes == 0 || Place == "\"\"" ||
+                  //בדיקת מרחק נסיעה באמצעות google maps
+                  JobOffers.GetTravelTime(r.Place, Place) < (Nullable.Compare(r.EmployTravelTime, Minutes) > 0 
+                  ? Minutes : r.EmployTravelTime))
+                  //טקסט חופשי
+                  && (FreeText == "\"\"" || (r.RequestOfferDetails.Name.Contains(FreeText) ||
+                  r.RequestOfferDetails.OfferDescription.Contains(FreeText) ||
                   r.RequestOfferDetails.MoreDetails.Contains(FreeText)))
                   ))
                 return true;
@@ -202,11 +229,29 @@ namespace BLL.Data_management
                 q.CriterionsofRequests = JobOffers.getCriterionsofRequests(q.AreaCode, q.CriterionsofRequests.ToList());
             return q;
         }
-        //קבלת בקשה מסוימת עפי קוד בקשה
+        //מחיקת בקשה מסוימת עפי קוד בקשה
         public void RemoveRequest(short requestId)
         {
+            IEnumerable<CriterionsofRequests> c = db.CriterionsofRequests.ToList().Where(r => r.RequestCode == requestId);
+            if (c != null && c.Count() > 0)
+            {
+              db.CriterionsofRequests.RemoveRange(c);
+              db.SaveChanges();
+            }
+            //מחיקה ממאגר יצירת קשר - לא נכון רעיוניתמ- להגשה בלבד!
+           JobsAppliedFor jo= db.JobsAppliedFor.ToList().Find(j => j.RequestCode == requestId);
+            if(jo!=null)
+            {
+              db.JobsAppliedFor.Remove(jo);
+              db.SaveChanges();
+            }
+            OfferDetails of = db.OfferDetails.ToList().Find(o => o.RequestCode == requestId);
+            if(of!=null)
+            {
+             db.OfferDetails.Remove(of);
+             db.SaveChanges();
+            }
             db.Requests.Remove(db.Requests.ToList().Find(r => r.RequestCode == requestId));
-            db.CriterionsofRequests.RemoveRange(db.CriterionsofRequests.ToList().Where(r => r.RequestCode == requestId));
             db.SaveChanges();
          }
 

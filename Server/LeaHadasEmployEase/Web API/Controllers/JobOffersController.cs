@@ -17,7 +17,7 @@ namespace Web_API.Controllers
         public void PostSendOfferEmail(short? Area,short? PeoppleCode,short? RequestCode,JobOfferEmail JobOfferEmail)
         {
             new JobsAppliedForBLL().AddJobsAppliedFor(PeoppleCode,RequestCode);
-            JobOfferEmail.SendOfferEmail(Area);
+            JobOfferEmail.SendOfferEmail(Area, RequestCode);
         }
     }
 }

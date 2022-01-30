@@ -3,7 +3,7 @@
       <mat-expansion-panel #exp1 (closed)="close(i,exp1,checkboxElement)" (opened)="open(i,exp1,checkboxElement)"  *ngFor="let i of PartOfAListTree" [ngClass]="{'': i.CriterionsofAreasTree.length>0, 'emptyTree': i.CriterionsofAreasTree.length==0}" hideToggle>
           <mat-expansion-panel-header (click)="$event.srcElement.localName!='input'?checkboxElement.click():null">
             <mat-panel-title>
-                <input #checkboxElement [checked]="CheckVariableValue(checkboxElement,i)"
+                <input [disabled]="disabledInput" #checkboxElement [checked]="CheckVariableValue(checkboxElement,i)"
                 (change)="checkedCheckBox(i,checkboxElement,exp1);sendValueToFather($event.target,i,i.CriterionofAreaCode,exp1,checkboxElement)" #checkboxElement  type="checkbox">
                   {{i.Name}}
                   <span style="color: red">{{i.FeildValidation!=null&&i.FeildValidation.indexOf('required')>-1 ?requiredtag(i,exp1):requiredtag(i,exp1)}}</span>
@@ -13,7 +13,7 @@
                 <!-- 'שדה להכנסת ערך לקריטריון 'אחר -->
               <label>
                   <span style="float:left;color: red;margin-left: 50px" *ngIf="i.FeildValidation!=null&& i.FeildValidation!=undefined&& i.FeildValidation.indexOf('dynamically')>-1" [hidden]="i.Check != true">*</span>
-                  <input style="float: left;width: 200px;margin-left: 10px" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e1  
+                  <input [disabled]="disabledInput" style="float: left;width: 200px;margin-left: 10px" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e1  
                   *ngIf="i.FeildValidation!=null&& i.FeildValidation!=undefined&& i.FeildValidation.indexOf('dynamically')>-1" [hidden]="i.Check != true" required (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp1)" class="form-control" [value]="getOtherValue(i)">
                   <button style="float:left;width: 40px;height:34px" *ngIf="i.FeildValidation!=null&& i.FeildValidation!=undefined&& i.FeildValidation.indexOf('dynamically')>-1" [hidden]="i.Check != true" title="אישור" (click)="confirmOtherOption(i,exp1)"><mat-icon style="float:right">done_all</mat-icon></button>
                   <span *ngIf="i.FeildValidation!=null&& i.FeildValidation!=undefined&& i.FeildValidation.indexOf('dynamically')>-1">{{i.invalid_message}}</span>
@@ -31,7 +31,7 @@
       <mat-expansion-panel  #exp2 (closed)="close(i,exp2)" (opened)="open(i,exp2)"  *ngFor="let i of RegularTree" [ngClass]="{'': i.CriterionsofAreasTree.length>0, 'emptyTree': i.CriterionsofAreasTree.length==0}" hideToggle>
           <mat-expansion-panel-header (click)="(i.CriterionsofAreasTree.length==0)?exp2.expanded=false:null;$event.srcElement.localName!='input'?e3.click():null">
             <mat-panel-title>
-                <input *ngIf="i.TypeEnum==EnumTypes.Boolean" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e3 (focus)="InputValidations(i,$event)" (click)="changeCheckBox($event,i);ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" [checked]="i.ValueofCriterion" type="checkbox">
+                <input [disabled]="disabledInput" *ngIf="i.TypeEnum==EnumTypes.Boolean" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e3 (focus)="InputValidations(i,$event)" (click)="changeCheckBox($event,i);ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" [checked]="i.ValueofCriterion" type="checkbox">
               {{i.Name}}
                   <span style="color: red">{{i.FeildValidation!=null&&i.FeildValidation.indexOf('required')>-1 ?'*':''}}</span>
                   <span style="color: red" hidden="hidden">{{requiredtag(i,exp2)}}</span>
@@ -39,7 +39,7 @@
             <mat-panel-description style="display:block" [ngSwitch]="i.TypeEnum">
                 <!-- שדה להכנסת ערך הקריטריון או כלום -אם זה קריטריון מטיפוס רשימה -->
                   <label *ngSwitchCase="EnumTypes.Number">
-                          <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e2 (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="number">
+                          <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e2 (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="number">
                          <span>{{i.invalid_message}}</span>
                  </label>
                  <mat-icon *ngSwitchCase="EnumTypes.Number" style="float:right">exposure</mat-icon>
@@ -48,12 +48,12 @@
                  </label>
                  <mat-icon *ngSwitchCase="EnumTypes.Boolean" style="float:right">check_box</mat-icon>
                 <label *ngSwitchCase="EnumTypes.Date">
-                              <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e4   (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="date">
+                              <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e4   (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="date">
                               <span>{{i.invalid_message}}</span>
                 </label>
                 <mat-icon *ngSwitchCase="EnumTypes.Date" style="float:right">date_range</mat-icon>
                 <label *ngSwitchCase="EnumTypes.Hour">
-                                <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e5  (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="number">
+                                <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e5  (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp2)" (click)="ShowValidationMessage($event,i,exp2)" [(ngModel)]="i.ValueofCriterion" type="number">
                                 <span>{{i.invalid_message}}</span>
                 </label>
               <mat-icon *ngSwitchCase="EnumTypes.Hour" style="float:right">alarm</mat-icon>
@@ -69,45 +69,77 @@
       </div>
         </mat-expansion-panel>
     <!-- קריטיונים שהם אב בלוק -->
+    <!-- הזנת ערכי הקריטריונים -->
 <div *ngIf="PartOfAListTree.length==0&&RegularTree.length==0">
-    <mat-expansion-panel  #exp3 (closed)="close(i,exp3)" (opened)="open(i,exp3)"  *ngFor="let i of list" [ngClass]="{'': i.CriterionsofAreasTree.length>0, 'emptyTree': i.CriterionsofAreasTree.length==0}" hideToggle>
+    <mat-expansion-panel  #exp3 (closed)="close(i,exp3)" (opened)="open(i,exp3)"  *ngFor="let i of list"
+      [ngClass]="{'': i.CriterionsofAreasTree.length>0, 'emptyTree': i.CriterionsofAreasTree.length==0}" hideToggle>
       <mat-expansion-panel-header (click)="$event.srcElement.localName!='input'&&i.TypeEnum==EnumTypes.Boolean?e7.click():null">
           <mat-panel-title>
-              <input [style.display]="i.TypeEnum==EnumTypes.Boolean?'block':'none'" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e7 (focus)="InputValidations(i,$event)" (click)="InputValidations(i,$event);changeCheckBox($event,i);ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" [checked]="i.ValueofCriterion" type="checkbox">
-                {{i.Name}}
+              <input [disabled]="disabledInput" [style.display]="i.TypeEnum==EnumTypes.Boolean?'block':'none'" 
+              [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||
+              i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  
+              #e7 (focus)="InputValidations(i,$event)" (click)="InputValidations(i,$event);changeCheckBox($event,i);
+              ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" [checked]="i.ValueofCriterion" type="checkbox">
+                <!--שם הקריטריון  -->
+              {{i.Name}}
+              <!-- סימון שדה כשגוי במקרה של הזנת ערכים שגויים -->
                 <span style="color: red">{{i.FeildValidation!=null&&i.FeildValidation.indexOf('required')>-1 ?'*':''}}</span>
+               <!-- שדות חובה -->
                 <span style="color: red" hidden="hidden">{{requiredtag(i,exp3)}}</span>
           </mat-panel-title>
+          <!-- שדה להזנת התוכן - בדיקת טיפוס הקריטריון -->
           <mat-panel-description style="display:block" [ngSwitch]="i.TypeEnum">
-              <!-- שדה להכנסת ערך הקריטריון או כלום -אם זה קריטריון מטיפוס רשימה -->
+            <!-- מספר -->
                 <label *ngSwitchCase="EnumTypes.Number">
-                        <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e6  (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" type="number">
+                        <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&
+                        i.invalid_message!=undefined}"  #e6  (focus)="InputValidations(i,$event)" 
+                        (keyup)="ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" type="number">
                        <span>{{i.invalid_message}}</span>
                </label>
                <mat-icon *ngSwitchCase="EnumTypes.Number" style="float:right">exposure</mat-icon>
+               <!-- checkbox -->
                <label *ngSwitchCase="EnumTypes.Boolean">
                           <span>{{i.invalid_message}}</span>
                </label>
                <mat-icon *ngSwitchCase="EnumTypes.Boolean" style="float:right">check_box</mat-icon>
-              <label *ngSwitchCase="EnumTypes.Date">
-                            <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e8 (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp3)" (click)="ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" type="date">
+              <!-- תאריך -->
+               <label *ngSwitchCase="EnumTypes.Date">
+                            <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||
+                            i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&
+                            i.invalid_message!=null&&i.invalid_message!=undefined}"  #e8 (focus)="InputValidations(i,$event)"
+                             (keyup)="ShowValidationMessage($event,i,exp3)" (click)="ShowValidationMessage($event,i,exp3)" 
+                             [(ngModel)]="i.ValueofCriterion" type="date">
                             <span>{{i.invalid_message}}</span>
               </label>
               <mat-icon *ngSwitchCase="EnumTypes.Date" style="float:right">date_range</mat-icon>
+              <!-- שעה -->
               <label *ngSwitchCase="EnumTypes.Hour">
-                              <input [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&i.invalid_message!=undefined}"  #e9 (focus)="InputValidations(i,$event)" (keyup)="ShowValidationMessage($event,i,exp3)" (click)="ShowValidationMessage($event,i,exp3)" [(ngModel)]="i.ValueofCriterion" type="number">
+                              <input [disabled]="disabledInput" [ngClass]="{'blackborder': i.invalid_message===''||i.invalid_message == null||
+                              i.invalid_message==undefined,'redborder':i.invalid_message!=''&&i.invalid_message!=null&&
+                              i.invalid_message!=undefined}"  #e9 (focus)="InputValidations(i,$event)"
+                               (keyup)="ShowValidationMessage($event,i,exp3)" (click)="ShowValidationMessage($event,i,exp3)"
+                                [(ngModel)]="i.ValueofCriterion" type="number">
                               <span>{{i.invalid_message}}</span>
               </label>
             <mat-icon *ngSwitchCase="EnumTypes.Hour" style="float:right">alarm</mat-icon>
+            <!-- רשימה -->
             <label *ngSwitchCase="EnumTypes.List">
               <span>{{i.invalid_message}}</span>
             </label>
             <mat-icon *ngSwitchCase="EnumTypes.List" style="float:right">list_alt</mat-icon>
-            <mat-slider style="float:right" *ngIf="ShowLevel&&!RequestServ.Request.Employee" thumbLabel [displayWith]="formatLabel" (change)="d(i,$event.value)" tickInterval="100" min="1" max="10"></mat-slider>
+            <!-- רמות עדיפות - חלק המעסיק בלבד -->
+            <div *ngIf="ShowLevel&&!RequestServ.Request.Employee" style="float:right;font-size: 14px">{{i.LevelofImportance}} : רמת עדיפות</div>
+            <mat-slider [disabled]="disabledInput" style="float:right" *ngIf="ShowLevel&&!RequestServ.Request.Employee"
+             thumbLabel [displayWith]="formatLabel" (change)="d(i,$event.value)" 
+             tickInterval="100" min="1" max="10"></mat-slider>
           </mat-panel-description>
         </mat-expansion-panel-header>
+        <!-- אם קיים לקריטריון זה עץ קריטריונים התלוי בו - 
+        פניה רקורסיבית שוב לפקומפוננטה הזו, עם העץ המתאים -->
     <div *ngIf="i.CriterionsofAreasTree.length>0&&exp3.expanded==true">
-      <app-criterions-accordion (ResetListValue)="resetFatherValue(i,$event,exp3)" (invalid)="InValid($event)" (valid)="Valid($event)" (ListValue)="setFatherValue(i,$event,exp3)" [list]="i.CriterionsofAreasTree">
+      <app-criterions-accordion (ResetListValue)="resetFatherValue(i,$event,exp3)" 
+      (invalid)="InValid($event)" (valid)="Valid($event)" 
+      (ListValue)="setFatherValue(i,$event,exp3)" [list]="i.CriterionsofAreasTree">
       </app-criterions-accordion>
     </div>
       </mat-expansion-panel>

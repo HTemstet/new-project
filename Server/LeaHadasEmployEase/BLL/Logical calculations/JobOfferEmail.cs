@@ -14,11 +14,13 @@ namespace BLL.Logical_calculations
         //כאן יהיה לכאורה string שיכיל את התוכן הרצוי ולאו דווקא object 
         public string PreliminaryLetter { get; set; }
         public string CV { get; set; }
-        public void SendOfferEmail(short? Area)
+        public void SendOfferEmail(short? Area,short? RequestCode)
         {
            AreasDTO area=new AreasBLL().getAllAreas().Find(a => a.Code == Area);
+            string emailBody = $@"<div>{PreliminaryLetter}
+           <a href='http://localhost:4200/basicsearch/request/" + RequestCode +"/"+1+ "'>צפה בבקשה</a></div>";
             if(area!=null)
-               SendEmail.SendEmailtoClient(Email,$"הודעה מעובד רלוונטי לגבי משרה שפרסמת בתחום {area.Name}", PreliminaryLetter,CV);
+               SendEmail.SendEmailtoClient(Email,$"הודעה מעובד רלוונטי לגבי משרה שפרסמת בתחום {area.Name}", emailBody, CV);
         }
     }
 }

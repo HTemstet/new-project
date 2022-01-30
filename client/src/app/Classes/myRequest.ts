@@ -16,7 +16,7 @@ export class myRequest
         public SendingJobOffersWheneverThereIsaSuitableOffer=false,
         public CriterionsofRequests=new Array<CriterionsofAreas>(),
         public RequestOfferDetails=new OfferDetails(),
-        public AdjustmentPercentages=0,
+        public AdjustmentPercentages=75,
         public backtojoboffers=false
     ){}
 }

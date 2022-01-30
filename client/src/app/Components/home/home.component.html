@@ -18,7 +18,7 @@
                 <i style='font-size:15px;margin-right:10px' class='fas'>&#xf007;</i>כניסה</a>     
                 <a *ngIf="GlobalServ.OccuredEnterance==true" routerLink="/personaldetails">
                   <i style='font-size:16px;margin-right:10px'  class='far'>&#xf2bb;</i>
-                  {{PeopleServ.surf.FirstName}} פרטים אישיים<div *ngIf="showLoginSelect==true">
+                  {{PeopleServ.surf.Name}} פרטים אישיים<div *ngIf="showLoginSelect==true">
                   </div></a>                     
           <a (click)="RequestServ.Request.Employee=false;aboutEmployer()">
               <span aria-hidden="true" style="margin-right:10px"></span><i class="fas fa-user-tag"></i>  גיוס עובדים </a>         

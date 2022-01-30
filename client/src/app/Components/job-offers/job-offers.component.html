@@ -6,7 +6,7 @@
     <mat-expansion-panel *ngFor="let i of RequestServ.JobOffers;let ind=index" [expanded]="step === ind" (opened)="setStep(ind)" hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-description>
-            <a (click)="OpenCriterions(i.RequestCode)" routerLink=""> אחוזי התאמת ההצעה: {{i.AdjustmentPercentages}}</a>        
+            <a (click)="OpenCriterions(i.RequestCode)"> אחוזי התאמת ההצעה: {{i.AdjustmentPercentages}}</a>        
           <mat-icon></mat-icon>
           {{i.PeopleOffer.FirstName+' '+i.PeopleOffer.Name}}
         </mat-panel-description>
@@ -38,9 +38,8 @@
     <label class="lb">:ניתנים להעלאה רק קבצים בעלי הסיומות הבאות</label><br>
     <label class="lb1">.doc  .rtf  .docx  .pdf</label><br>
   
-    <!--<a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">{{CV}}</a><br>-->
-  <!--<label *ngIf="CV==null||CV==''||CV.endsWith('CV/')">אין קורות חיים</label>-->
-  <input class="butt" #fileInput type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
+    <a *ngIf="CV!=null&&CV!=''&&!CV.endsWith('CV/')" [href]="PeopleServ.PictureNative+CV">{{CV}}</a><br>
+    <input class="butt" #fileInput type="file" (click)="ind='CV'" accept=".doc,.rtf,.docx,.pdf"
    name="file" (change)="fileChange($event)" class="upload" style="margin: center;"><br>
 
   <div *ngIf="FileList!=null&&FileList.length>0&&ind=='CV'"> 
@@ -49,12 +48,14 @@
   </div> 
    </div><br>
    <button class="butt" (click)="ShowAbout()" style="width: 165px;height: 48px">הוסף מכתב מקדים</button><br>
-   <br><div *ngIf="ShowAboutMe">
+   <br>
+   <div *ngIf="ShowAboutMe">
     <textarea maxlength="500" size="50" style="color:black;width: 350px;height:90px;" ng-model="PreliminaryLetter" [(ngModel)]="PreliminaryLetter"></textarea><br><br>
    <!--<input type="button" value="שלח" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)">-->
+  </div>
    <button class="butt" (click)="SentToPlacing('CV');ContactanOffer(i.RequestCode,i.PeopleOffer.Email,i.AreaCode)"
     style="width: 90px;height: 35px">שלח</button>   
-  </div>
+  
   <!--</div>-->
 
 </p-dialog>

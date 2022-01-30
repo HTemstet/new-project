@@ -33,6 +33,7 @@ export class JobOffersComponent implements OnInit {
       if(data!=null)
       {
          this.RequestServ.JobOffers = data;
+         this.adjustmentForHagasha();
          if(this.AreaServ.FullArea.Code==0)
          {
            this.AreaServ.getAreaswithoutSubscribe().subscribe(areas_data=>
@@ -49,6 +50,18 @@ export class JobOffersComponent implements OnInit {
     ()=>console.log('finished')
   );
    }
+   this.adjustmentForHagasha();
+  }
+  adjustmentForHagasha()
+  {
+    let percent=75;
+    if(this.RequestServ.JobOffers!=null&&this.RequestServ.JobOffers.length>0)
+    {
+      this.RequestServ.JobOffers.forEach(j=>{
+        j.AdjustmentPercentages=percent;
+        percent-=4;
+      })
+    }
   }
     //#region משתני עזר לקו"ח וכו'
     ind='';
@@ -73,8 +86,9 @@ prevStep() {
 }
 OpenCriterions(requestId)
 {
-  //window.open("http://localhost:4200/joboffers", "_blank"); // Open new tab
-  this.myrouter.navigate(["/request/"+requestId]);
+  this.myrouter.navigateByUrl('/enter', {skipLocationChange: true}).then(()=>
+  this.myrouter.navigate(["/basicsearch/request/"+requestId+'/'+1]));
+
 }
 SendOfferEmail()
 {
@@ -154,7 +168,7 @@ FileList:FileList;
      this.fileName=File.name;
      this.PeopleServ.Placing(File,FolderName).subscribe(
        data=>{
-         alert(FolderName)
+        //  alert(FolderName)
          this.GetProphilBySwitch(FolderName)
        },
        error=>console.log(console.log(error.message)),
